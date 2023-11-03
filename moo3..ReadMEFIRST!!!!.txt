@@ -1,0 +1,4 @@
+ To speed up game launching process use the next options: Run as Administrator, Disable Full Screen Optimization and Windows 98 Compatibility
+ Load LatestTech save for tech tree exploration. Check Antarans to see all unique techs. Economics has 9 invisible techs too.
+ Just RUN MOO3.exe and play the game. WARNING: max exmpires number is 30!!!! Edit RaceConfig.ini if you want to exclude some of them from the map generation.
+ By default it will try to avoid creating duplicates, but its impossible with 30 races in play.

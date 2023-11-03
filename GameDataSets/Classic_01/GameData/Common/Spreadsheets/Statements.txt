@@ -1,0 +1,65 @@
+Format block usage					
+Message type		Uses format list			
+"Proposal, exchange, offer"		Proposal Formats			
+"General message, declaration, demand"		Declaration Formats			
+Answers to proposals		Reply Formats			
+Speeches		Speech Formats			
+
+Variable list - Variables in ALL CAPS are types of a format block; others are embedded or secondary variables					
+TableStart	Definitions				
+ColumnHeadingsStart	Content	Tablename	Worksheet	Notes	TableType
+RowHeadingsStart					
+%ACT	Action	Action	Emphasis Lists (both)	"Each action represents a posture, attitude, or mannerism which increases Emphasis."	1
+%ADJ	Popularity adjective	Popularity	Tables	Describes popularity of the polity's leader	3
+%ADV	Adverb describing action	Adverb	Emphasis Lists (both)	Increases Emphasis.	1
+%AMB	Name of ambassador	n/a	n/a	(as per the naming format offered by Alan)	0
+%exch%	Exchange phrasing	Asking	Tables		6
+%FOL	Follow-up statement	Follow	Emphasis Lists (both)	"Emphasizes the nature of the offer, like the ""please"" in ""Take my wife, please!"""	1
+%forX	Asked-for item	OfferPhrases	Offers		2
+%forX%				Embedded version of %forX	0
+%genp%		GenderPoss	Tables	Embedded version of %GENP	3
+%GER	Gerund form of action	Gerund	Emphasis Lists (both)	The -ing form of an action.	1
+%GRT	Greeting	Greet	Emphasis Lists (both)	"(such as ""Greetings, Emperor scumbag!"")"	1
+%history%	Recent action prompting a message	History	Tables	Used to praise or condemn.	3
+%INP	Input value	n/a	n/a	Used to pass governmental settings values for Speeches.	0
+%ITM	Item section	OfferItems	Tables		3
+%LDR	Leader type	n/a	n/a	(May be removed if titles are passed into DiploMatic from elsewhere.)	3
+%ldr%	Leader type	n/a	n/a	Embedded version of %LDR	3
+%LED	Lead-in statement	LeadIns	Lead-Ins	"Introduces the offer, either emphasizing need or showing other influences like race."	2
+%loaded: X%	Loaded (race-special) words	Loaded	Loaded	"Words with special racial meaning and links to Encyclopedia Galactica. ""X"" is the index value."	3
+%mode%	Adjective 	Mode	Proposal Emphasis Lists	Describes perceived value of an item in a trade offer	1
+%name%	Receiving Emperor's name	n/a	n/a		0
+%off%	Offer initial word	Offering	Tables		4
+%offerX	Offer item	OfferPhrases	Offers		2
+%proq	Items asked for	ProQuo	Tables		5
+%quid	Items being offered	Quid	Tables		5
+%QUOT	Quotation	Speeches	Speeches	Leader quote from speech.	2
+%race%	Receiving Emperor's race	n/a	n/a		0
+%RCT	Reaction	Reaction	Tables		3
+%relig%	"Sending empire's State Religion's ""mode"""	Religions	Exceptions	"(such as priests, beliefs, gods, etc.)"	3
+%REPS	Reply wording	Noanswer	Reply Emphasis Lists		1
+		Refusals	Reply Emphasis Lists		1
+		Stalls	Reply Emphasis Lists		1
+		Acceptances	Reply Emphasis Lists		1
+%RSN	Reason wording	Excuse selection	Tables		7
+		Simple Excuses	Excuses		5
+		Causal Excuses	Excuses		5
+		Temperamental Excuses	Excuses		5
+%SPCH	Speech topic	Speeches	Speeches	General topic of speech	2
+%STY	Emphasis style	Style	Emphasis Lists (both)	The way in which the offer is presented.	1
+%STY2	Declarative emphasis style	DecStyle	Proposal Emphasis Lists	The way in which the declaration is made.	1
+%type%	Type of offer/message	n/a	n/a		0
+%value%	Used to pass values defining offer	n/a	n/a	"(i.e. amounts of money, names of ship types, system names)"	0
+%value2%	Used to pass values defining offer	n/a	n/a	"(i.e. amounts of money, names of ship types, system names)"	0
+TableEnd					
+
+Construction of Format elements					
+%ACT	Should be indicative of the Emphasis.				
+%ADV	Should be indicative of the Emphasis.				
+%FOL	"Must always start with puncuation and spacing, and must always end in '?' or '!""."				
+%GER	Should be indicative of the Emphasis.				
+%GRT	Must always end with punctuation and appropriate spacing.				
+%LED	Must always end with punctuation and appropriate spacing.				
+%OFR	Must always begin with a space; never has concluding punctuation.				
+%REP	Must always begin with a space; never has concluding punctuation.				
+%STY	No spaces or punctuation at the end.

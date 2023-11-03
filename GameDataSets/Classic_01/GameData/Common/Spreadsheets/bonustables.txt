@@ -1,0 +1,203 @@
+TableStart		MiscParams													
+ColumnHeadingsStart	Unicode	AMB	ACB	AXB	ASFD	DMB	DCB	DXB	DFB	DSFD	HOW	Initiative	Rounds	AAC	BG
+RowHeadingsStart															
+A_MF	GCMNA_MF	0	0	0	0	0	0	0	0	0	-2	-2	-1	0	0
+A_S	GCMN_A_S	0	0	0	0	0	0	0	0	0	3	0	0	0	0
+A_MAS	GCMNAMAS	0	0	0	0	1	0	0	0	0	-2	1	4	-2	0
+A_VE	GCMNA_VE	0	0	0	0	0	0	0	0	0	-1	1	4	-1	0
+A_PA	GCMNA_PA	1	2	0	0	0	0	0	0	0	-2	1	4	-1	1
+A_SW	GCMNA_SW	2	1	0	0	0	0	0	0	0	-1	1	3	-3	0
+A_PR	GCMNA_PR	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+A_HAR	GCMNAHAR	0	0	0	0	0	0	0	0	1	0	0	1	0	0
+A_EC	GCMNA_EC	0	0	0	0	0	0	0	0	0	0	0	2	0	0
+A_AT	GCMNA_AT	0	0	0	0	0	0	0	0	0	0	-1	0	0	0
+A_FL	GCMNA_FL	2	1	0	0	0	0	0	0	0	-1	1	3	0	1
+A_MAN	GCMNAMAN	3	0	0	0	0	0	0	0	0	0	0	3	-2	1
+A_LR	GCMNA_LR	1	0	0	0	0	0	0	0	0	1	1	1	-3	0
+A_FE	GCMNA_FE	4	1	0	0	0	0	0	0	0	0	1	3	0	1
+A_RUS	GCMNARUS	0	0	4	0	0	0	0	0	0	0	0	3	0	0
+A_SUP	GCMNASUP	2	0	2	0	0	0	0	0	0	-1	1	1	-1	1
+A_TR	GCMNA_TR	0	2	0	0	0	0	0	0	0	0	-1	3	0	1
+A_DIV	GCMNADIV	0	0	3	0	0	0	0	0	0	-1	1	1	-1	0
+A_SL	GCMNA_SL	0	0	0	0	0	0	0	0	0	1	-1	0	0	2
+A_SD	GCMNA_SD	1	0	0	0	0	0	0	0	0	1	-1	0	1	1
+A_RET	GCMNARET	0	0	0	0	0	0	0	0	0	2	-1	1	1	0
+A_FW	GCMNA_FW	2	0	0	0	0	0	0	0	0	1	-1	2	0	0
+A_AM	GCMNA_AM	0	2	0	0	0	0	0	0	0	-1	-1	2	0	1
+D_MF	GCMND_MF	0	0	0	0	0	0	0	0	0	-2	-2	-1	0	0
+D_S	GCMN_D_S	0	0	0	0	0	0	0	0	0	3	0	0	0	0
+D_MAS	GCMNDMAS	1	0	0	0	0	0	0	0	0	-2	-1	4	1	0
+D_PA	GCMND_VE	0	0	0	0	1	2	0	0	0	-2	-1	4	1	-1
+D_SW	GCMND_PA	0	0	0	0	2	1	0	0	0	-1	-1	3	3	0
+D_PR	GCMND_SW	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+D_HAR	GCMND_PR	0	0	0	1	0	0	0	0	0	0	0	1	0	0
+D_EC	GCMNDHAR	0	0	0	0	0	1	0	0	0	0	0	2	0	0
+D_AT	GCMND_EC	0	0	0	0	0	0	0	0	0	0	1	0	0	0
+D_FL	GCMND_AT	0	0	0	0	2	1	0	0	0	-1	-1	3	0	-1
+D_MAN	GCMND_FL	0	0	0	0	3	0	0	0	0	0	0	3	2	-1
+D_LR	GCMNDMAN	0	0	0	0	1	0	0	0	0	1	-1	1	3	0
+D_FE	GCMND_LR	0	0	0	0	4	0	0	0	0	0	-1	3	0	-1
+D_RUS	GCMND_FE	0	0	0	0	0	0	4	0	0	0	0	3	0	0
+D_SUP	GCMNDRUS	0	0	0	0	2	0	2	0	0	-1	-1	1	1	-1
+D_TR	GCMNDSUP	0	0	0	0	0	2	0	0	0	0	1	3	0	-1
+D_DIV	GCMND_TR	0	0	0	0	0	0	3	0	0	-1	-1	1	1	0
+D_SL	GCMNDDIV	0	0	0	0	0	0	0	0	0	1	1	0	0	-2
+D_SD	GCMND_SL	0	0	0	0	1	0	0	0	0	1	1	0	-1	-1
+D_FOR	GCMND_SD	1	0	0	0	0	0	0	3	0	2	1	0	0	-2
+D_RET	GCMNDRET	0	0	0	0	0	0	0	0	0	2	1	1	-1	0
+D_FW	GCMND_FW	0	0	0	0	2	0	0	0	0	1	1	2	0	0
+D_AM	GCMND_AM	0	0	0	0	0	2	0	0	0	-1	1	2	0	-1
+TableEnd															
+															
+TableStart		AttackingGrunts													
+ColumnHeadingsStart	Initiative	TargetPriority	NumberOfAttacks	Armor	Hits	Morale	Routs	Rally							
+RowHeadingsStart															
+A_MF	0	0	-1	0	0	0	5	-4							
+A_S	0	0	0	0	0	0	0	0							
+A_MAS	20	0	1	0	0	-4	4	-4							
+A_VE	15	0	1	0	-2	4	0	0							
+A_PA	20	0	1	-20	-1	4	0	-2							
+A_SW	10	0	0	0	1	2	-4	0							
+A_PR	5	-1	-1	20	0	-4	0	0							
+A_HAR	0	0	0	10	1	-2	3	0							
+A_EC	5	0	0	10	2	5	-4	0							
+A_AT	-20	0	0	0	1	-3	3	8							
+A_FL	-15	0	0	-20	-2	8	4	-3							
+A_MAN	-20	-1	-1	15	0	6	0	0							
+A_LR	-5	0	0	0	1	0	-4	4							
+A_FE	20	0	1	0	0	8	0	-3							
+A_RUS	10	0	0	0	3	0	-4	10							
+A_SUP	30	0	1	-20	-2	8	0	-5							
+A_TR	-20	0	-1	0	0	6	-5	-8							
+A_DIV	15	0	0	0	-1	8	3	0							
+A_SL	0	0	2	0	-3	6	4	-5							
+A_SD	-10	0	-1	20	0	-4	-2	8							
+A_RET	-20	0	-1	15	0	-5	0	2							
+A_FW	-5	0	0	10	0	-2	3	0							
+A_AM	20	0	2	-20	-1	6	0	-4							
+D_MF	0	0	-1	0	0	0	5	-4							
+D_S	0	0	0	0	0	0	0	0							
+D_MAS	20	0	2	0	0	-4	4	-4							
+D_PA	15	0	1	0	-2	4	0	0							
+D_SW	20	0	1	-10	-1	4	0	-2							
+D_PR	10	0	0	0	1	2	-4	0							
+D_HAR	5	-1	-2	20	0	-4	0	0							
+D_EC	0	0	0	10	1	-2	3	0							
+D_AT	5	0	0	10	2	5	-4	0							
+D_FL	-20	0	0	0	1	-3	3	8							
+D_MAN	20	0	0	-20	-2	8	4	-3							
+D_LR	-20	-1	-2	10	0	6	0	0							
+D_FE	-5	0	0	0	1	0	-4	4							
+D_RUS	20	0	1	0	0	8	0	-3							
+D_SUP	10	0	0	0	3	0	-4	10							
+D_TR	20	0	2	-20	-2	8	0	-5							
+D_DIV	-20	0	-1	0	0	6	-5	-8							
+D_SL	10	0	0	0	-1	8	3	0							
+D_SD	0	0	2	0	-3	6	4	-5							
+D_FOR	-10	0	-1	20	0	-4	-2	8							
+D_RET	-20	0	-1	15	0	-5	0	2							
+D_FW	-10	0	0	10	0	-2	3	0							
+D_AM	20	0	2	-20	-1	6	0	-4							
+TableEnd															
+															
+TableStart	AttackingVerticalGrunts														
+ColumnHeadingsStart	Initiative	TargetPriority	NumberOfAttacks	Armor	Hits	Morale	Routs	Rally							
+RowHeadingsStart															
+A_MF	0	0	-1	0	0	0	5	-4							
+A_S	0	0	0	0	0	0	0	0							
+A_MAS	20	0	1	0	0	-4	4	-4							
+A_VE	15	0	1	0	-2	4	0	0							
+A_PA	20	0	1	-20	-1	4	0	-2							
+A_SW	10	0	0	0	1	2	-4	0							
+A_PR	5	-1	-1	20	0	-4	0	0							
+A_HAR	0	0	0	10	1	-2	3	0							
+A_EC	5	0	0	10	2	5	-4	0							
+A_AT	-20	0	0	0	1	-3	3	8							
+A_FL	-15	0	0	-20	-2	8	4	-3							
+A_MAN	-20	-1	-1	15	0	6	0	0							
+A_LR	-5	0	0	0	1	0	-4	4							
+A_FE	20	0	1	0	0	8	0	-3							
+A_RUS	10	0	0	0	3	0	-4	10							
+A_SUP	30	0	1	-20	-2	8	0	-5							
+A_TR	-20	0	-1	0	0	6	-5	-8							
+A_DIV	15	0	0	0	-1	8	3	0							
+A_SL	0	0	2	0	-3	6	4	-5							
+A_SD	-10	0	-1	20	0	-4	-2	8							
+A_RET	-20	0	-1	15	0	-5	0	2							
+A_FW	-5	0	0	10	0	-2	3	0							
+A_AM	20	0	2	-20	-1	6	0	-4							
+D_MF	0	0	-1	0	0	0	5	-4							
+D_S	0	0	0	0	0	0	0	0							
+D_MAS	20	0	2	0	0	-4	4	-4							
+D_PA	15	0	1	0	-2	4	0	0							
+D_SW	20	0	1	-10	-1	4	0	-2							
+D_PR	10	0	0	0	1	2	-4	0							
+D_HAR	5	-1	-2	20	0	-4	0	0							
+D_EC	0	0	0	10	1	-2	3	0							
+D_AT	5	0	0	10	2	5	-4	0							
+D_FL	-20	0	0	0	1	-3	3	8							
+D_MAN	20	0	0	-20	-2	8	4	-3							
+D_LR	-20	-1	-2	10	0	6	0	0							
+D_FE	-5	0	0	0	1	0	-4	4							
+D_RUS	20	0	1	0	0	8	0	-3							
+D_SUP	10	0	0	0	3	0	-4	10							
+D_TR	20	0	2	-20	-2	8	0	-5							
+D_DIV	-20	0	-1	0	0	6	-5	-8							
+D_SL	10	0	0	0	-1	8	3	0							
+D_SD	0	0	2	0	-3	6	4	-5							
+D_FOR	-10	0	-1	20	0	-4	-2	8							
+D_RET	-20	0	-1	15	0	-5	0	2							
+D_FW	-10	0	0	10	0	-2	3	0							
+D_AM	20	0	2	-20	-1	6	0	-4							
+TableEnd															
+															
+TableStart	DefendingGrunts														
+ColumnHeadingsStart	Initiative	TargetPriority	NumberOfAttacks	Armor	Hits	Morale	Routs	Rally							
+RowHeadingsStart															
+A_MF	0	0	-1	0	0	0	5	-4							
+A_S	0	0	0	0	0	0	0	0							
+A_MAS	20	0	1	0	0	-4	4	-4							
+A_VE	15	0	1	0	-2	4	0	0							
+A_PA	20	0	1	-20	-1	4	0	-2							
+A_SW	10	0	0	0	1	2	-4	0							
+A_PR	5	-1	-1	20	0	-4	0	0							
+A_HAR	0	0	0	10	1	-2	3	0							
+A_EC	5	0	0	10	2	5	-4	0							
+A_AT	-20	0	0	0	1	-3	3	8							
+A_FL	-15	0	0	-20	-2	8	4	-3							
+A_MAN	-20	-1	-1	15	0	6	0	0							
+A_LR	-5	0	0	0	1	0	-4	4							
+A_FE	20	0	1	0	0	8	0	-3							
+A_RUS	10	0	0	0	3	0	-4	10							
+A_SUP	30	0	1	-20	-2	8	0	-5							
+A_TR	-20	0	-1	0	0	6	-5	-8							
+A_DIV	15	0	0	0	-1	8	3	0							
+A_SL	0	0	2	0	-3	6	4	-5							
+A_SD	-10	0	-1	20	0	-4	-2	8							
+A_RET	-20	0	-1	15	0	-5	0	2							
+A_FW	-5	0	0	10	0	-2	3	0							
+A_AM	20	0	2	-20	-1	6	0	-4							
+D_MF	0	0	-1	0	0	0	5	-4							
+D_S	0	0	0	0	0	0	0	0							
+D_MAS	20	0	2	0	0	-4	4	-4							
+D_PA	15	0	1	0	-2	4	0	0							
+D_SW	20	0	1	-10	-1	4	0	-2							
+D_PR	10	0	0	0	1	2	-4	0							
+D_HAR	5	-1	-2	20	0	-4	0	0							
+D_EC	0	0	0	10	1	-2	3	0							
+D_AT	5	0	0	10	2	5	-4	0							
+D_FL	-20	0	0	0	1	-3	3	8							
+D_MAN	20	0	0	-20	-2	8	4	-3							
+D_LR	-20	-1	-2	10	0	6	0	0							
+D_FE	-5	0	0	0	1	0	-4	4							
+D_RUS	20	0	1	0	0	8	0	-3							
+D_SUP	10	0	0	0	3	0	-4	10							
+D_TR	20	0	2	-20	-2	8	0	-5							
+D_DIV	-20	0	-1	0	0	6	-5	-8							
+D_SL	10	0	0	0	-1	8	3	0							
+D_SD	0	0	2	0	-3	6	4	-5							
+D_FOR	-10	0	-1	20	0	-4	-2	8							
+D_RET	-20	0	-1	15	0	-5	0	2							
+D_FW	-10	0	0	10	0	-2	3	0							
+D_AM	20	0	2	-20	-1	6	0	-4							
+TableEnd															

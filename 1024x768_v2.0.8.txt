@@ -1,0 +1,139 @@
+1024x768 MOD II: Battle At Aruspex
+
+==================================
+
+release notes for 1024x768_v2.0.8 (060807)
+
+base:
+* based on 1024x768_v2.0.7
+
+note:
+* optimized for Strawberry/Tropical UOP (gofur's UI) mods
+
+work:
+* reorganized and improved Galaxy Screen resource display
+* restored and adapted old gofur Galaxy Screen buttons
+* added coverup-panels to Scheduler/Ground/Space Combat
+  Screens to minimize corruption in Space Combat
+* gofurized Load/Save box (for Saved Game and Dev Plan)
+* gofurized New Game and Galaxy Config backgrounds
+* gofurized Foreign Office in a whole bunch of places
+* gofurized Leaders background on Personnel Screen
+* gofurized tabs for Planet, System, and Ground Combat
+* gofurized selected ship box for Task Force Assembly
+* fixed mouse scroll areas for Galaxy and Space Combat
+* fixed Espionage so that List of Spies shows correctly,
+  and so that insert agent panel is in front of training.
+* fixed Race Selection so that color picker is in front.
+* added my own strings, for use on the Galaxy Screen
+bonus:
+* slipped in snazzy one-time "waiting" background that
+  has the sneaky effect of blacking the right-edge area
+
+----------------------------------
+
+release notes for 1024x768_v2.0.7 (051206)
+
+base:
+* based on 1024x768_v2.0.6
+
+work:
+* resized Foreign Office, including various race images
+* resized Shipyards.  could be better, but pretty good
+* resized Victory.  only real benefit is on History tab
+* resized Combat Scheduler, reorganized to reduce RSI
+* moved Cancel/Autobuild/Accept buttons on the Space 
+  and Ground Forces Assembly screens to a better spot
+* moved the Disband Selected button on the Military
+  tab of the Planet Level screen to a really good spot
+* fixed the Load/Store for Dev Plans on Empire screen
+* fixed Galaxy/Game options, some weren't selectable!
+* changed Espionage so that List of Spies shows on open
+bonus:
+* included Gangster Matrix images for Silicoid & Psilon
+* include better Senate Icons, originals make no sense!
+
+----------------------------------
+
+release notes for 1024x768_v2.0.6 (051111)
+
+base:
+* based on 1024x768_v2.0.5
+
+work:
+* resized Technology Screen, dig that crazy Matrix!
+* resized Personnel, including Leader icons and pics.
+* resized Planets, magic 7!  (thanks Bh & S'yandlwir!)
+bonus:
+* included some nice NavShip Icons for the main map
+
+----------------------------------
+
+release notes for 1024x768_v2.0.5 (051008)
+
+base:
+* based on 1024x768_v2.0.4
+
+work:
+* resized Main Menu, created ultra snazzy new background
+* resized Race Selection & Picks, almost no scrolling!
+* resized and rearranged New Game Options, found galaxy
+* resized Load/Save dialogs for games and devplans
+* rearranged Demographics, now shows Unrest on opening 
+bonus:
+* included some of Qev's old "GangstaMoo" race pictures
+
+----------------------------------
+
+release notes for 1024x768_v2.0.4 (050929)
+
+base:
+* based on 1024x768_v2.0.3
+
+work:
+* resized Encyclopedia, the better to read Easter Eggs
+* resized Main Map Ships list box: show 10 TF at once!
+* resized System view Forces list, fixed panel placement
+* retouched Planet Level Military tab, finally happy!
+bonus:
+* included another old favorite, the better nebulas mod
+
+----------------------------------
+
+release notes for 1024x768_v2.0.3 (050922)
+
+base:
+* based on 1024x768_v2.0.2
+
+work:
+* resized and rearranged TF & Army Assemby Screens
+* resized and rearranged Planet Level Military tab
+* reszied TF & Army icons, to fit Assembly/Military
+bonus:
+* created spanky new Command Center & Magazine icons
+
+----------------------------------
+
+release notes for 1024x768_v2.0.2 (050906)
+
+base:
+* based on 1024x768_v2.0.1
+
+work:
+* resized the Ground Combat view screen (thanks Bolo!)
+bonus:
+* included Grey Godfather & Danny the Lizard images
+
+----------------------------------
+
+release notes for 1024x768_v2.0.1 (050901)
+
+base:
+* based on Horgel's original 1024x768 mod, version 5
+
+work:
+* switched icons for the Personel and Victory buttons
+* resized and rearranged the Planet Level view screen
+bonus:
+* included an old favorite, fertility leaf icon mod
+* included an absolutely mandatory MOO2 UI sound mod

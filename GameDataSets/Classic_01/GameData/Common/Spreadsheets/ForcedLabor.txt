@@ -1,0 +1,145 @@
+TableStart	FLUbasevals						
+ColumnHeadingsStart	Organic	Robots					
+RowHeadingsStart							
+ExpireChance	1.6	1.5					
+OppressFactor	0.75	0					
+CapacityIncrease	0.1	0.2					
+Maintenance	8	8					
+TableEnd							
+
+
+TableStart	EthosVals						
+ColumnHeadingsStart	MinVal	MaxPol1	MaxPol2	MaxPol3	MaxPol4	MaxPol5	MaxPol6
+RowHeadingsStart							
+Cult	2	2	1	0	0	0	0
+Sect	4	4	2	1	0	0	0
+Church	6	6	4	3	2	1	0
+Religion	8	8	5	4	3	2	1
+TableEnd							
+
+
+TableStart	SocietyVals						
+ColumnHeadingsStart	MinVal	MaxNumGen					
+RowHeadingsStart							
+LowerClass	2	12					
+MiddleClass	3	8					
+Military	4	5					
+UpperClass	7	3					
+Intelligenssia	8	2					
+Elite	9	1					
+TableEnd	
+
+TableStart	HabRingVals
+ColumnHeadingsStart	ExpireFactor
+RowHeadingsStart	
+kParadiseRing	1
+kSweetSpotRing	1
+kG1Ring	1
+kG2Ring	1
+kY1Ring	1.33333
+kY2Ring	1.33333
+kR1Ring	2
+kR2Ring	2
+TableEnd	
+
+
+TableStart	ComBotLevels		
+ColumnHeadingsStart	Unicode	StartLevel	EndLevel
+RowHeadingsStart			
+Militia	GCXPMili	3	5
+Recruit	GCXPRecr	6	9
+Trained	GCXPTrnd	10	14
+Experienced	GCXPExpd	15	20
+Veteran	GXPVetn	21	26
+Crack	GCXPCrck	27	34
+Elite	GCXPElit	35	100
+TableEnd			
+
+TableStart	FLULotteryVals		
+ColumnHeadingsStart	Organic	Robotic	
+RowHeadingsStart			
+kBaseNumLotteryBalls	1	150	
+kUnemploymentMultiplier	1	10	
+kUnemploymentCutoff	0.15	0.15	
+TableEnd			
+
+TableStart	FLUSource1		
+ColumnHeadingsStart	Domestic Special	Foreign Special	Domestic Aliens
+RowHeadingsStart			
+accepted	9	5	3
+accepted other races	8	4	5
+accepted other races monitored	7	3	4
+accepted other species	5	2	3
+accepted other species monitored	4	1	2
+tolerated other species	2	0	1
+not tolerated domestically	0	0	0
+not tolerated at all	0	0	0
+abolitionism	0	0	0
+TableEnd	
+
+TableStart	FLUSource2
+ColumnHeadingsStart	Disenfranchised Faction
+RowHeadingsStart	
+Lower Class	0.08
+Middle Class	0.065
+Military	0.08
+Upper Class	0.025
+Intelligensia	0.025
+Elite	0.01
+TableEnd	
+
+TableStart	UnrestPopMods
+ColumnHeadingsStart	UnrestMod
+RowHeadingsStart	
+kContentState	1
+kUnrest1State	0.75
+kUnrest2State	0.5
+kUnrest3State	0.25
+kRevoltState	0
+kSubjugatedState	1
+TableEnd	
+
+TableStart	DisenfranchisedLevels
+ColumnHeadingsStart	Disenfranchised Faction
+RowHeadingsStart	
+Lower Class	2
+Middle Class	3
+Military	4
+Upper Class	7
+Intelligensia	8
+Elite	9	
+TableEnd		
+
+TableStart	FLUModifiers	
+ColumnHeadingsStart	Organic	Robotic
+RowHeadingsStart		
+Mining		
+Farming		
+Military		
+Industry		
+Recreation		
+Economic	mAddGold += 1000	
+Government		
+Social	MdUnrest -= 5	
+Scientific		
+TableEnd		
+
+TableStart	PopulationPerFLU	
+ColumnHeadingsStart	Organic	Robotic
+RowHeadingsStart		
+population per flu	1	1
+TableEnd		
+
+TableStart	PopulationPerEmancipatedFlu	
+ColumnHeadingsStart	Organic	Robotic
+RowHeadingsStart		
+population per flu	0.1	0.1
+TableEnd		
+
+TableStart	FLUOppressometerFactors	
+ColumnHeadingsStart	Organic	Robotic
+RowHeadingsStart		
+Low	0	0
+Medium	5	5
+High	10	10
+TableEnd		

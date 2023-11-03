@@ -1,0 +1,157 @@
+TableStart	MilitaryCollateralDamageTargets														
+ColumnHeadingsStart	Size	Damage	Atmospheric	Aquatic	Subterranean	Civil Defense 1	Civil Defense 2	Civil Defense 3	Civil Defense 4	EnviroSuit	BattleSuit	Armored Exoskeleton	Powered Armor	Special Rules	
+RowHeadingsStart															
+Each Missile Base	27	20	2.00	1.50	0.50	1.00	1.00	1.00	1.00	9.00	9.00	9.00	9.00	"If any are available, one is added to lottery if collater damage is applied to a single region"	
+Each Beam Base	22	15	2.00	1.50	0.65	1.00	1.00	1.00	1.00	9.00	9.00	9.00	9.00	"If any are available, one is added to lottery if collater damage is applied to a single region"	
+Each Fighter Base	42	25	2.00	1.50	0.80	1.00	1.00	1.00	1.00	9.00	9.00	9.00	9.00	"If any are available, one is added to lottery if collater damage is applied to a single region"	
+Infrastructure Level 1	10	10	2.00	1.50	0.75	1.00	1.00	1.00	1.00	9.00	9.00	9.00	9.00	"If hit, reduces the Infrastructure by 1 level"	
+Infrastructure Level 2	20	10	2.00	1.50	0.75	1.00	1.00	1.00	1.00	9.00	9.00	9.00	9.00	"If hit, reduces the Infrastructure by 1 level"	
+Infrastructure Level 3	40	20	2.00	1.50	0.75	1.00	1.00	1.00	1.00	9.00	9.00	9.00	9.00	"If hit, reduces the Infrastructure by 1 level"	
+Infrastructure Level 4	80	40	2.00	1.50	0.75	1.00	1.00	1.00	1.00	9.00	9.00	9.00	9.00	"If hit, reduces the Infrastructure by 1 level"	
+"Each Military Building Type A, Level 1"	15	20	2.00	1.50	0.50	1.00	1.00	1.00	9.00	9.00	9.00	9.00	9.00		
+"Each Military Building Type A, Level 2"	25	20	2.00	1.50	0.50	1.00	1.00	1.00	9.00	9.00	9.00	9.00	9.00		
+"Each Military Building Type A, Level 3"	40	20	2.00	1.50	0.50	1.00	1.00	1.00	9.00	9.00	9.00	9.00	9.00		
+"Each Military Building Type A, Level 4"	60	20	2.00	1.50	0.50	1.00	1.00	1.00	9.00	9.00	9.00	9.00	9.00		
+"Each Military Building Type B, Level 1"	20	20	2.00	1.50	0.50	1.00	1.00	1.00	9.00	9.00	9.00	9.00	9.00		
+"Each Military Building Type B, Level 2"	35	20	2.00	1.50	0.50	1.00	1.00	1.00	9.00	9.00	9.00	9.00	9.00		
+"Each Military Building Type B, Level 3"	55	20	2.00	1.50	0.50	1.00	1.00	1.00	9.00	9.00	9.00	9.00	9.00		
+"Each Military Building Type B, Level 4"	80	20	2.00	1.50	0.50	1.00	1.00	1.00	9.00	9.00	9.00	9.00	9.00		
+Military DEA	100	5	2.00	1.50	0.90	1.00	1.00	1.00	1.00	9.00	9.00	9.00	9.00	Does not go into the collateral damage target lottery until everything in it has been destroyed.	
+TableEnd															
+															
+TableStart	EconomicCollateralDamageTargets														
+ColumnHeadingsStart	Size	Damage	Atmospheric	Aquatic	Subterranean	Civil Defense 1	Civil Defense 2	Civil Defense 3	Civil Defense 4	EnviroSuit	BattleSuit	Armored Exoskeleton	Powered Armor	Special Rules	
+RowHeadingsStart															
+Infrastructure Level 1	25	5	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00	"If hit, reduces the Infrastructure by 1 level"	
+Infrastructure Level 2	50	10	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00	"If hit, reduces the Infrastructure by 1 level"	
+Infrastructure Level 3	100	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00	"If hit, reduces the Infrastructure by 1 level"	
+Infrastructure Level 4	200	50	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00	"If hit, reduces the Infrastructure by 1 level"	
+Each 0.05 Population Point	1	20	1.00	1.00	1.00	0.80	0.60	0.40	0.20	2.00	2.00	2.00	2.00		
+"Each Manufacturing Building Type A, Level 1"	15	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	9.00	9.00	9.00	9.00		
+"Each Manufacturing Building Type A, Level 2"	25	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	9.00	9.00	9.00	9.00		
+"Each Manufacturing Building Type A, Level 3"	40	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	9.00	9.00	9.00    9.00		
+"Each Manufacturing Building Type A, Level 4"	60	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	9.00	9.00	9.00	9.00		
+"Each Manufacturing Building Type B, Level 1"	20	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	9.00	9.00	9.00	9.00		
+"Each Manufacturing Building Type B, Level 2"	35	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	9.00	9.00	9.00	9.00		
+"Each Manufacturing Building Type B, Level 3"	55	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	9.00	9.00	9.00	9.00		
+"Each Manufacturing Building Type B, Level 4"	80	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	9.00	9.00	9.00	9.00		
+"Each Mining Building Type A, Level 1"	5	15	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Mining Building Type A, Level 2"	10	15	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Mining Building Type A, Level 3"	15	15	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Mining Building Type A, Level 4"	20	15	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Mining Building Type B, Level 1"	15	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Mining Building Type B, Level 2"	25	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Mining Building Type B, Level 3"	40	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Mining Building Type B, Level 4"	60	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Bioharvesting Building Type A, Level 1"	25	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	5.00	5.00	5.00	5.00		
+"Each Bioharvesting Building Type A, Level 2"	40	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Bioharvesting Building Type A, Level 3"	60	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Bioharvesting Building Type A, Level 4"	95	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Bioharvesting Building Type B, Level 1"	20	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Bioharvesting Building Type B, Level 2"	40	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Bioharvesting Building Type B, Level 3"	60	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Bioharvesting Building Type B, Level 4"	80	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Space Port Building Type A, Level 1"	15	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Space Port Building Type A, Level 2"	25	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Space Port Building Type A, Level 3"	40	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Space Port Building Type A, Level 4"	60	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Space Port Building Type B, Level 1"	20	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Space Port Building Type B, Level 2"	35	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Space Port Building Type B, Level 3"	55	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Space Port Building Type B, Level 4"	80	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+Space Port	80	50	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00	Does not go into the collateral damage target lottery until everything in it has been destroyed.	
+Manufacturing DEA	100	5	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00	Does not go into the collateral damage target lottery until everything in it has been destroyed.	
+Mining DEA	100	5	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00	Does not go into the collateral damage target lottery until everything in it has been destroyed.	
+Bioharvesting DEA	100	5	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00	Does not go into the collateral damage target lottery until everything in it has been destroyed.	
+TableEnd															
+															
+TableStart	CivilianCollateralDamageTargets														
+ColumnHeadingsStart	Size	Damage	Atmospheric	Aquatic	Subterranean	Civil Defense 1	Civil Defense 2	Civil Defense 3	Civil Defense 4	EnviroSuit	BattleSuit	Armored Exoskeleton	Powered Armor	Special Rules	
+RowHeadingsStart															
+Each 0.05 Population Point	5	50	1.00	1.00	1.00	0.80	0.60	0.40	0.20	9.00	9.00	9.00	9.00	"If hit, reduces the Infrastructure by 1 level"	
+Infrastructure Level 1	15	5	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00	"If hit, reduces the Infrastructure by 1 level"	
+Infrastructure Level 2	30	10	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00	"If hit, reduces the Infrastructure by 1 level"	
+Infrastructure Level 3	45	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00	"If hit, reduces the Infrastructure by 1 level"	
+Infrastructure Level 4	60	40	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00	"If hit, reduces the Infrastructure by 1 level"	
+Civil Defense Level 1	10	5	2.00	1.50	0.75	1.00	1.00	1.00	1.00	5.00	5.00	5.00	5.00	"If hit, reduces the Civil Defense by 1 level"	
+Civil Defense Level 2	10	10	2.00	1.50	0.75	1.00	1.00	1.00	1.00	5.00	5.00	5.00	5.00	"If hit, reduces the Civil Defense by 1 level"	
+Civil Defense Level 3	10	15	2.00	1.50	0.75	1.00	1.00	1.00	1.00	5.00	5.00	5.00	5.00	"If hit, reduces the Civil Defense by 1 level"	
+Civil Defense Level 4	10	20	2.00	1.50	0.75	1.00	1.00	1.00	1.00	5.00	5.00	5.00	5.00	"If hit, reduces the Civil Defense by 1 level"	
+"Each Research Building Type A, Level 1"	15	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Research Building Type A, Level 2"	25	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Research Building Type A, Level 3"	40	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Research Building Type A, Level 4"	60	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Research Building Type B, Level 1"	20	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Research Building Type B, Level 2"	35	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Research Building Type B, Level 3"	55	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Research Building Type B, Level 4"	80	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Government Building Type A, Level 1"	15	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Government Building Type A, Level 2"	25	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Government Building Type A, Level 3"	40	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Government Building Type A, Level 4"	60	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Government Building Type B, Level 1"	20	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Government Building Type B, Level 2"	35	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Government Building Type B, Level 3"	55	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+"Each Government Building Type B, Level 4"	80	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	2.00	2.00	2.00		
+System Seat of Government Building	30	15	2.00	1.50	0.75	1.00	0.85	0.70	0.65	5.00	5.00	5.00	5.00		
+Sector Seat of Government Building	20	10	2.00	1.50	0.75	1.00	0.85	0.70	0.65	5.00	5.00	5.00	5.00		
+Imprial Seat of Government Building	10	5	2.00	1.50	0.75	1.00	0.85	0.70	0.65	5.00	5.00	5.00	5.00		
+"Each Recreation Building Type A, Level 1"	5	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	5.00	7.00	9.00		
+"Each Recreation Building Type A, Level 2"	15	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	5.00	7.00	9.00		
+"Each Recreation Building Type A, Level 3"	30	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	5.00	7.00	9.00		
+"Each Recreation Building Type A, Level 4"	50	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	5.00	7.00	9.00		
+"Each Recreation Building Type B, Level 1"	10	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	5.00	7.00	9.00		
+"Each Recreation Building Type B, Level 2"	20	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	5.00	7.00	9.00		
+"Each Recreation Building Type B, Level 3"	40	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	5.00	7.00	9.00		
+"Each Recreation Building Type B, Level 4"	60	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	5.00	7.00	9.00		
+"Each Space Port Building Type A, Level 1"	10	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	5.00	7.00	9.00		
+"Each Space Port Building Type A, Level 2"	15	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	5.00	7.00	9.00		
+"Each Space Port Building Type A, Level 3"	20	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	5.00	7.00	9.00		
+"Each Space Port Building Type A, Level 4"	25	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	5.00	7.00	9.00		
+"Each Space Port Building Type B, Level 1"	15	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	5.00	7.00	9.00		
+"Each Space Port Building Type B, Level 2"	25	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	5.00	7.00	9.00		
+"Each Space Port Building Type B, Level 3"	40	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	5.00	7.00	9.00		
+"Each Space Port Building Type B, Level 4"	60	20	2.00	1.50	0.75	1.00	0.90	0.80	0.70	2.00	5.00	7.00	9.00		
+Space Port	60	50	2.00	1.50	0.75	1.00	0.90	0.80	0.70	1.00	1.00	1.00	1.00	Does not go into the collateral damage target lottery until everything in it has been destroyed.	
+Research DEA	100	5	2.00	1.50	0.75	1.00	0.90	0.80	0.70	1.00	1.00	1.00	1.00	Does not go into the collateral damage target lottery until everything in it has been destroyed.	
+Government DEA	100	5	2.00	1.50	0.75	1.00	0.90	0.80	0.70	1.00	1.00	1.00	1.00	Does not go into the collateral damage target lottery until everything in it has been destroyed.	
+Recreation DEA	100	5	2.00	1.50	0.75	1.00	0.90	0.80	0.70	1.00	1.00	1.00	1.00	Does not go into the collateral damage target lottery until everything in it has been destroyed.	
+TableEnd															
+															
+TableStart	EnvironmentalCollateralDamageTargets														
+ColumnHeadingsStart	Size	Damage	Atmospheric	Aquatic	Subterranean	Civil Defense 1	Civil Defense 2	Civil Defense 3	Civil Defense 4	EnviroSuit	BattleSuit	Armored Exoskeleton	Powered Armor	Special Rules	
+RowHeadingsStart															
+Each 0.05 Population Point	2	30	1.00	1.00	1.00	0.80	0.60	0.40	0.20	1.00	1.00	1.00	2.00		
+Biodiversity: Very Diverse	4	5	1.00	1.00	1.00	1.00	0.95	0.90	0.85	1.00	1.00	1.00	2.00	"If hit, reduces the planet's Biodiversity by 1 level"	
+Biodiversity: Diverse	3	5	1.00	1.00	1.00	1.00	0.95	0.90	0.85	1.00	1.00	1.00	1.00	"If hit, reduces the planet's Biodiversity by 1 level"	
+Biodiversity: Hetrogneous	2	5	1.00	1.00	1.00	1.00	0.95	0.90	0.85	1.00	1.00	1.00	2.00	"If hit, reduces the planet's Biodiversity by 1 level"	
+Biodiversity: Similar	1	5	1.00	1.00	1.00	1.00	0.95	0.90	0.85	1.00	1.00	1.00	1.00	"If hit, reduces the planet's Biodiversity by 1 level"	
+Terraforming: 1% toward origination	15	15	1.00	1.00	1.00	1.00	0.95	0.90	0.85	1.00	1.00	2.00	2.00	"If hit, planet moves 1% of the distance on the terraforming grid toward its origin point"	
+Terraforming: 3% toward origination	10	10	1.00	1.00	1.00	1.00	0.95	0.90	0.85	1.00	1.00	2.00	2.00	"If hit, planet moves 3% of the distance on the terraforming grid toward its origin point"	
+Terraforming: 5% toward origination	5	5	1.00	1.00	1.00	1.00	0.95	0.90	0.85	1.00	1.00	2.00	2.00	"If hit, planet moves 5% of the distance on the terraforming grid toward its origin point"	
+Ecosystem Density: Very Dense	12	10	1.00	1.00	1.00	1.00	0.95	0.90	0.85	1.00	1.00	1.00	2.00	"If hit, reduces the planet's Ecosystem Density by 1 level"	
+Ecosystem Density: Dense	10	10	1.00	1.00	1.00	1.00	0.95	0.90	0.85	1.00	1.00	1.00	2.00	"If hit, reduces the planet's Ecosystem Density by 1 level"	
+Ecosystem Density: Average	8	10	1.00	1.00	1.00	1.00	0.95	0.90	0.85	1.00	1.00	1.00	2.00	"If hit, reduces the planet's Ecosystem Density by 1 level"	
+Ecosystem Density: Sparse	6	10	1.00	1.00	1.00	1.00	0.95	0.90	0.85	1.00	1.00	1.00	2.00	"If hit, reduces the planet's Ecosystem Density by 1 level"	
+Ecosystem Density: Very Sparse	4	10	1.00	1.00	1.00	1.00	0.95	0.90	0.85	1.00	1.00	1.00	2.00	"If hit, reduces the planet's Ecosystem Density by 1 level"	
+Pollution: $1	200	70	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	"Adds this amount to ecological ""clean up"" costs that must be paid"	
+Pollution: $3	100	65	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	"Adds this amount to ecological ""clean up"" costs that must be paid"	
+Pollution: $5	50	60	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	"Adds this amount to ecological ""clean up"" costs that must be paid"	
+Pollution: $10	25	55	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	"Adds this amount to ecological ""clean up"" costs that must be paid"	
+Pollution: $25	12	50	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	"Adds this amount to ecological ""clean up"" costs that must be paid"	
+"Adds ""Active Volcanoes"" special"	1	10	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	2.00	2.00	Adds this special to a random region on that planet	
+"Adds ""Tectonic Instability"" special"	1	5	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	2.00	2.00	Adds this special to a random region on that planet	
+"Adds ""Erratic Weather"" special"	1	10	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	2.00	2.00	Adds this special to a random region on that planet	
+"Destroys ""Natural Wonders"" special"	15	60	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	2.00	2.00	Added to lottery only if this special is on the target planet/region	
+"Destroys ""Natural Wells"" special"	5	10	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	2.00	2.00	Added to lottery only if this special is on the target planet/region	
+"Destroys ""Thriving Ecosystem"" special"	5	25	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	2.00	2.00	1.00	Added to lottery only if this special is on the target planet/region	
+"Destroys ""Pharmacopoeia"" special"	5	10	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	2.00	2.00	Added to lottery only if this special is on the target planet/region	
+"Destroys ""Rare Animals"" special"	25	50	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	2.00	2.00	Added to lottery only if this special is on the target planet/region	
+"Destroys ""Rare Plants"" special"	25	50	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	2.00	2.00	Added to lottery only if this special is on the target planet/region	
+TableEnd															
+															
+Atmospheric = Etherian and Avian species.															
+Underwater = Itthytosian and Protoplasmic species															
+"Subterranean = Insectoid, Metashifter, Fungal, and Bulrathi"															
+"Tough Hide = Geodic, Cybernetik, Nommo, Klackon, Shefhaa (tree), and Gargantua"															
+"Soft Hide = Psilon, Etherean, Ithkul, Protoplasmic, and Fungal"															

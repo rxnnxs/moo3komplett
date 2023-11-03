@@ -1,0 +1,576 @@
+TableStart	MoleNames		
+ColumnHeadingsStart	UnicodeTag		
+RowHeadingsStart			"I used MONM as the first four unicode letters to mean ""Mole Name"""
+monmabcs	Abcess		
+monmabst	Absentia		
+monmaceh	Ace in the Hole		
+monmaclt	Acolyte		
+monmaegr	Aeigir		
+monmaesr	Aesir		
+monmatlf	Afterlife		
+monmabtr	Albatross		
+monmalph	Alpha		
+monmatrx	Anthrax		
+monmaphr	Aphrodite		
+monmarch	Archon		
+monmargs	Argos		
+monmarms	Armistice
+monmarts	Artemis
+monmasca	Ascania
+monmasmd	Asmodi 
+monmathn	Athena
+monmauls	Aulis
+monmavln	Avalon
+monmbkbt	Backbeat
+monmbdft	Backdraft
+monmbkfr	Backfire
+monmbwtr	Backwater
+monmbdbr	Bad Breath
+monmbdgr	Badger
+monmbgmn	Bagman
+monmbnpl	Banana Peel
+monmbark	B'ark
+monmbarn	Baron
+monmbssk	Basilisk
+monmblpn	Bellerophon
+monmbint	Best Intentions
+monmbmbo	Bimbo
+monmbsmk	Bismarck
+monmbstn	Bistonia
+monmblck	Black
+monmbcur	Black Current
+monmbkhd	Black Hand
+monmbkkt	Black Knight
+monmbktb	Black Thumb
+monmbckt	Blackout
+monmblnd	Blindness
+monmbdsd	Blindside
+monmbkrn	Blockade Runner
+monmbnde	Blonde
+monmbdns	Bloody Nose
+monmblfs	Blowfish
+monmblsm	Blue Smoke
+monmbbsl	Bombshell
+monmbrvo	Bravo
+monmbrnr	Brenner
+monmbrvd	Brevard
+monmbran	Bubba Bo Bob Brain
+monmbrgt	Brigit
+monmbrke	Brooke
+monmbrnt	Brownout
+monmbsbe	BusyBee
+monmbfly	Butterfly
+monmbzzd	Buzzard
+monmbyza	Byzan'tar 
+monmcdms	Cadmus
+monmcldn	Calydon
+monmcmbk	Camelback
+monmcnry	Canary
+monmcrbn	Carbonous
+monmcrdn	Cardinal
+monmcrrn	Carrion 
+monmctmn	Cartman
+monmcstr	Castor
+monmcnsr	Censor
+monmchrt	Chariot
+monmchrl	Charlie
+monmchsm	Chasm
+monmckpt	Checkpoint
+monmcphr	Cipher
+monmcrce	Circe
+monmctcn	Citizen Cain
+monmclok	Cloak
+monmckwk	Clockwork
+monmcbra	Cobra
+monmcdpw	Cold Paw
+monmcdsd	Cold Shoulder
+monmclss	Colossus
+monmcdum	Comfortably Dumb
+monmcnvy	Convoy
+monmcrca	Corcyra
+monmcrna	Corona 
+monmcrsn	Corrosion
+monmcrpr	Corruptor
+monmctdn	Countdown
+monmcvnt	Covenant
+monmcow1	Cow
+monmcyte	Coyote
+monmcziv	Crazy Ivan
+monmcdby	Credibility
+monmcmsn	Crimson
+monmcscn	Crossconnect
+monmcsgd	Crossguard
+monmcrow	Crow
+monmcrys	Crystal
+monmcota	Curse of the Ancients
+monmctps	Cutpurse
+monmcycl	Cyclops
+monmcyme	Cyme
+monmdmcl	Damocles
+monmdnte	Dante
+monmdkfx	Dark Fox
+monmdkst	Dark Star
+monmdkhr	Darkest Hour
+monmdkmn	Darkman
+monmdkrm	Darkroom
+monmdtdm	Data Dump
+monmdtex	Data Extractor
+monmdtls	Dauntless
+monmdcdn	Decadence
+monmddlt	Deadlight
+monmdpbl	Deep Blue
+monmdpth	Deep Throat
+monmdflr	Defiler
+monmdlvn	Deliverance
+monmdels	Delos
+monmdlph	Delphi
+monmdtsc	Delta Source
+monmdmtr	Demeter
+monmdmly	deMolay 
+monmdvad	Devil's Advocate
+monmdngo	Dingo 
+monmdscp	Discrepancy
+monmdssn	Dissonance
+monmdvnt	Divination
+monmdtrz	Doctor Z
+monmdpgr	Doppelganger
+monmdbcl	Double Clutch
+monmdbex	Double Exposure
+monmdstd	Double Standard
+monmdmwv	Dreamweaver
+monmdpup	Dust Puppy
+monmdwrf	Dwarf 
+monmdwmr	Dweomer
+monmegle	Eagle
+monmegl1	Eagle One
+monmewax	Ear Wax
+monmerst	Earshot
+monmergt	Earth Gate
+monmesrh	Easy Rhino
+monmebtd	Ebb Tide 
+monmchln	Echelon
+monmecho	Echo
+monmeclp	Eclipse
+monmecpr	Eclipser
+monmednd	Ed the 2nd
+monmeel1	Eel
+monmeltr	Electra
+monmelss	Eleusis
+monmelsa	Elsa 
+monmempt	Empathy
+monmegma	Enigma
+monmetrp	Entropy
+monmenya	Enya
+monmepcr	Epicurean
+monmerth	Erythia
+monmetrn	Eternity
+monmexpr	Express
+monmfdhr	Faded Hero
+monmflfl	Falafel
+monmfagl	Fallen Angel
+monmfllt	Fallout
+monmfmlr	Familiar
+monmfttm	Father Time
+monmfust	Faust
+monmfdbk	Feedback
+monmfgmt	Figment
+monmfnfd	File Not Found
+monmfits	Fire in the Sky
+monmfrsd	Fireshield
+monmfeye	Fisheye
+monmfssr	Fissure
+monmflsk	Flask
+monmflyd	Floyd
+monmfctr	Fly Catcher
+monmflft	Flying Feathers
+monmftoe	Foolish Toe
+monmfrst	Forester
+monmfrsk	Forsaken
+monmfred	Fred
+monmfrey	Frey
+monmfrya	Freya
+monmftls	Frictionless
+monmfncl	Funny Click
+monmfusn	Fusion
+monmgmbr	Gambler
+monmgbct	Garbage Collector
+monmgrgl	Gargle
+monmgarm	Garm
+monmgtkp	Gatekeeper
+monmgtwy	Gateway
+monmgmst	Gemstone
+monmgnss	Genesis
+monmgryn	Geryon
+monmgost	Ghost
+monmgtbr	Ghost Bear
+monmghz1	Gigihertz
+monmgnsu	Ginsu
+monmgnat	Gnat
+monmggls	Goggles
+monmgdap	Golden Apple
+monmgeye	Goldeneye
+monmglem	Golem
+monmgoth	Goth
+monmgthc	Gothic
+monmgnth	Grain of Truth
+monmgmps	Gramps
+monmgshp	Grasshopper
+monmgrtd	Greatful Dead
+monmgred	Greed
+monmgthm	Green Thumb
+monmgrmn	Gremlin
+monmgrdl	Grendel 
+monmgnps	Grinning Possum
+monmgrd0	Ground Zero
+monmgrub	Grub 
+monmgmbo	Gumbo
+monmhctr	Hactar
+monmhmhd	Hammerhead
+monmhrbr	Harbinger
+monmhrel	Harel Eilam
+monmhmny	Harmony
+monmhssl	Hassle
+monmhtts	Hattusas
+monmhthn	Heathen
+monmhgmn	Hegemon
+monmhmta	Heimta 
+monmhsbg	Heisenberg
+monmhrtc	Heretic
+monmhdhm	Hidden Hammer
+monmhgtd	High Tide
+monmhsdy	Hoosier Daddy
+monmhovr	Hoover 
+monmhors	Horus
+monmicmn	Iceman
+monmigor	Igor
+monmigna	Iguana 
+monmikrs	Ikaros
+monmictn	Incantation
+monmidct	Inductance
+monmifdl	Infidel
+monminno	Innuendo
+monmiaff	Internal Affairs
+monminsk	Invisible Stalker
+monmilcs	Iolcus
+monminmd	Iron Maiden
+monminsd	Iron Shadow
+monmirgt	Irongut
+monmisis	Isis
+monmithm	Ithome
+monmivtw	Ivory Tower
+monmivy1	Ivy
+monmjckl	Jackal
+monmjstr	Jester
+monmjtst	Jetstream
+monmjbrl	Jibril
+monmjinx	Jinx
+monmjons	Jones
+monmjdas	Judas
+monmjglr	Juggler
+monmkmst	Keymaster
+monmkgpn	Kingpin
+monmksly	Kinslayer
+monmkvoq	Kivioq
+monmkoko	Ko-Ko
+monmkrkk	Krikkitone
+monmlgrg	Lagrange
+monmlrel	Laurel
+monmlarn	Laurion
+monmlzrs	Lazarus
+monmlkfc	Leaky Faucet
+monmlech	Leech
+monmlgnr	Legionnaire
+monmleva	Leiavoia
+monmleon	Leon 
+monmlrna	Lerna
+monmlbrn	Librarian
+monmlich	Lich
+monmlfln	Lifeline
+monmllth	Lilith
+monmlink	Link
+monmllud	Llud
+monmlowl	Lone Owl
+monmlgbn	Longbowman
+monmloop	Loop
+monmlthr	Lothario 
+monmlucr	Lucretia
+monmldus	Ludus
+monmlydn	Lydian
+monmlpin	Lynchpin
+monmmjst	Majestic
+monmrvin	Marvin
+monmmthr	Mata Hari 
+monmtrix	Matrix
+monmccoy	McCoy
+monmmdea	Medea 
+monmmlcp	Melicamp
+monmermd	Mermaid
+monmmtcl	Meticulous
+monmmdmn	Middleman
+monmmdnt	Midnight
+monmmikl	Mikal
+monmmike	Mike
+monmmlts	Miletos
+monmmink	Mink
+monmmspl	Misplaces
+monmmslk	Missing Link
+monmmotw	Mist on the Wind
+monmmkbd	Mockingbird 
+monmmdtr	Moderator
+monmmodi	Modi
+monmmoni	Monitor
+monmmncl	Monocle
+monmmntn	Monotone
+monmmglw	Moon Glow
+monmmnbm	Moonbeam 
+monmmnbr	Moonbrow 
+monmmnsh	Moonshine
+monmmnst	Moonstone
+monmmrsl	Morsel 
+monmmtsp	Motivational Speaker
+monmouse	Mouse
+monmmwry	Mowray
+monmmrft	Mr. Frost
+monmmpnk	Mr. Pink
+monmmtpx	Multiplexor
+monmmmnd	Murmandemus
+monmmrmr	Murmur
+monmmuse	Muse
+monmnsct	Nascent Thought
+monmnaxs	Naxos
+monmnbla	Nebula
+monmnnrs	Neon Rose 
+monmnumn	Neumann
+monmnurl	Neural
+monmnutr	Neutrino
+monmnvmr	Nevermore
+monmnewt	Newt
+monmnokn	No Knees
+monmnctn	Nocturn
+monmntsl	Note to Self
+monmnvrl	Nova Relay
+monmnubn	Nubian
+monmnun1	Nun
+monmobrn	Oberon
+monmoblv	Oblivion
+monmocre	Ochre
+monmopra	Opera
+monmorcl	Oracle
+monmorb1	Orb
+monmosrs	Osiris
+monmoguy	Other Guy
+monmolrd	Overlord
+monmpsnf	Packet Sniffer
+monmplbr	Pallbearer 
+monmpdra	Pandora
+monmprrt	Parrot
+monmptsy	Patsy
+monmperl	Pearl
+monmpgss	Pegasus
+monmprsc	Periscope
+monmprry	Perry 
+monmpete	Pete
+monmphlx	Phalanx
+monmphts	Phantasm
+monmpntm	Phantom
+monmptsg	Phantom Signal
+monmphtp	Philanthropist
+monmphnx	Phoenix 
+monmpine	Pine 
+monmpink	Pink
+monmpnky	Pinky
+monmppln	Pipeline
+monmpson	Poison
+monmpmch	Polemarch
+monmpllx	Pollux
+monmplpm	Polyphemos
+monmpope	Pope 
+monmpros	Porous
+monmptcl	Portcullis
+monmpnot	Post-It Note
+monmprde	Pride
+monmprsy	Prissy 
+monmpwip	Privy Wipings
+monmprcn	Procyon
+monmprts	Proteus
+monmpnsh	Punisher
+monmpyth	Pythia
+monmptmt	Puppet Master 
+monmrkter	Racketeer
+monmrdcr	Radio Cryer
+monmrnbw	Rainbow
+monmrngr	Ranger
+monmrnsm	Ransom
+monmrspt	Rasputin
+monmrtpp	Rastapopulus 
+monmrat1	Rat
+monmrtxs	Rataxis 
+monmravn	Raven 
+monmrbnd	Rebound
+monmredi	Redeye
+monmrmel	Remiel
+monmrmfd	Renfield
+monmrsnc	Resonance
+monmrtbn	Retribution
+monmrvlt	Revelation
+monmrvrb	Reverberation
+monmrver	River
+monmroac	Roach
+monmrose	Rose
+monmroue	Roue' 
+monmrbnk	Rubberneck
+monmsage	Sage
+monmstnb	Saint Nobody
+monmsnsn	Sansoon
+monmsrds	Sardis
+monmsatn	Satin
+monmsvud	Savage Underground
+monmscpo	Scipio
+monmscrl	Scroll
+monmscry	Scry
+monmscba	Scuba
+monmscla	Scylla
+monmsgfd	Seigfried
+monmsmph	Semaphore
+monmsnsi	Sensei
+monmsrnt	Serenity
+monmshde	Shade
+monmsdwk	Shadow Walker
+monmsmls	Shameless
+monmshnn	Shannon
+monmshlh	Shiloh
+monmsfly	Shoo Fly
+monmsdbd	Sideband
+monmsdwd	Sidewinder
+monmslht	Silhouette
+monmsilt	Silt
+monmslvn	Silvanus
+monmsvln	Silver Lining
+monmsmst	Silver Mist
+monmsimc	Simulacrum
+monmsion	Sion 
+monmsphn	Siphon
+monmsrne	Sirine
+monmsflt	Skinflint
+monmslom	Sleight of Mind
+monmslcr	Slicer
+monmsmth	Smith
+monmsmjg	Smoke Jaguar
+monmsmft	Smurfette
+monmsmyr	Smyrna
+monmsnol	Snake Oil
+monmsnrk	Snark
+monmsnkr	Sneaker
+monmsnfr	Sniffer 
+monmsphm	Space Hamster
+monmsptn	Spartan
+monmspcr	Spectre
+monmspof	Spinoff
+monmspoo	Spook
+monmsqlr	Squealer
+monmstaf	Staff
+monmsttc	Static
+monmsttu	Statue
+monmstqo	Status Quo
+monmsted	Steed
+monmstvy	Stevey
+monmstis	Sticky Issue
+monmstoc	Stoic
+monmsttg	Strategos
+monmstch	Stretch
+monmsccs	Succubus
+monmsmmr	Summoner
+monmsnbn	Sunburn
+monmsprn	Suprano
+monmsrma	Surma
+monmsrya	Surya
+monmswtc	Switch
+monmsymp	Symphony
+monmsnps	Synapse
+monmsntx	Syntax
+monmtlen	Tail Ender
+monmtmsk	Tamarask
+monmtgdt	Tango Delta
+monmtras	Taras
+monmtfdn	Teflon Don 
+monmtlpt	Telepath
+monmtmpt	Tempest 
+monmtmpl	Templar
+monmtptr	Temptress
+monmtnds	Tenedos
+monmtnts	Thantos
+monmchse	The Cheese
+monmteye	The Eye 
+monmteit	The Eye in Team
+monmprpt	The Prophet
+monmreev	The Reever
+monmsant	The Saint
+monmsctn	The Scythian
+monmtspn	Thespian
+monmthst	Thistle 
+monmthbg	Thrashbag
+monm3tnr	Three Tenors
+monmthrn	Thrinacia
+monmtibr	Tiberius
+monmtmtb	Timetable
+monmtngt	Tiny Giant
+monmtryn	Tiryns
+monmtnls	Toneless
+monmtrvd	Torvalds
+monmtrtr	Traitor
+monmtrnq	Tranquility
+monmtrwl	Trawler
+monmtrmr	Tremor
+monmtrln	Trillian
+monmtnty	Trinity
+monmtrtm	Tristram
+monmtjhs	Trojan Horse
+monmtnct	Turncoat
+monmtwlt	Twilight
+monmtwin	Twin 
+monm2fsh	Twofish
+monmtycn	Tycoon
+monmukko	Ukko
+monmumbr	Umbra
+monmalan	Uncle Alan
+monmudtt	Under the Table
+monmudct	Undercurrent
+monmudft	Underfoot
+monmudtw	Undertow
+monmunsi	Unseeing Eye
+monmutpn	Utopian
+monmvapr	Vapor
+monmvega	Vega
+monmvnom	Venom
+monmvbtn	Vibration
+monmvglt	Vigilante
+monmvnne	Vinnie
+monmvrus	Virus
+monmvox1	Vox
+monmvyer	Voyeur
+monmvltr	Vulture 
+monmwldo	Waldo
+monmwtfl	Waterfall
+monmwtmk	Watermark
+monmwsel	Weasel
+monmwits	Wheel in the Sky
+monmwhmn	Wheelman
+monmwhpl	Whirlpool
+monmwspr	Whisper 
+monmwstl	Whistler
+monmwhit	White
+monmwtns	White Noise
+monmwig1	Wig
+monmwlma	Wilma
+monmwitl	Wind in the Leaves 
+monmwdbr	Windbreaker
+monmwgnt	Wingnut
+monmwrls	Wireless
+monmwrtp	Wiretap
+monmwrgr	Wrangler
+monmygsl	Yog S'loth
+monmzero	Zero
+monmzgsd	Ziggy Stardust
+monmzdic	Zodiac 
+monmzzz1	ZZZ
+TableEnd	

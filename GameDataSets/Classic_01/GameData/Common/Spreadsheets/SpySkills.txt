@@ -1,0 +1,32 @@
+TableStart	SpySkillAssignmentByCircle																
+ColumnHeadingsStart	Cipher	Criminal Talents	Charming / Charismatic	Data Analyst	Deep Cover	Disguises	Equipment Specialist	Forger	Fully Indoctrinated	Latest Technology	Legitimate Cover	Native Appearance	Old School	Paranoid	Persuasive	Seductive	Torture
+RowHeadingsStart																	
+Saboteur	1	1	0	3	0	2	4	0	1	2	1	1	2	1	0	0	0
+Assassin	0	2	3	0	0	1	0	0	1	0	1	1	0	2	1	1	1
+Terrorist	0	3	0	1	0	1	1	0	1	0	1	1	0	2	0	1	1
+Conspirators	2	1	4	0	0	0	0	1	0	0	0	0	1	0	2	2	0
+Intriguer	2	1	3	1	0	0	0	2	0	0	6	0	1	0	3	1	0
+Spy/Hacker	1	0	0	6	0	0	3	0	0	4	0	0	0	0	1	0	0
+TableEnd																	
+																	
+"This is pretty simple. Add up all of a spy's information rows to determine how many and what type lottery balls it will have from the columns, then draw a number of lottery balls equal to its training level:"																	
+"One for Standard, two for Intense, and three for Advanced. A spy cannot get the same skill twice (redraw if that happens)"																	
+																	
+TableStart	SpySkillAssignmentByRace																
+ColumnHeadingsStart	Cipher	Criminal Talents	Charming / Charismatic	Data Analyst	Deep Cover	Disguises	Equipment Specialist	Forger	Fully Indoctrinated	Latest Technology	Legitimate Cover	Native Appearance	Old School	Paranoid	Persuasive	Seductive	Torture
+RowHeadingsStart																	
+Natural Engineers	0	0	0	1	0	0	3	0	0	1	0	0	0	0	0	0	0
+Fantastic Traders	0	0	1	1	0	0	0	0	0	0	1	0	0	0	3	0	0
+Aptitude: Superior	0	0	0	2	0	0	6	0	0	2	0	0	0	0	0	0	0
+Aptitude: Good	0	0	0	1	0	0	3	0	0	1	0	0	0	0	0	0	0
+Diplomacy: Superior	0	0	6	0	0	0	0	0	0	0	0	0	0	0	4	0	0
+Diplomacy: Good	0	0	3	0	0	0	0	0	0	0	0	0	0	0	2	0	0
+Empathic	0	0	2	0	0	0	0	0	1	0	0	0	0	0	6	4	0
+Ingenuity	1	0	0	1	0	0	2	1	0	1	0	0	0	0	0	0	0
+"""The Need"""	0	1	0	0	0	3	0	0	6	0	0	0	4	7	0	0	10
+TableEnd																	
+																	
+TableStart	SpySkillAssignmentByMission																
+ColumnHeadingsStart	Cipher	Criminal Talents	Charming / Charismatic	Data Analyst	Deep Cover	Disguises	Equipment Specialist	Forger	Fully Indoctrinated	Latest Technology	Legitimate Cover	Native Appearance	Old School	Paranoid	Persuasive	Seductive	Torture
+RowHeadingsStart																	
+Blunt Instrument	3	12	1	2	2	4	5	1	3	2	2	2	2	2	1	1	6

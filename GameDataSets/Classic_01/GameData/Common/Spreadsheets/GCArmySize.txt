@@ -1,0 +1,10 @@
+TableStart	FormationSize			
+ColumnHeadingsStart	Unicode	GCSzDvsn	GCSzCorp	GCSzArmy
+RowHeadingsStart				
+Recruit	GCXPRecr	2	10	18
+Trained	GCXPTrnd	2	12	20
+Experienced	GCXPExpd	3	14	22
+Veteran	GCXPVetn	3	16	24
+Crack	GCXPCrck	3	18	28
+Elite	GCXPElit	4	20	30
+TableEnd				

@@ -1,0 +1,8 @@
+Rate adjustments for surplus and debt interest rates (the columns represent the segment of the Time Value of Money Bar that the player is in based on his/her total turn time)										
+
+TableStart	RateAdjustments									
+ColumnHeadingsStart	First	Second	Third	Fourth	Fifth	Sixth	Seventh	Eighth	Ninth	Tenth
+RowHeadingsStart										
+Surplus Interest Rate	3	2	1	0.5	0	-0.5	-1	-1.5	-2	-2.5
+Debt Interest Rate	-3	-3	-2	-2	-1	-1	0	1	2	3
+TableEnd										

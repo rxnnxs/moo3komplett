@@ -1,0 +1,18 @@
+00 = Human
+01 = Evon
+02 = Psilon
+10 = Imsaeis
+11 = Eoladi
+20 = Silicoid
+30 = Meklar
+31 = Cynoid
+40 = Trilarian
+41 = Nommo
+50 = Ithkul
+60 = Klackon
+61 = Tachidi
+70 = Sakkra
+71 = Raas
+72 = Grendarl
+
+The above extentions are appended to the music files to designate what they are in the code.

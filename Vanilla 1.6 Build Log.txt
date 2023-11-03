@@ -1,0 +1,92 @@
+Moo3 Vanilla 1.6 Build Log (see UOP_Vanilla_1.6_Readme.txt for more information)
+
+NOTE: All filepaths are given from the main Moo3 folder (where Moo3.exe is).
+
+- Fresh install of Moo3, patched to 1.2.5 and install check runs all ok.
+- Overwrite Moo3.exe with No CD Moo3.exe.
+
+- Create folder:  Gerra Patches
+- Copy all Gerra Patches that I have into Gerra Patch folder.
+- Create Gerra Patch Readme.txt and put in Gerra Patch folder.
+- Copy Moo3Settings.ini from Combat Scale Patcher to same folder as Moo3.exe and renamed to Moo3Settings.ini.sample
+- Apply the following Gerra Patches to Moo3.exe:
+- - Moo3_Combatzoom_Range_Patcherv2.exe
+- - Moo3_Wait_Screen_Remover_Patch.exe
+- - Moo3AUdisplaypatch.exe
+- - Moo3groundcombattextfixer.exe (also added Radioshowtags.txt and wsRadioShow.txt to proper folders)
+- - - Copy RadioShowTags.txt from Moo3groundcombattextfixer patch to ...\GameDataSets\Classic_01\GameData\Common\Spreadsheets
+- - - Copy wsRadioShow.txt from Gerra Cheese Mod to ...\GameDataSets\Classic_01\GameData\English\wStrings
+- - Moo3SchedulerZerotime_Patch.exe
+- - Moo3Shipgraphicsquality_patch.exe
+- - Moo3transportdesignunlockerpatch(beta).exe
+
+- Create folder: Bhruic Patcher
+- NOTE:  see Bhruic's website (http://bhruic.dyndns.org/patcher/index.php) for additional information about The Patcher
+- UnZip Moo3dll.dll v1.65 and Moo3dll.txt to same folder as Moo3.exe
+- UnZip Moo3Patcher.exe v0.52 and text files to Bhruic Patcher folder
+- Copy all Patcher .patch files (and associated .txt readme files) to Bhruic Patcher folder
+- Copy RaceAlias.ini.sample and RaceConfig.ini.sample to same folder as Moo3.exe (the '.sample' must be removed proir to use)
+- Copy ExtraRandomEvents.txt from RandomEvents patch to same folder as Moo3.exe
+- Copy Sitrep.txt from RandomEvents patch to ...\GameDataSets\Classic_01\GameData\Common\Spreadsheets
+- Copy wsSitrep.txt from RandomEvents patch to ...\GameDataSets\Classic_01\GameData\English\wStrings
+- Copy Ships folder from Visibility patch to ...\GameDataSets\Classic_01\GameData\Common
+- Copy TechTables.txt from Visibility patch to ...\GameDataSets\Classic_01\GameData\Common\Spreadsheets
+- - In TechTables.txt, removed KEEPTHIS from Enveloping Fighter Fusion Cannon tech.
+- Copy wsStartUpScreens.txt from Vanilla 1.5 unzip to ...\GameDataSets\Classic_01\GameData\English\wStrings
+- Copy GalaxyConfigurations.txt from Vanilla 1.5 unzip to ...\GameDataSets\Classic_01\GameData\Common\Spreadsheets
+- Use Moo3Patcher.exe to install Moo3dll.dll version 1.65 (check for proper filepath)
+- Use Moo3Patcher.exe to install the following patches:
+- - AutoBuild 1.06 (requires Autobuild.txt)
+- - ColonyDisplay 1.00
+- - DamageDisplay 1.00
+- - Diplomacy 1.00
+- - EmpireLimit 1.00
+- - FighterInterceptor 1.00
+- - FinanceWraparound 1.00
+- - GalaxyConfiguration 1.00 (set to 36, requires GalaxyConfiguration.txt and wsStartUpScreens.txt)
+- - GroundCombat 1.20
+- - Orbitals (set to 18)
+- - QueMultiplier 0.75
+- - RaceSelection 1.15 (Raceconfig.ini *NOT* used)
+- - SenateVictory 1.00
+- - Sitrep 1.00
+- - SpyMissions 1.10
+- - StuckTech 1.10
+- - SystemDefenseTF 1.10 (set to 32)
+- - TFDisplay 1.00
+- - TFsPerCombat 1.00 (set to 16)
+- - TechTurnsRemaining 1.10
+- - TransportDisband 1.00
+- - TransportSelection 0.50
+- - Visibility 1.15 (requires TechTables.txt and Ships folder)
+
+- Install Ostego's Diplomatic Mod version 2.0:
+- - Copy DiploModReadme.txt to same folder as Moo3.exe
+- - Copy wsDiploMatic.txt to  ...\GameDataSets\Classic_01\GameData\English\wStrings
+- - Copy the following files to ...\GameDataSets\Classic_01\GameData\Common\Spreadsheets:
+- - - DiploExcuses.txt
+- - - DiploFormatLists.txt
+- - - DiploLeadIns.txt
+- - - DiploOffers.txt
+- - - DiploPEmphasisLists.txt
+- - - DiploREmphasisLists.txt
+- - - DiploTables.txt
+
+- Install Ostego's PlanetLevel.dat fix:
+- - Copy PlanetLevel.dat from Vanilla 1.5 unzip to ...\GameDataSets\Classic_01\GameData\Common\DataTags\PlanetLevel
+
+- Copy the following files from Vanilla 1.5 unzip to ...\GameDataSets\Classic_01\GameData\Common\Spreadsheets:
+- - Antaran.txt
+- - BaseRelations.txt
+
+- Copy racemodifiers.txt from Vanilla 1.6(alpha) unzip to ...\GameDataSets\Classic_01\GameData\Common\Spreadsheets
+
+- Copy the following files from Vanilla 1.5 unzip to ...\GameDataSets\Classic_01\GameData\English\wStrings:
+- - wsChooseRace.txt
+- - wsCombatSchedulerScreen.txt
+- - wsevents.txt
+- - wsPlanetScreen.txt
+- - wsShipDesignScreen.txt
+
+- Delete all files not changed by the mod (9.61 Meg)
+- Zip mod (4.6 Meg)

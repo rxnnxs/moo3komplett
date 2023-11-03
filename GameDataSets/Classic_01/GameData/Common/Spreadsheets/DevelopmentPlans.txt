@@ -1,0 +1,39 @@
+TableStart	DevelopmentPlans			
+ColumnHeadingsStart	kUnicode	kUnicodeD	Type_ID	Modifiers_Affected
+RowHeadingsStart				
+Mine	TADPMine	TBDPMine	PlanMine	"MineEff += 100, MineCap += 100, DEAMine += 30"
+Farm	TADPFarm	TBDPFarm	PlanFarm	"BioHaEff += 100, BioHaCap += 100, DEAFarm += 30, BioOutPt += 100 "
+Manufacture	TADPManu	TBDPManu	PlanManu	"ManufEff += 100,ManufCap += 100, ManuCapB+=100, DEAManu += 30"
+Research	TADPRes	TBDPRes	PlanRes	"ReseaEff += 100, ReseaCap += 100, DEAResea += 30"
+Government	TADPGov	TBDPGov	PlanGov	"GovEff += 100, GovCap += 100, CorrCap+=100, DEAGov += 30"
+Military	TADPMil	TBDPMil	PlanMil	"MilEff += 100, MilCap += 100, DEAMil += 30, OffSensr += 100"
+Recreation	TADPRec	TBDPRec	PlanRec	"RecEff += 100, RecCap += 100, DEARec += 30"
+Trade	TADPTrd	TBDPTrd	PlanTrad	"SPortEff += 100, SPortCap += 100, DEASPort += 30"
+Infrastructure	TADPInfr	TBDPInfr	PlanInfr	"Infrastr += 100, CemprPop += 50, TTperPop += 50, mPopGrow+= 100, MaxPop += 100, BioOutPt += 100"
+Morale	TADPMorl	TBDPMorl	PlanMorl	"MilCap += 100, GovCap+=100, RecCap += 100, RecEff += 100"
+Planetary Defense	TADPPDef	TBDPPDef	PlanPDef	"PlanDef += 100, CivilDef += 100"
+Terraforming	TADPTfrm	TBDPTfrm	PlanTfrm	"BioHRing += 100, TFormCst += 100, TFormVal += 100, EcoSystm+=100, MaxPop += 100"
+TableEnd				
+
+TableStart	PlanGravities							
+ColumnHeadingsStart	Primary	Secondary	Tertiary					
+RowHeadingsStart								
+weight	1	0.7	0.3					
+TableEnd								
+								
+"//This Table is no longer in use, but I've left it here because there was some interest in having a government type mod for development plans"								
+TableStart	EmphasisLevel							
+ColumnHeadingsStart	OrElse	DoIt	Command	Edict	Decree	Urge	Suggest	Hope
+RowHeadingsStart								
+Unique	10	5	3	2	1	0.8	0.6	0.4
+Monarchy	12.5	6.25	3.75	2.5	1.25	1	0.75	0.5
+Despotism	12.5	6.25	3.75	2.5	1.25	1	0.75	0.5
+Oligarchy	9	4.5	2.66	1.8	0.9	0.72	0.54	0.36
+Constitutional Monarchy	9	4.5	2.66	1.8	0.9	0.72	0.54	0.36
+Corporate	9	4.5	2.66	1.8	0.9	0.72	0.54	0.36
+Democracy	8.5	4.25	2.55	1.7	0.85	0.68	0.51	0.34
+Parliamentary	8.5	4.25	2.55	1.7	0.85	0.68	0.51	0.34
+Republicanism	8.5	4.25	2.55	1.7	0.85	0.68	0.51	0.34
+Hive	14	7	4.2	2.8	1.4	1.12	0.84	0.56
+Unification	14	7	4.2	2.8	1.4	1.12	0.84	0.56
+TableEnd								

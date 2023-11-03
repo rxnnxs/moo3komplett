@@ -1,0 +1,191 @@
+3 stats are checked when determining when an offer is proposed: the Casus Belli, relations, and BaseCore reaction of the involved empire. 																		
+BaseCore is effected by the modifiers CRTreaty,CRPeaceT,CRTradeM,CRExchng,CRDipGon,CRLarges and BaseCore as well as emphasis																		
+CRDipGon effects the AskingCheck of empires dealing with you.																		
+CRLarges seems to effect the AIs trade logic (ie the chances of a trade being beneficial to you).																		
+																		
+																		
+																		
+				Amount of lottery balls given to proposal	Current Ralations have to fall between these values for a successful proposal		Casus Belli has to fall between these values for a successful proposal		The amount of BaseCore Needed for proposal. For pronouns, BaseCore must be less than the number shown here	The amount of BaseCore Needed for acceptance				These modifiers effect the recipient of the offer when it is proposed	These modifiers effect the sender of the offer when the offer is received	These modifiers effect the sender of the offer when it is accepted	These modifiers effect both sender and recipient continually	
+TableStart	ForeignRelations																	
+ColumnHeadingsStart	Unicode	Unidesc	SortTag	LottryWt	CRMinAsk	CRMaxAsk	CBMinAsk	CBMaxAsk	AskingCheck	MaxRefuse	MaxNoAns	MaxStall	MaxCounter	OfferMods	ReceiveMods	AcceptMods	OngoingMods	NOTES
+RowHeadingsStart																		
+EstablishEmbassy	DPEstEmb	Temp	EstEmb	0	-85	200	-200	200	20	34	44	54	64		CRTreaty+=-30,CRPeaceT+=-30,CRTradeM+=-30,CRExchng+=-30,CRDipGon+=-30,CRLarges+=-30	DiploPts+=10		
+Attaboy	DPAttaby	Temp	Pronoun	1	-133	200	-200	200	10	-999	-989	-979	-969	DiploPts+=(0:10), MeansWar+=-1	CRLarges+=20,CasusBel+=(0:30)			
+Warning	DPWarnin	Temp	Pronoun	2	-200	200	-135	200	0	-999	-989	-979	-969	DiploPts+=(-15:-7)	CRDipGone+=-20, CasusBel+=(-20:0)			
+Threat	DPThreat	Temp	Pronoun	7	-133	200	-200	200	20	-999	-989	-979	-969	DiploPts+=(-30:-15), MeansWar+=1	CRTreaty+=-45,CRPeaceT+=-45,CRDipGon+=-45, CasusBel+=(-50:0)			Half the normal Oath Breaker penalty is applied.
+End Their Tribute to Us	DPCncEmb	Temp	Pronoun	1	100	200	-200	200	0	-999	-989	-979	-969		DiploPts+=(0:10), MeansWar+=-1			
+End Tribute	DPEndTrb	Temp	Pronoun	5	62	200	-200	200	60	-999	-989	-979	-969	DiploPts+=(-25:-10)	CRTreaty+=-10,CRPeaceT+=-10,CRTradeM+=-10,CRExchng+=-10,CRDipGon+=-10,CRLarges+=-10, CasusBel+=(-37:-15)			Immediately ends all Tribute agreements to Target Civ
+Impose Sanctions	DPImpSnc	Temp	Pronoun	20	-200	-30	-200	200	-20	-999	-989	-979	-969	DiploPts+=(-15:0)	CRTreaty+=-30,CRPeaceT+=-30,CRTradeM+=-30,CRExchng+=-30,CRDipGon+=-30,CRLarges+=-30,CasusBel+=(-15:-5)		TradeAmt*=0.6	Minus 40% value to all trade agreements between the two civs.
+Increase Sanctions to Embargo	DPIncSnc	Temp	Pronoun	0	-200	-60	-200	200	-45	-999	-989	-979	-969	DiploPts+=(-30:-5)	CRTreaty+=-30,CRPeaceT+=-30,CRTradeM+=-30,CRExchng+=-30,CRDipGon+=-30,CRLarges+=-30,CasusBel+=(-30:-7)		TradeAmt*=0.1	
+Impose Embargo 	DPEmbrgo	Temp	Pronoun	40	-200	-60	-200	200	-45	-999	-989	-979	-969	DiploPts+=(-50:-15), MeansWar+=1	CRTreaty+=-70,CRPeaceT+=-70,CRTradeM+=-70,CRExchng+=-70,CRDipGon+=-70,CRLarges+=-70,CasusBel+=(-40:-5)		TradeAmt*=0.1	
+End All Trade Agreements	DPEndTrA	Temp	Pronoun	30	-200	-80	-136	200	-55	-999	-989	-979	-969	MeansWar+=1	CRDipGone+=-30, CRTreaty+=-30,CRPeaceT+=-30,CRTradeM+=-30,CRExchng+=-30,CRDipGon+=-30,CRLarges+=-30			{Closes Borders to Trade; Ends all Trade and Research Agreements}
+End All Treaties	DPEndTrt	Temp	Pronoun	30	-200	-80	-136	200	-55	-999	-989	-979	-969	MeansWar+=1	CRDipGone+=-50, CRTreaty+=-50,CRPeaceT+=-50,CRTradeM+=-50,CRExchng+=-50,CRDipGon+=-50,CRLarges+=-50			Cancel all treaties at once with this.
+Ending Your Embargo	DPEndYEm	Temp	Pronoun	5	-60	200	-200	200	30	-999	-989	-979	28	CRDipGon+=20, MeansWar+=-1	DiploPts+=(0:36),CRPeaceT+=30,CRTradeM+=30,CRExchng+=30,CRDipGon+=30,CRLarges+=30			
+Ease Your Embargo	DPEasEmb	Temp	Pronoun	0	-70	200	-70	200	20	-999	-989	-979	4	DiploPts+=(10:15), CRDipGon+=10, MeansWar+=-1	DiploPts+=(0:24), CRPeaceT+=30,CRTradeM+=30,CRExchng+=30,CRDipGon+=30,CRLarges+=30			
+Ending Your Sanctions	DPEndYSc	Temp	Pronoun	4	-150	200	-200	200	25	-999	-989	-979	-23	DiploPts+=(5:15), CRDipGon+=10, MeansWar+=-1	DiploPts+=(0:18), CRPeaceT+=70,CRTradeM+=70,CRExchng+=70,CRDipGon+=70,CRLarges+=70			
+Declare War	DPDecWar	Temp	Pronoun	100000	-200	200	-200	-136	-70	-999	-989	-979	-969	DiploPts+=(-60:-25), MeansWar+=2	CRTreaty+=-75,CRPeaceT+=-75,CRTradeM+=-75,CRExchng+=-75,CRDipGon+=-75,CRLarges+=-75			{Closes Borders to Trade; Ends all Trade and Research Agreements}
+Pay Tribute	DPTribut	Temp	Pronoun	0	-200	-200	-200	-200	-200	-999	-999	-999	-999					
+Cease Fire	DPCeasFr	Temp	Peace	2	-200	200	-90	200	80	40	10	0	-30		CRPeaceT+=-30, DiploPts+=10	DiploPts+=10,EnfPeace=(4:9)	CasusBel+=(-1:1)	
+Armistice	DPArmist	Temp	Peace	4	-200	200	-75	200	110	60	20	10	-20		CRPeaceT+=-30, DiploPts+=10	DiploPts+=20,EnfPeace=(6:13)	CasusBel+=(-1:3)	
+Peace Accord	DPPeaceT	Temp	Peace	6	-200	200	-25	200	130	80	30	20	-10		CRPeaceT+=-30, DiploPts+=10	DiploPts+=30,EnfPeace=(8:15)	CasusBel+=(-1:4)	
+Conditional Surrender	DPConSur	Temp	Peace	10	-200	200	-180	-140	110	-170	-150	-140	-165		CRPeaceT+=-30, DiploPts+=10	DiploPts+=(-20:20), PercImg+=40,EnfPeace=(12:21), MeansWar+=-1, 	CasusBel+=(-3:3)	Surrendering Civ pays Reparations of 1% to 3% of Imperial treasury income each turn until Peace ends
+Unconditional Surrender	DPUncSur	Temp	Peace	12	-200	200	-140	-90	150	-180	-175	-170	-185		CRPeaceT+=-30, DiploPts+=10	DiploPts+=(-30:30), PercImg+=30, EnfPeace=(16:30), MeansWar+=-1	CasusBel+=(-2:5)	Surrendering Civ pays Reparations of 3% to 7% of Imperial treasury income each turn until Peace ends
+Non-Aggression Pact	DPNonAgg	Temp	Treaty	50	-20	200	-200	200	90	70	60	40	20		CRDipGone+=10, DiploPts+=-10	DiploPts+=20, CRPeaceT+=20, CRTradeM+=10	DiploPts+=(-1:2)	Combat Task Forces will no violate borders
+Def Alliance	DPDefAll	Temp	Treaty	50	60	200	-200	200	140	120	110	100	90		CRDipGone+=10, DiploPts+=-10	DiploPts+=20, CRPeaceT+=30, CRTradeM+=20	DiploPts+=(-2:3)	
+Full Alliance	DPFllAll	Temp	Treaty	6	100	200	-200	200	180	150	140	130	160		CRDipGone+=20, DiploPts+=-10	DiploPts+=20, CRPeaceT+=30, CRTradeM+=20	DiploPts+=(-3:5)	
+Fullfill Full Obligation	DPFulOff	Temp	Treaty	30	60	200	-200	200	170	150	140	130	160	DiploPts+=(-20:-10)	CRTreaty+=-70,CRPeaceT+=-70,CRTradeM+=-70,CRExchng+=-70,CRDipGon+=-70,CRLarges+=-70,CasusBel+=(-40:-5), MeansWar+=1	CRTreaty+=70,CRPeaceT+=70,CRTradeM+=70,CRExchng+=70,CRDipGon+=70,CRLarges+=70,CasusBel+=(50:5),MeansWar+=-1		
+TA: Economic	DPEconom	Temp	Trade	7	-21	200	-200	200	50	30	20	10	40		DiploPts+=(-10:0)	DiploPts+=(0:15), CRTreaty+=5, CRExchng += 5	CasusBel+=(-1:2)	
+Improve TA: Economic	DPImpEco	Temp	Trade	45	-47	200	-200	200	-10	0	-20	-30	-10		DiploPts+=(-10:0)	DiploPts+=(0:15), CRTreaty+=10, CRExchng += 10		
+TA: Intelligence 	DPIntell	Temp	Trade	3	110	200	-200	200	70	50	40	30	60		DiploPts+=(-12:0),CasusBel+=(-15:-5)	DiploPts+=(0:24),CasusBel+=(5:15), CRTreaty+=20, CRExchng += 20,		
+TA: Open Border : Trade	DPOpBrdT	Temp	Trade	5	40	200	-200	200	70	50	40	30	60		DiploPts+=(-16:0)	DiploPts+=(0:24), CRTreaty+=10, CRExchng += 10	TradeAmt*=1.25	
+TA: Research	DPResear	Temp	Trade	10	-61	200	-200	200	30	20	10	-20	20		DiploPts+=(-8:0)	DiploPts+=(0:16), CRTreaty+=5, CRExchng += 5	CasusBel+=(-1:2)	
+Improve TA: Research	DPImpRes	Temp	Trade	45	-47	200	-200	200	-5	-10	-30	-40	-20		DiploPts+=(-8:0)	DiploPts+=(0:16), CRTreaty+=10, CRExchng += 10		
+Gift	DP__Gift	Temp	Exchange	1000	100	200	100	200	35	-180	-170	-160	-150	CasusBel+=(2:10), MeansWar+=-1	CRExchng += 10, DiploPts+=(-2:35),CasusBel+=(-2:30), MeansWar+=-1	DiploPts+=(-2:10), CasusBel+=(-2:10), CRTreaty+=20, CRTradeM+=20, CRPeaceT+=20		
+Demand	DPDemand	Temp	Exchange	1000	-200	-50	-200	-50	0	80	70	80	90	CasusBel+=(-10:2), MeansWar+=1	CRDipGone+=-20, CasusBel+=(-10:2)	CRExchng += 15, DiploPts+=(-10:10), CRTreaty+=-10, CRTradeM+=-10, CRPeaceT+=-10		
+Exhange Items	DPExchng	Temp	Exchange	500	-50	100	-50	100	20	20	0	10	30		CRExchng += -5,  CRDipGone+=5, DiploPts+=(-10:0)	DiploPts+=(6:24), CasusBel+=(6:24), CRTreaty+=10, CRTradeM+=10, CRPeaceT+=10		
+TableEnd																		
+																		
+																		
+Amount of BaseCore that is added to the current proposal for each emphasis type																		
+TableStart	EmphasisModifiers																	
+ColumnHeadingsStart																		
+RowHeadingsStart	BaseValue																	
+Beg	80																	
+Plead	40																	
+Reason	20																	
+State	5																	
+Argue	20																	
+Declare	40																	
+Demand	80																	
+TableEnd																		
+																		
+When proposal is concluded the emphasis BaseValue is multiplied by these modifiers based on how far is was from the optimal emphasis for the recipients race.																		
+It is then either added or subtracted from the current BaseCore total.																		
+TableStart	MissedByModifier																	
+ColumnHeadingsStart																		
+RowHeadingsStart	CRmult																	
+0	0.5																	
+1	0.25																	
+2	0																	
+3	-0.1																	
+4	-0.2																	
+5	-0.3																	
+6	-0.4																	
+TableEnd																		
+																		
+TableStart	SenateSanctions																	
+ColumnHeadingsStart	Voting	Lottery	Non-Voting	NVLottery														
+RowHeadingsStart																		
+Sanctions	67	15	33	10														
+IncreaseSanctions	50	24	25	16														
+Embargo	33	35	12	20														
+EndTradeAgreements	60	15	35	10														
+DissolveTreaties	50	15	25	10														
+TableEnd																		
+																		
+Modifiers that are used based on the emphasis used to reply to proposals																		
+TableStart	ReplyEmphasis																	
+ColumnHeadingsStart	Effects																	
+RowHeadingsStart																		
+Humble	DiploPts+=(1:9),CRTreaty+=-30,CRPeaceT+=-30,CRTradeM+=-30,CRExchng+=-30,CRDipGon+=40,CRLarges+=40																	
+Appreciative	DiploPts+=(1:7),CRTreaty+=-20,CRPeaceT+=-20,CRTradeM+=-20,CRExchng+=-20,CRDipGon+=30,CRLarges+=30																	
+Polite	DiploPts+=(-1:5),CRTreaty+=-10,CRPeaceT+=-10,CRTradeM+=-10,CRExchng+=-10,CRDipGon+=20,CRLarges+=20																	
+Formal	DiploPts+=(-3:3)																	
+Cool	DiploPts+=(-5:1),CRTreaty+=10,CRPeaceT+=10,CRTradeM+=10,CRExchng+=10,CRDipGon+=-20, CRLarges+=-20																	
+Cold	DiploPts+=(-7:-1),CRTreaty+=20,CRPeaceT+=20,CRTradeM+=20,CRExchng+=20,CRDipGon+=-30,CRLarges+=-30																	
+Insulting	DiploPts+=(-9:-1),CRTreaty+=30,CRPeaceT+=30,CRTradeM+=30,CRExchng+=30,CRDipGon+=-40,CRLarges+=-40																	
+TableEnd																		
+																		
+	Casus Belli must fall within these limits for the check to be valid		If the asking check is exceeded war will be declared, otherwise the FailMod will be applied.															
+TableStart	DeclareWarChecks																	
+ColumnHeadingsStart	CBMin	CBMax	AskingCheck	FailMods														
+RowHeadingsStart																		
+Goaded	-200	200	-300	CRPeaceT+=-80, DiploPts+=(-50:-17)														
+Fair Reaction	-200	200	50	DiploPts+=(-24:-12), CRTreaty+=-20,CRPeaceT+=-20,CRTradeM+=-20,CRExchng+=-20,CRDipGon+=-20,CRLarges+=-20														
+NoWarHateGuts	-200	-136	-300															
+TreatiedHate	-200	-170	40	DiploPts+=(-3:0), CRTreaty+=-20,CRPeaceT+=-20,CRTradeM+=-20,CRExchng+=-20,CRDipGon+=-20,CRLarges+=-20														
+MilitaryOp	-200	200	30	DiploPts+=(-24:-6), CRTreaty+=-20,CRPeaceT+=-20,CRTradeM+=-20,CRExchng+=-20,CRDipGon+=-20,CRLarges+=-20														
+MeansWarCount	-200	200	20	DiploPts+=(-36:-12), CRTreaty+=-30,CRPeaceT+=-30,CRTradeM+=-30,CRExchng+=-30,CRDipGon+=-30,CRLarges+=-30														
+TableEnd																		
+																		
+																		
+																		
+TableStart	TradeAgreementValues																	
+ColumnHeadingsStart	Economic	Research																
+RowHeadingsStart																		
+MinimumMaxValue	20	20																
+BaseValue	0.01	0.1		When an Trade Agreement is improved it is increased by TradeValue*(BaseValue+SameSpecies+SameGovSeries+ShareSystem+OneJumpAway)														
+SameSpecies	0	0.02																
+SameGovSeries	0	0.02																
+ShareSystem	0.02	0																
+OneJumpAway	0.02	0																
+StartingValue	-0.15	-0.15		Average GDP is multiplied by this value to find the starting trade value.														
+ImprovementReq	1.3	1.3		Average GDP of both empires must increase by this amount to improve a trade agreement.														
+TableEnd																		
+																		
+TableStart	TradePronounce																	
+ColumnHeadingsStart	CRmin	Crmax																
+RowHeadingsStart																		
+Ease Your Embargo	14	200																
+Ending Your Embargo	38	200																
+Ending Your Sanctions	-13	200																
+CeaseTribute	38	200																
+TableEnd																		
+																		
+TableStart	Trade3rdPartyPronounce																	
+ColumnHeadingsStart	CRminCiv1Civ3	CRmaxCiv1Civ3	CRminCiv2Civ3	CRmaxCiv2Civ3	CRminCiv1Civ2	CRmaxCiv1Civ2	ModsCiv1Civ2	ModsCiv3Civ1										
+RowHeadingsStart																		
+Impose Sanctions	-200	-14	-200	13	14	200		DiploPts+=(-15:-1),CasusBel+=(-15:-1)										
+Increase Sanctions to Embargo	-200	-62	-200	-14	62	200		DiploPts+=(-25:-1),CasusBel+=(-25:-1)										
+Impose Embargo 	-200	-110	-200	-38	110	200		DiploPts+=(-35:-1),CasusBel+=(-35:-1)										
+End All Trade Agreements	-200	-62	-200	-38	86	200		DiploPts+=(-50:-1),CasusBel+=(-50:-1)										
+End All Treaties	-200	200	-200	200	-200	200												
+Ending Your Embargo	110	200	38	200	62	200		DiploPts+=(1:15),CasusBel+=(1:15),CRLarges+=(-20:-1)										
+Ease Your Embargo	62	200	14	200	38	200		DiploPts+=(1:10),CasusBel+=(1:10),CRLarges+=(-15:-1)										
+Ending Your Sanctions	14	200	-13	200	14	200		DiploPts+=(1:8),CasusBel+=(1:8),CRLarges+=(-12:-1)										
+Declare War	-200	-60	-200	61	110	200	DiploPts+=(-35:-1),CasusBel+=(-35:-1),CasusBel+=(-35:-1)	DiploPts+=(-35:-1),CasusBel+=(-35:-1),CasusBel+=(-35:-1)										
+Conditional Surrender	-200	200	-200	200	-200	200		DiploPts+=(-35:-1),CasusBel+=(-35:-1),CasusBel+=(-35:-1)										
+Unconditional Surrender	-200	200	-200	200	-200	200		DiploPts+=(-35:-1),CasusBel+=(-35:-1),CasusBel+=(-35:-1)										
+TableEnd																		
+																		
+TableStart	OathBreaker																	
+ColumnHeadingsStart	Standard	Justified																
+RowHeadingsStart																		
+Penalty	DiploPts+=(-75:-20),CasusBel+=(-150:-75),BaseCore+=-5, CRDipGon+=-66	DiploPts+=(-38:-10),CasusBel+=(-75:-38),BaseCore+=-3, CRDipGon+=-33																
+TableEnd																		
+																		
+Note: EndEnforcedPeace and CulturalGenocide are nonfunctional																		
+TableStart	MoralOutrage																	
+ColumnHeadingsStart	NonSenate	Senate	SenateBanned															
+RowHeadingsStart																		
+EndEnforcedPeace	CRTreaty+=-20,CRPeaceT+=-20,CRTradeM+=-40,CRExchng+=-40,CRDipGon+=-40,CRLarges+=-40	CRTreaty+=-60,CRPeaceT+=-60,CRTradeM+=-60,CRExchng+=-60,CRDipGon+=-60,CRLarges+=-60	CRTreaty+=-60,CRPeaceT+=-60,CRTradeM+=-60,CRExchng+=-60,CRDipGon+=-60,CRLarges+=-60															
+CulturalGenocide	CRDipGon+=-40	CRDipGon+=-40	CRDipGon+=-60															
+NuclearWeapons	CRTreaty+=-10,CRPeaceT+=10,CRTradeM+=-10,CRExchng+=-10,CRLarges+=-20, DiploPts+=(-10:-1),CasusBel+=(-10:-1)	CRTreaty+=-20,CRPeaceT+=20,CRTradeM+=-20,CRExchng+=-20,CRLarges+=-20, DiploPts+=(-30:-1),CasusBel+=(-30:-1)	CRTreaty+=-50,CRPeaceT+=-50,CRTradeM+=-50,CRExchng+=-50,CRDipGon+=-50,CRLarges+=-50, DiploPts+=(-30:-1),CasusBel+=(-30:-1)															
+ChemicalWeapons	CRTreaty+=-10,CRPeaceT+=10,CRTradeM+=-10,CRExchng+=-10,CRLarges+=-20, DiploPts+=(-10:-1),CasusBel+=(-10:-1)	CRTreaty+=-20,CRPeaceT+=20,CRTradeM+=-20,CRExchng+=-20,CRLarges+=-20, DiploPts+=(-30:-1),CasusBel+=(-30:-1)	CRTreaty+=-50,CRPeaceT+=-50,CRTradeM+=-50,CRExchng+=-50,CRLarges+=-50, DiploPts+=(-30:-1),CasusBel+=(-30:-1)															
+BiologicalWeapons	CRTreaty+=-10,CRPeaceT+=10,CRTradeM+=-10,CRExchng+=-10,CRLarges+=-20, DiploPts+=(-10:-1),CasusBel+=(-10:-1)	CRTreaty+=-20,CRPeaceT+=20,CRTradeM+=-20,CRExchng+=-20,CRLarges+=-20, DiploPts+=(-30:-1),CasusBel+=(-30:-1)	CRTreaty+=-50,CRPeaceT+=-50,CRTradeM+=-50,CRExchng+=-50,CRLarges+=-50, DiploPts+=(-30:-1),CasusBel+=(-30:-1)															
+DestroyUnpopulated	CRTreaty+=-20,CRPeaceT+=20,CRTradeM+=-20,CRExchng+=-20,CRLarges+=-20, DiploPts+=(-10:-1),CasusBel+=(-10:-1)	CRTreaty+=-30,CRPeaceT+=15,CRTradeM+=-30,CRExchng+=-30,CRLarges+=-30, DiploPts+=(-20:-1),CasusBel+=(-20:-1)	CRTreaty+=-75,CRPeaceT+=-75,CRTradeM+=-75,CRExchng+=-75,CRLarges+=-75, DiploPts+=(-30:-1),CasusBel+=(-30:-1)															
+DestroyLightlyPopulated	CRTreaty+=-30,CRPeaceT+=30,CRTradeM+=-30,CRExchng+=-30,CRLarges+=-30, DiploPts+=(-20:-1),CasusBel+=(-20:-1)	CRTreaty+=-40,CRPeaceT+=25,CRTradeM+=-40,CRExchng+=-40,CRLarges+=-40, DiploPts+=(-30:-1),CasusBel+=(-30:-1)	CRTreaty+=-99,CRPeaceT+=-99,CRTradeM+=-99,CRExchng+=-99,CRLarges+=-99, DiploPts+=(-40:-1),CasusBel+=(-40:-1)															
+DestroyPopulated	CRTreaty+=-40,CRPeaceT+=40,CRTradeM+=-40,CRExchng+=-40,CRLarges+=-40, DiploPts+=(-30:-1),CasusBel+=(-30:-1)	CRTreaty+=-50,CRPeaceT+=35,CRTradeM+=-50,CRExchng+=-50,CRLarges+=-50, DiploPts+=(-40:-1),CasusBel+=(-40:-1)	CRTreaty+=-135,CRPeaceT+=-135,CRTradeM+=-135,CRExchng+=-135,CRLarges+=-135, DiploPts+=(-50:-1),CasusBel+=(-50:-1)															
+TableEnd																		
+																		
+TableStart	MinTradeAmt																	
+ColumnHeadingsStart	Percent																	
+RowHeadingsStart																		
+kFeud	158																	
+kLoathing	150																	
+kHateful	141																	
+kJaundiced	133																	
+kTroubled	125																	
+kTense	116																	
+kWary	108																	
+kUnease	100																	
+kNeutral	91																	
+kCalm	83																	
+kRelaxed	75																	
+kPeaceful	66																	
+kCordial	58																	
+kAmiable	50																	
+kFriendly	41																	
+kHarmonious	33																	
+kSolidarity	25																	
+TableEnd																		

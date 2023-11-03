@@ -1,0 +1,43 @@
+TableStart	SpyDieRolls									
+ColumnHeadingsStart	Dice Type	Outcomes	Outcome1	Outcome2	Outcome3	Outcome4	Outcome5	Outcome6	Outcome7	Outcome8
+RowHeadingsStart										
+Insertion	60	7	29	45	60	75	85	110	999	
+Papers	80	4	14	30	105	999				
+Fingered	80	6	29	50	85	100	110	999		
+Evasion	80	6	29	50	85	100	110	999		
+Captured	120	6	29	55	85	105	115	999		
+Squeezed	120	6	29	50	85	100	110	999		
+Imprisoned	80	6	29	50	85	100	110	999		
+Escape	80	6	29	50	85	100	110	999		
+Blunt Instrument Mission	80	8	29	45	60	75	85	105	115	999
+Extraction	60	4	30	60	90	999				
+Secret Police Search	80	6	29	50	85	100	110	999		
+Scandal Attribution	80	7	14	35	50	70	85	110	999	
+TableEnd										
+										
+										
+TableStart	SpyRingRolls									
+ColumnHeadingsStart	Roll Needed									
+RowHeadingsStart										
+Blunt Instrument	15									
+TableEnd										
+										
+										
+TableStart	SpyRingMods									
+ColumnHeadingsStart	Roll Mods									
+RowHeadingsStart										
+Ring Leader shares Primary Circle	10									
+Ring Leader shares Secondary Circle	5									
+Ring Leader is Persuasive	5									
+Ring Leader has Deep Cover	-5									
+Ring Leader is Paranoid	-5									
+TableEnd										
+										
+TableStart	SpySavingRolls									
+ColumnHeadingsStart	Roll Info									
+RowHeadingsStart										
+Die Size	100									
+Old School	5									
+Charming/Charismatic	3									
+Seductive	2									
+TableEnd										

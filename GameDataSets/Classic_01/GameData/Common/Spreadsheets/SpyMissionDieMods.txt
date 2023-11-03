@@ -1,0 +1,110 @@
+TableStart	SpyMissionRollMods																																			
+ColumnHeadingsStart	Cipher	Criminal Talent	Charming	Data Analyst	Deep Cover	Disguises	Equipment Specialist	Forger	Fully Indoctrinated	Latest Technology	Legitimate Cover	Native Appearance	Old School	Paranoid	Persuasive	Seductive	Torture																			
+RowHeadingsStart																																				
+Insertion	1	3	0	0	15	5	0	2	0	0	8	2	2	4	0	0	0																			
+Papers	0	0	6	0	15	2	0	2	0	0	8	3	2	0	7	3	0																			
+Fingered	0	0	4	0	6	5	0	0	0	2	3	4	0	0	0	3	0																			
+Evasion	1	5	3	0	0	4	6	0	0	5	0	12	4	2	1	2	0																			
+Captured	0	2	5	0	0	0	3	0	8	5	0	0	5	2	3	3	2																			
+Squeezed	0	2	5	0	10	0	0	0	8	0	4	2	5	0	3	3	8																			
+Imprisoned	0	10	5	0	0	0	0	3	3	0	0	0	2	2	2	0	3																			
+Escape	0	6	2	0	0	4	3	0	0	5	0	12	4	2	1	2	0																			
+Blunt Instrument Mission	0	12	3	3	2	3	8	2	0	6	2	2	5	0	0	0	0																			
+Extraction	0	3	0	0	15	5	0	2	0	0	8	2	2	4	0	3	0																			
+Secret Police Search	2	0	0	0	5	2	3	0	0	2	3	6	2	2	0	0	0																			
+Scandal  Attribution	0	0	0	0	5	2	0	0	0	2	0	6	3	0	2	2	0																			
+TableEnd																																				
+																																				
+																																				
+TableStart	MoleMissionRollMods																																			
+ColumnHeadingsStart	Average	Evil	Stupid	Lazy	Selfish	Underhanded	Driven	Knowledgeable	Charismatic	Garden Variety	Pacifist	Honorable	Cagey	Pragmatic	Territorial	Erratic	Ruthless	Status Quo	Diverse	Homogeneous	Diplomatic	Terraforming	Economist	Expansionist	Militarist	Technologist	Utopian	Self Aggrandizement	No Quirk	Instigator	Unifier	Politician	Sociopathic	Champion Underdog	Paranoid	Xenophobe
+RowHeadingsStart																																				
+Insertion	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Papers	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Fingered	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Evasion	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Captured	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Squeezed	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Imprisoned	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Escape	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Blunt Instrument Mission	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Extraction	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Secret Police Search	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Scandal Attribution	0	0	-17	-12	0	3	0	6	6	0	0	0	0	0	0	-8	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TableEnd																																				
+																																				
+																																				
+																																				
+TableStart	MiscMissionRollMods																																			
+ColumnHeadingsStart	Cloak Multiplier	Unique/Hive Multiplier	Despotic/Corporate/Unification Multiplier	Other Govs Multiplier	Double Agent	Triple Agent	Ring Leader Triple Agent	Ring Leader Double Agent	Fingered Value Multiplier	Op Points Multiplier	Dagger Rating Multiplier	Clearance Rating Multiplier	Spy Ring Member	High Activity Level	Target Code Break Multiplier	Owner Code Break Multiplier	Is A Mole	Disinformation to Enemy Agents Multiplier	Internal Security Leader Ability Multiplier	Total Disinformation Divisor	Persuasion Multiplier	Target Leader Dossier Known	Target Leader Loyalty Multiplier	Planets in Revolt	Planets in Urest Level 3	Global Social State	No Activity Level	Low Activity Level	Ring Leader Seductive	Ring Members Disguises	Ring Members Forger	Ring Members Charming	Ring Members Latest Tech	Ring Members Cipher		
+RowHeadingsStart																																				
+Insertion	10	-12	-11	-10	0	0	0	0	0	0	0	0	0	-20	0	0	0	0	0	0	0	0	0	5	2	0	15	-10	0	0	0	0	0	0	Insertion	
+Papers	10	-5	-4	-3	0	0	0	0	-1.5	0	0	0	0	20	0	0	0	0	0	0	0	0	0	5	2	0	0	10	0	2	5	0	0	0	Papers	
+Fingered	10	-5	-4	-3	0	0	0	0	-1.5	0	0	0	0	10	0	0	0	0	0	0	0	0	0	5	2	0	0	0	0	5	0	0	0	0	Fingered	
+Evasion	10	-5	-4	-3	0	0	0	0	-1.5	0.5	0	0	0	30	0	0	0	0	0	0	0	0	0	5	2	0	-10	10	2	0	0	3	0	0	Evasion	
+Captured	0	-6	-5	-4	0	0	0	0	0	1	0	0	0	20	0	0	0	0	0	0	0	0	0	5	2	0	-10	10	0	0	0	0	0	0	Captured	
+Squeezed	0	-5	-4	-3	0	0	0	0	0	0	0	0	0	-10	0	0	0	0	0	0	0	0	0	5	2	0	0	-5	0	0	0	0	0	0	Squeezed	
+Imprisoned	0	-6	-5	-4	0	0	0	0	0	0.5	10	0	0	-10	0	0	0	0	0	0	0	0	0	5	2	0	0	-5	0	0	0	0	0	0	Imprisoned	
+Escape	0	-6	-5	-4	0	0	0	0	-2	2	10	1	1	20	0	0	0	0	0	0	0	0	0	5	2	0	-10	10	2	4	0	2	5	0	Escape	
+Blunt Instrument Mission	0	0	0	0	0	0	0	0	-1.5	1	10	0	0	20	0	-3	0	0	0	-1	0	0	0	5	2	0	-5	5	0	0	0	0	0	0	Blunt Instrument Mission	
+Extraction	10	-12	-11	-10	0	0	0	0	0	0	0	0	0	-20	0	0	0	0	0	0	0	0	0	5	2	0	15	-10	0	0	0	0	0	0	Extraction	
+Secret Police Search	10	-6	-5	-4	0	0	0	0	-1.5	0.5	0	0	0	-10	0	0	0	0	0	0	0	0	0	5	2	0	5	-5	0	2	0	0	0	2	Secret Police Search	
+Scandal Attribution	10	-10	-9	-8	0	0	0	0	-1.5	1	0	0	0	0	0	0	0	0	0	0	0	0	0	5	2	0	0	0	0	2	0	0	0	0	Scandal Attribution	
+TableEnd																																				
+																																				
+																																				
+TableStart	CompCivSpyMod																																			
+ColumnHeadingsStart	Average	Evil	Stupid	Lazy	Selfish	Underhanded	Driven	Knowledgeable	Charismatic	Garden Variety	Pacifistic	Honorable	Cagey	Pragmatic	Territorial	Erratic	Ruthless	No Quirk	Instigator	Unifier	Politician	Sociopathic	Champion Underdog	Paranoid	Xenophobe											
+RowHeadingsStart																																				
+Offensive	0	0	-1	-1	0	1	1	1	0	0	0	0	2	0	0	-1	2	0	2	0	0	0	0	0	0											
+Defensive	0	0	-1	-1	0	1	1	1	0	0	0	0	2	0	0	-1	2	0	2	0	0	0	0	0	0											
+TableEnd																																				
+																																				
+																																				
+TableStart	SpyPanicMods																																			
+ColumnHeadingsStart	Unique/Hive Multiplier	Despotic/Corporate/Unification Multiplier	Other Govs Multiplier	Subtract Luck From	Subtract Loyalty From																															
+RowHeadingsStart																																				
+Extraction	2	1.5	1	15	67																															
+TableEnd																																				
+																																				
+																																				
+TableStart	Scandal Attribution Press Mods																																			
+ColumnHeadingsStart	Free	Largely Free	Censored	Government Approved	Government Controlled	Banned																														
+RowHeadingsStart																																				
+Mods	-10	-5	0	0	5	10																														
+TableEnd																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+		-5	-4	-3		-10																														
+		-3	-2	-1																																
+		-2	-1.5	-1																																
+		-4	-3	-2																																
+		-4	-3	-2																																
+		-4	-3	-2																																
+		-4	-3	-2																																
+		-5	-4	-3																																
+		0	0	0																																
+		-4	-3	-2																																
+		-5	-4	-3																																
+		-3	-2	-1																																

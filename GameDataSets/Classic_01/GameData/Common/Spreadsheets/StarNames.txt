@@ -1,0 +1,163 @@
+	2	3				6	2	2	3	3	4	9	2	3	3	4	6	16	2	4	6	7	8	24	2	4	8	10	12	25	3	5	8	12	14	33	4	7	12	18	22	53			
+TableStart	Starnames																																												
+ColumnHeadingsStart	O Ia	O Ib	O II	O III	O IV	O V	B Ia	B Ib	B II	B III	B IV	B V	A Ia	A Ib	A II	A III	A IV	A V	F Ia	F Ib	F II	F III	F IV	F V	G Ia	G Ib	G II	G III	G IV	G V	K Ia	K Ib	K II	K III	K IV	K V	M Ia	M Ib	M II	M III	M IV	M V	BLANK	S NS	S BH
+RowHeadingsStart																																													
+Name	Naos	Alnitak	Mintaka-A	Hatysa	Theta Orionis	Al Niyat	Algebar	Nu Scorpii	Adhara	Alcyone	Achernar	Al Nair	Deneb	Aspidiske	Croix	Acamar	Acubens	Albali	Al Anz	Arneb	Albaldah	Adhafera	Caph	Achird	Arkab	Algedi	Alwaid	Ain	Algol-B	Alphecc	Ainalrami	Alsuhail	Almaak-A	Adhil	Alchiba	Algorab-B	Betelgeuse	Barv	Beta Gruis	Alpha Ceti	Aden	Alahain-B		Neutron Star	Black Hole
+Name1	Zeta Puppis	Zeta Orionis	Delta Orionis	Iota Orionis	Mene	Eta Orionis	Alnilam	Pi Aurigae	Agena	Aldhibah	Acrux	Acrab	Eta Leonis	Scutulum	Croth	Ascella-A	Alathfar	Alderamin	Maaz	Mirphak	Beid	Alzirr	Chi Hydr	Alaraph	Azmidiske	Mebsuta	Beta Corvi	Algeiba-B	Alshain-A	Alula	Nisus	Beta Arae	Atria	Al Tarf	Alpha Indi	Abeen	Bob	Guad	Deli	Anser	Adib	Ariakus 		Neutron Star	Black Hole
+Name2	Regor-B	Regor-A	Aba	Menkib	Nieme	Meissa-A	Aludra	Rho Leonis	Mu Mensa	Alfirk	Aladfar	Albireo-B	Nu Cephei	Turais	Pherkad	Cursa	Alhena	Alkurhah	Wezen	Nu Aqui	Canopus	Chi Ceti	Chi Leon	Alkalurops	Crius	Mekbuta	Beta Scuti	Altais	Anaha	Baskarn	Noton	Enif	Avior	Albireo-A	Alrai	Alar	Garnet	Gula	Geph	Brachium	Ayil	Barnard		Neutron Star	Black Hole
+Name3	Akrab	Anshar	Abora	Xi Persei	Nipee	Omega	Mu Norm	Theta Arae	Muliphen	Alnath	Algenib	Algol-A	Aratumq	Achilles	Adaar	Pi Draconis	Alioth	Alphac	Aepjin	Polaris	Mekbuda	Chi Leonis	Dabih	Arakus	Saxon	Mu Persei	Eta Pegasi	Capella-A	Ancha	Bungula-A	Segel	Miram	Beta Cygni	Aldebaran	Azha	Centauri-B	Hapi	Hali	Geta	Gacrux	Chirickis	Enzu		Neutron Star	Black Hole
+Name4	Anpuaqun	Blipshig	Acta	Heka	Jieen	Sarwa	Saiph	Apep	Murzim	Alpha Lupi	Azelfafage	Algorab-A	Arkham	Arawn	Arbonni	Ras Alhag	Ascella-B	Alpheratz	Arus	Sadr	Nu Persei	Eta Crucis	Delta Indi	Beta Caeli	Axion	Giedia	Kraz	Capella-B	Beta Hydri	Chara	Waghi	Pi Puppis	Beta Indi	Algeiba-A	Piscium	Alsafi	Mu Cephei	Osae	Ghav	Gianfar	Crux	Esra		Neutron Star	Black Hole
+Name5	Bilskirnir 	Chung Ku	Areit	Faerl	Jaiet	Satyr	Aondiro	Barcada	Sheliak	Atik	Azelfafag	Alkaid	Aroch	Arlyeh	Aurora	Ruchbah	Dnoces	Alrisha	Bestia	Tureis	Rho Pupp	Mu Virginis	Dene	Chi Caneri	Cadmus	Sadalmel	Mattabesec	Diphda	Eta Bootis	Cryslon	Alchstrand	Suhail	Haedi-A	Alipconk	Eta Reticuli	Anraq	Tesla	Oshi	Gion	Giauzar	Fera	Exis		Neutron Star	Black Hole
+Name6	Bleusk	Commor	Alienit	Juless	Jaen	Alcor	Bohor	Bolinj	Achir	Atlas	Celaeno	Alpha Arae	Ashara 	Babylon	Bubulus	Scheat	Kaitain	Alya	Bulan	Atreuff	Sargas	Pi Pegasi	Dsiban	Diadem	Camelus	Sadalsuu	Nihal	Eta Norm	Mu Ara	Gemma-B	Alpha	Xi Cygoi	Hassaleh	Alkes	Errai	Aran	Voor	Psi Aurig	Gote	Menkar	Finn	Ezor		Neutron Star	Black Hole
+Name7	Chondrich	Cynor	Ainent	Kylee	Jelei	Anu	Borea	Cicilbe	Apollyon	Becrux	Cih	Alshat	Baiddo 	Byzacranti	Cador	Seginus	Kuma	Asellus	Caldera	Birdon	Subra-A	Rho Puppis	Eta Corvi	Fornacis	Canienga	Al Jabr	Rastaban	Giedig	Mu Cancri	Gnol	Celephais	Bellonek	Izar	Almach	Eta Cephei	Bier	Alyina	Pund	Grus	Mira	Irata	Fahd		Neutron Star	Black Hole
+Name8	Cynecia	Denubius	Bient	Misssha	Jewe	Aquilae	Ciaoloha	Dahak	Bootis	Bellatrix	Delta Lupi	Asterope	Balik	Cochaug	Chorazin	Thuban	Menkali	Biham	Centauri	Bunda	Aggrabar	Rotanev	Eta Librae	Innar 	Condawh	Baldryck	Rho Cancri	Kitalpha-A	Mufrid	Kappa Ceti	Charon	Chelae	Pi Orionis	Alnasl	Eta Serpentis	Biot	Bilbour	Rabe	Kindiilar 	Mirach	Izabel 	Gomaki		Neutron Star	Black Hole
+Name9	Dilfim	Elias	Coento	Sahha	Jeget	Argus	Cygni	Derke	Cirolle	Beta Tauri	Dschubba	Benetnas	Cleo	Degirba	Corean 	Arlobae	Mesarthim	Castor	Cogin	Callisto	Avalon	Syrma	Grafias	Matar-B	Diancecht	Berel	Sham	Marfik	Phi Bootis	Kholdan	Doriph	Covanicolf	Tarazed	Alphard	Apodis	Bolo	Chemeg	Ramo	Moro	Mu Caneri	Leng	Inak		Neutron Star	Black Hole
+Name10	Dunatis	Elysia	Ciass	Sassa	Wilder	Blodug	Dagonet	Dramasa	Collassa	El Nath	Kajam	Beta Cyg	Deacon	Draco	Deilas	Azimon	Risha	Chort	Deser	Camazotz	Bogina	Aavar 	Merga	Mu Bootis	Ensis	Cabrilla	Xi Ceti	Marsic-A	Phi Cygni	Marfak	Epsilon	Endoria	Terebellum	Alsciaukat	Cephei	Bungula-B	Cruachan	Rasalge	Muru	Nu Tucanae	Linx	Iras		Neutron Star	Black Hole
+Name11	Eilam	Gabbi 	Omeent	Oeope	Willow	Churam	Dampe 	Eorn	Daikoku	Electra	Lesath	Beta Lupi	Fauxeden	Feldenak	Felis	Baaltis	Sarin	Coxa	Ecber	Ceginus	Cokanuk	Ahaouet	Metallah	Nashira	Escalon	Caeleb	Zeta Cygni	Mu Velor	Tegmine	Meklon	Esper	Etana	Theta Lyr	Alterf	Delphini	Celox	Degiri	Samarka	Pi Auriga	Pi Eridani	Lone	Irra		Neutron Star	Black Hole
+Name12	Ganeras	Gadjo	Rausn	Pleon	Wiene	Drossel	Ensentium	Faelis	Epinogris	Hadar	Merope	Beta Lyra	Fundus	Fuseki	Gabbar	Cahungh	Adjouq	Daegwin 	Fische	Cois	Daban	Avvas	Mothallah	Nu Lupi	Frivol	Canow	Atsui	Muscida	Alacast	Mentar	Gahayan	Gaheris	Belzooine	Angetenar	Jataka	Cerva	Dyosyowan	Trax	Rhea	Pi Leonis	Lora	Ishi		Neutron Star	Black Hole
+Name13	Hachim	Ganneio	Opentls	Nomis	Weste	Enlil	Erulus	Ganos	Fafnir	Maia	Peacock	Cujam	Garioch	Garlon	Garm	Chay Foo	Arietis	Denebola	Gatts	Corak 	Devin	Bootes	Mu Ceti	Nusakan	Gerart	Conihunta	Balin	Nekkar	Alanis	Mu Cygni	Girru	Gistaquat	Corona	Ankaa	Kawauka	Cetus	Fides	Wazn	Rial	Psi Leonis	Lura	Jabo		Neutron Star	Black Hole
+Name14	Indus	Guradas	Oene	Aeient	Queon	Ercole	Ganogeh	Hyla 	Gemat	Mimosa	Phaet	Delta Arae	Helior	Gonzalus	Gehenna	Cocytus	Armengar	Fomalhaut	Girtab	Devilegna	Fosserg	Colghubb	Phi Ceti	Porrima	Hally	Dante	Capage	Nodus	Aleph	Mu Veloru	Haelyn 	Hunapu	Coven	Arcturus	Kulthos	Chiba	Ganadasa	Amok	Shih	Remus	Lyae	Jobe		Neutron Star	Black Hole
+Name15	Indusia	Haig	Weoq	Qient	Vienet	Galos	Gatto	Hyperborea	Isilis	Mu Lepor	Shaula	Eta Aquarii	Jaculum	Helius	Helos	Dagon	Baalbo	Gemma-A	Hiisi	Forseti	Gayagaa	Dannu	Procyon	Tabit	Hastur	Darrian	Carina	Propus	Audax	Nu Lupus	Hermidon	Invaka	Dunbain	Asellusa	Momuse	Ching	Goiogouen	Antarktos	Skai	Ruchba	Lyra	Jotunhe		Neutron Star	Black Hole
+Name16	Khioetoa	Intuci	Iuemei	Shemet	Veni	Gannenta	Irconia	Irinakhoiw	Ixion	Nath	Sualocin	Eta Auri	Janib	Jinga	Jedakne	Dekanawi	Caitliph	Heze	Juraken	Fortuna	Habor	Devina	Psi Tauri	Tau Hydra	Hotoru	Diem	Connewa	Ras Alget	Balren	Pi Caneri	Hugin	Kit Alpha	Elvarad	Beta Ceti	Mu Aquilae	Diab	Gorgonis	Billikens	Yoth	Tania	Magi	Juza		Neutron Star	Black Hole
+Name17	Kochba	Khufu	Peoen	Mitien	Meon	Gryphon	Jonatar	Khrissa	Kismet	Navi	Tsih	Eta Lupi	Janundat	Lerion	Kootre	Felot	Feng Po	Kurah	Kreuff	Gaunter	Hammis	Elkis	Sigma Cet	Tegmen	Kanagh	Gewauga	Corolla	Sadalbari	Carados	Pi Mensae	Icarus	Krebs	Fakar	Botein	Mu Pavonis	Dolz	Hadramaut	Canis	Alaozar	Tejat	Mahu	Kaff		Neutron Star	Black Hole
+Name18	Lince	Kolath	Voeen	Kakoa	Mewot	Halsivah	Kosumi	Kishijoten	Kronos	Segin	Zeta Tauri	Furud	Lawdon	Magni	Mal	Garr	Gaskosada	Megrez	Madira	Gurion	Hokhma	Fluvius	Tau Bootis	Zavijava	Lentge 	Greggor 	Dinadan	Giedib	Celtsi	Psi Caneri	Karduin	Laniger	Gainus	Cebalrai	Nu Bootis	Eridani	Horne	Carcosa	Andred	Yed Prior	Mihr	Kaht		Neutron Star	Black Hole
+Name19	Loris	Lomar	Vetea	Potican	Toeme	Iranha	Lucan	Kraken	Ma Yuan	Sulafat	Ablamor	Lupi	Mador	Marindi	Mu Delphi	Gharne	Gazelle	Merak	Manannan	Hikanagi	Keats	Freke Gere	Tau Cygni	Ajax	Menita	Helios	Erigone	Theemim	Coreorgon	Rigil Kent	Lanceor	Lannon	Gistwiahna	Dheneb	Nu Piscium	Epsil Ind	Ichrius 	Chensemet	Binah	Zaurak	Ogka	Kali		Neutron Star	Black Hole
+Name20	Milviac	Louhi	Oams	Bamaon	Chomen	Ki	Norwan	Luzbok	Mobas	Abbith	Apshai	Gomeisa	Montauk	Montone	Nephthys	Heng	Ghamus	Mizar	Mane Go	Kahendoh	Krowten	Geb	Tau Lupi	Awenn	Nammu	Housatonic	Gib	Tyl	Domdaniel	Sol	Lemuria	Monkar	Hawking	Diphada	Phi Orionis	Hayk	Imra	Cruithne	Crypto	Andurfin	Olor	Kled		Neutron Star	Black Hole
+Name21	No Cha	Milvian	Kitent	Vaon	Orent	Komoku	Oberon	Niallar	Nowadaga	Abellius	Brandiles	Haedi-B	Nubilium	Neptunus	Obaca	Jirli	Gorra	Okda	Munk	Kronion	Magdalen	Hamete	Theta Gru	Butain	Onnontare	Kandoucho	Hiraki	Xi Hydrae	Gadoquat	Sssla	Meliot	Mulubat	Herculis	Dubhe	Phi Serpentis	Hera	Joshua	Demhe	Dendo	Bjorntoft	Ooma	Knaa		Neutron Star	Black Hole
+Name22	Nordia	Nochpeem	Nauene	Voemit	Roaan	Loviatar	Pahquio	Nostrum	Ogeima	Appaqua	Bussola	Hoedus	Nycoss	Oatka	Patera	Jugum	Herlen	Phad	Onaweron	Magari	Magnus	Honte	Wasat	Canead	Pheolix	Kluhn	Hrunting	Zeta Gruis	Gilmere	Tau Ceti	Mochos	Neaux	Hewel	Ed Asich	Praecipua	Ibis	Kehydius	Desmos	Dilgan	Chicxulub	Opus	Komi		Neutron Star	Black Hole
+Name23	Orbis	Nortes	Rewa	Ourm	Napont	Lupus	Profugus	Oculus	Otawa	Boshi	Cimmeria	Homam	Osiris	Parma	Pauguss	Kowkab	Ivielda	Phecda	Pegasus	Manha	Marhaus	Hyboria	Xi Piscium	Colmar	Pistrix	Kuskuski	Jin	Zeta Lupi	Hue	Toliman-A	Naugatuck	Oriska	Idd	Eta Arae	Rana	Ilya	Laius	Ebel	Ebisu	Cupheag	Phi Pega	Koth		Neutron Star	Black Hole
+Name24	Ovandel	Oriab	Toprog	Keoan	Katcha	Mioonktu	Qatar	Paladia	Paling	Bragi	Clays	Jabbah	Pataq	Passer	Quinkits	Lurnis	Joseki	Sabik	Peleuff	Munsee	Miranda	Kaldar	Xi Scorpii	Dunraven 	Praxis	Matera	Jordanus	Actaeus	Hyades	Trilar	Opolopong	Piscea	Ishtar	Eta Cygni	Tau Draconis	Imma	Lenias	Firma	Echidna	Dorado	Roch	Laan		Neutron Star	Black Hole
+Name25	Pandora	Owaiski	Jranso	Kiet	Omene	Nikua 	Sagitta	Proditor	Phoenix	Clairvaux	Fischel	Markab	Pomptina	Pattaquonk	Sahil	Malark	Justa	Salm	Peren	Oneniote	Mutlat	Keeta	Ahto	Duven 	Resplen	Menalo	Knyan	Alamak	Incedius	Zavijah	Phantos	Quercia	Katunki	Eta Mensa	Tau Piscium	Kaffa-C	Mithras	Ganadog	Fixas	Ector	Rosa	Moyo		Neutron Star	Black Hole
+Name26	Prist	Procrast	Viroan	Theox	Haant	Nom	Shaghar	Psolox	Poseidonis	Damas	Gamma	Meissa-B	Quetzec	Polarion	Senas	Maretta	Krall	Sharatan	Phecca	Pequabuck	Ongniaah	Kuhlau	Atari	Enoch	Saltator	Musator	Kyton	Balmorra	Kannghsa	Caska	Pintac	Rhilus	Lacerta	Etamin	Tau Sagittarii	Keid	Ni	Horus	Galapogo	Eridanus	Ruba	Mula		Neutron Star	Black Hole
+Name27	Proclus	Rahab	Voran	Xoem	Woams	Obelus	Sharru	Schoherage	Pyquag	Epscoldiz	Ganzo 	Mintaka-B	Rhombu	Quidnunc	Sulcus	Mubien	Lycaon	Sirius	Raiko	Pictor	Ovillus	Lothon 	Avellar	Frisch	Shu	Nanna 	Numinos	Benat	Lagothorp	Cephee	Revati	Sabaki	Lanthia	Gienah	Theta Reticuli	Maetel	Ostogeron	Imrik	Ganagweh	Ganawagus	Siru	Naam		Neutron Star	Black Hole
+Name28	Rutilicus	Sarnath	Rane	Paxin	Etan	Owego	Spim	Shicho	Sconassi	Fascia	Gaousge	Mu Hydrae	Seker	Sekhmet	Susanowo	Ohrekionni	Malbowge	Sirrah	Shakak	Poculum	Paranar	Manica	Awegen	Gentrus	Tarandus	Onoalagona	Pherd	Bethmoo	Mattianock	Corvus	Rukubi	Sioasca	Lyndaya 	Gorgonea	Theta Tauri	Malec	Pomeraug	Kadath	Hoshi	Grainer	Smon	Narn		Neutron Star	Black Hole
+Name29	Sarkand	Sawcunk	Yaboe	Rhoas	Guzzug	Priapus	Statius	Squantuck	Shalako	Gaonsa	Gladius	Nunki	Sonans	Stalaz	Tophet	Pavone	Mulban	Skat	Steinbok	Ramapo	Perizoma	Mashdar	Brutum	Hasami	Tauri	Piatuos	Phlegyas	Blucher	Miract	Don	Sintsink	Tarrow	Monius	Grumium	Taient	Malus	Proteus	Keinthe	Kailis	Indactyl	Suji	Okab		Neutron Star	Black Hole
+Name30	Seidon	Semeai	Stoam	Kaer	Paome	Provan	Tigana	Thaur	Shwing	Genam	Hathor	Phakt	Suckinuk	Surma	Tycho	Quinnipiac	Mutatrix	Subra-B	Tai Mas	Sabazius	Perriot	Minerva	Collevar	Kanagaro	Thuggon	Rhontis	Python	Browntes	Nashar	Gahato	Taridias	Thraa	Neodak	Hamal	Ranoek	Media	Ribat	Mielikki	Levable	Kakari	Sung	Pavo		Neutron Star	Black Hole
+Name31	Sorlons	Sousapho	Koenet	Choad	Yeneet	Qablu	Tormant	Udara	Stenfatt	Gontzol	Holin 	Plieone	Tlaloc	Tonihata	Uziel	Seraph	Oljato	Suha	Tesuji	Sadak	Pindar	Myxinoi	Dauphin	Klystron	Trifid	Shuruga	Rigel	Burin	Olathoe	Gingros	Thrax	Tunek	Orthos	Iota Ceti	Hiaent	Mensa	Safere	Nessus	Leviathan	Ket	Suud	Proxima		Neutron Star	Black Hole
+Name32	Tatiana	Teseroken	Tsoam	Darth	Kaas	Scatrax	Unkawa	Untamo	Sutul	Hastsezini	Itzamna	Regulus	Utu	Uwaine	Woronock	Sutra	Payens	Talitha	Thesbia	Shamok	Pleides	Paradise	Deyode	Madorla	Trond	Tankiteke	Scaliger	Caradoc	Onondarka	Herschel	Tirstar	Urania	Pisquhee	Iota Gruis	Deanton	Meshapo	Samson	Niche	Mariner	Lepus	Tais	Que		Neutron Star	Black Hole
+Name33	Uller	Thiba	Tsoax	Obob	Qwents	Septum	Wesiru	Vodalus 	Takam	Ism	Jacob	Rukbat	Wisshard	Wont	Zaoth	Syrius	Persea	Theta Indi	Toutatix	Taiaiagon	Ramman	Pertelope	Frell	Massa	Voxxe 	Trigon	Shimari	Connos	Phoelix	Hughst	Tullihas	Vyvisek	Ptolemy	Kochab	Eientsa	Militis 	Skahasegao	Poningo	Milarroll	Lishing	Ubar	Saak		Neutron Star	Black Hole
+Name34	Volantis	Ultea		Raidoff	Ghoix	Sparn	Yarrow	Wiatiac	Tiltmeet	Kitchaw	Klizk	Tau Scorpii	Xiclotl	Zirkel	Zoctan	Toroga	Plastrum	Vega	Tsugi	Tewari	Shbalanque	Pipiri	Hague	Namaro		Tronna	Sicaog	Corbeau	Psi Gamma	Tokarga	Ulthar	Yuni Her	Quintilius 	Maasym	Amoenta	Mirak	Tammech	San San	Nicrom	Mystreena 	Udha	Sardonyx		Neutron Star	Black Hole
+Name35		Veneris		Frums	Lenri	Thrym		Yildum	Ur Tek	Ktynga	Kyusho	Thabit				Tukan	Raben	Yildun	Vape	Traff	Taimian	Rantzid	Harag	Onnahee		Uxmai	Troodon	Dodinas	Quandra	Hydrae	Vrossinius	Zaius	Rishka	Marsic-B	Dubmen	Mirza	Tazar	Sarfah	Nimbus	Niddam	Ukko	Seki		Neutron Star	Black Hole
+Name36				Arkas	Pavao	Unami		Oane	Wictor	Maaltordi	Mab	Yanok				Wro	Risabam	Zaniah		Tsath	Thales	Sheshequin	Hooba	Palaemon		Viridian	Tucana	Gadaho	Radiff	Karaken		Zerah	Rotan	Merkent	Amoont	Misha	Trethon	Skenandowa	Poquannuc	Ninsar	Wain	Tali		Neutron Star	Black Hole
+Name37					Silmas	Vitruvious		Aeen	Xiphias	Modi	Mohanet	Yoapn				Xendalla	Setauket	Zibal		Varak	Trantrist	Syntaxis	Kama	Phelot		Yavair	Viverine	Hircus	Ro	Lamorak		Noamex	Sackhoes	Minkar	Foman	Munic	Tuskokogie	Souchis	Sargon	Potic	Jalen	Tilamas 		Neutron Star	Black Hole
+Name38					Tejo	Werawaug		Aeteo		Nuada	Nurk					Zaman	Sutz	Zosma		Vector	Vardi	Taishon	Kelev	Reen		Zarijan		Huan Ti	Ruzam	Leonids		Xoment	Tacitius 	Mu Leonis	Fierans	Nagar	Vhoorl	Tyrannus	Serapis	Samsara	Yuzh	Tyr		Neutron Star	Black Hole
+Name39					Tehoam	Xienet		Aebet		Olorun	Origen						Taurus			Wrier	Vroma	Trikaya	Kullervo	Shippan				Ladon	Scorpio	Melias			Tarsin	Mu Pegasi		Nasak		Valusia	Sipher 	Schiff	Zirr	Unuk		Neutron Star	Black Hole
+Name40								Qwien		Pantheoff	Padus						Totiakton			Wroam		Triour	Manzil	Tambiru				Micarius 	Signath	Mirror			Tunxis	Nash		Necht		Virgil	Skirnir	Serpens	Anguilla	Urna		Neutron Star	Black Hole
+Name41								Zoeen		Qagwaaz	Pashes						Valkyr					Trourmi	Massaco	Telum				Milaff	Tara	Naubuc			Ursula	Nu Hydrae		Nilus		Weantinock	Tefnut	Skoiyase	Artemis	Uz		Neutron Star	Black Hole
+Name42								Ziet		Reticuli	Ponnuki						Yiija						Nadowa	Tinnan				Naram	Tsukiyomi	Pelenor			Wallas	Nu Octanis		Niru			Twee	Tegasoke	Asterion	Vagn		Neutron Star	Black Hole
+Name43								Zieme		Scera	Qeb						Yhoa						Onkrik	Tromelai				Octipes	Ubboth	Phyco			Yushi Iye	Pi Hydrae		Nobi			Volans	Triones	Blamor	Vaht		Neutron Star	Black Hole
+Name44								Zoes		Scheader	Secatog						Yhoj						Panthera	Tsang				Phobeus	Voislav	Pinell				Pollux		Rigil-B			Weataug	Twycross	Concordia	Vela		Neutron Star	Black Hole
+Name45								Zaomeen		Seb	Simius												Pesci	Viharab				Quayal		Quadrupe				Rasalas		Sahu				Urkab	Cussewago	Wolf		Neutron Star	Black Hole
+Name46										Siktut	Strode												Pharsae	Xengara				Rlyeh		Rayden				Sceptrum		Samenia 				Varinia	Drakka	Xoth		Neutron Star	Black Hole
+Name47										Stimer	Tiohero												Pollus	Xyxl				Ryoun		Ruf				Schedar		Selia				Yifne	Egon	Yaddith		Neutron Star	Black Hole
+Name48										Templum	Uriens												Shibalba	Zhardan				Sif		Shinogi				Shedir		Sella					Fovea	Yed		Neutron Star	Black Hole
+Name49										Tioga	Virgo												Talas	Yorkjough				Stoffer 		Silnth				Situla		Sente					Ganeasos	Yhe		Neutron Star	Black Hole
+Name50										Uragee	Wim												Tantalus					Tannjost		Tardig				Tarf		Shen					Griflet	Zona		Neutron Star	Black Hole
+Name51										Wiekagjoc													Tigris					Tsair		Tueadass				Tau Puppis		Shira					Indelibus	Zugamog 		Neutron Star	Black Hole
+Name52										Zweig													Triune					Tyrius		Ulgher				Theta Ceti		Simak					Kakata	Anhur		Neutron Star	Black Hole
+Name53																							Vidar					Ursus		Ungal				Unukalhai		Slkim					Keter	Bleoberis			
+Name54																							Xanthus							Voross				Wezn		Spica					Lixivium	Chondote			
+Name55																														Yossi				Zeta Arae		Sukra					Millen	Cutcher			
+Name56																														Yekub				Zeta Ceti		Tau Aquil					Nin Hursag	Dromos			
+Name57																														Youcham						Thok					Niphla	Dunwich			
+Name58																																				Tiam					Otsiningo	Eider			
+Name59																																				Toliman-B					Priamus	Inari			
+Name60																																				Tome					Proctor	Indu San
+Name61																																				Tond					Rebar	Khumba
+Name62																																				Waage					Santoor	Loquace
+Name63																																				Wabir					Sleipner	Milonni
+Name64																																				Wesat					Tarazad	Nitzer
+Name65																																				Wesen					Tegresa	Noctua
+Name66																																									Thoth	Primodius
+Name67																																									Tripton	Ramad
+Name68																																									Uberlin	Schwan
+Name69																																									Vuples	Solocka
+Name70																																									Wenton	Taben
+Name71																																									Xenon	Tarcuta
+Name72																																									Zibeline	Tristan
+Name73																																										Whynil
+Name74																																										Xolas
+Name75																																										
+TableEnd																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																													
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										
+																																										

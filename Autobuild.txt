@@ -1,0 +1,458 @@
+// Beginning of Alias section		
+
+Table	ShipWarp	
+Columns	Sign	Formula
+Warp	>	MaxWarp
+EndTable		
+
+Table	ShEngine	
+Columns	Sign	Formula
+Engine	>	MaxSpeed
+minEngine	<	UniSpace
+EndTable		
+
+Table	ArmorCls	
+Columns	Sign	Formula
+Armor	>	if(0.5>(0.12*SystCost/ShpCpcty),1,0)*ArmorVal*Deflects
+OArmor	>	if(max(1-0.12*SystCost/ShpCpcty,0),1,0)*ArmorVal*Deflects
+MinimalArmor	<	SystCost
+EndTable		
+
+Table	ShldTech	
+Columns	Sign	Formula
+smallShields	>	if(StpPow<1,0,1)*StpPow*ShdStr/UniSpace
+normShields	>	if(StpPow<1,1/UniSpace,1)*StpPow*ShdStr/SystCost
+largeShields	>	if(StpPow<1,0,1)*StpPow*ShdStr
+Shields	>	if(StpPow<1,1/(25*UniSpace),1)*StpPow*ShdStr
+MinimalShields	<	SystCost
+EndTable		
+
+Table	ShipItem	
+Columns	Sign	Tag
+Sensor	<	OffSptRg
+Sensor1	<	Sensor_1
+Sensor2	<	Sensor_2
+Sensor3	<	Sensor_3
+Sensor4	<	Sensor_4
+Sensor5	<	Sensor_5
+Cloak	>	DefSptRg
+Cloak1	>	FakeClo5
+Cloak2	>	FakeClo1
+Cloak3	>	FakeClo2
+Cloak4	>	FakeClo3
+Cloak5	>	FakeClo4
+ECCM	<	OffTgtRg
+ECCM1	<	ECCM_1
+ECCM2	<	ECCM_2
+ECCM3	<	ECCM_3
+ECCM4	<	ECCM_4
+ECCM5	<	ECCM_5
+ECM	>	DefTgtRg
+ECM1	>	ECM_1
+ECM2	>	ECM_2
+ECM3	>	ECM_3
+ECM4	>	ECM_4
+ECM5	>	ECM_5
+ColonyPod	>	  Colony
+OutpostPod	>	 Outpost
+TroopPod	>	  TrpCap
+EndTable		
+
+Table	ShWepSys	
+Columns	Sign	Formula
+PK	>	if(NearDamg,1,if(UniSpace-175,0,1))*(NearDamg+1)*(AccDisEn+1)*PntDstWp
+LR	>	IF(AccDisEn>80000,0,1)*(AccDisEn+(1-ShldPen)*10+FarDamag*MaxAccry*Multfire+DmgDisSt/DmgDisEn*NearDamg*MaxAccry*Multfire)
+ScanLR	>	IF(ShpCpcty/UniSpace>15,1,0)*(AccDisEn+(1-ShldPen)*10+FarDamag*MaxAccry*Multfire)
+FMSR	>	0.01*LOG(AccDisEn)*((0.67*(NearDamg^2-(0.5*DmgDelta))+0.33*(NearDamg^2*((DmgDisEn+DmgDisSt)/(2*DmgDisEn))+FarDamag^2*((DmgDisEn-DmgDisSt)/(2*DmgDisEn))-(0.5*DmgDelta)))*MaxAccry*MAX(3,Multfire)+(0.67*(NearDamg^2-(0.5*DmgDelta))+0.33*(NearDamg^2*((DmgDisEn+DmgDisSt)/(2*DmgDisEn))+FarDamag^2*((DmgDisEn-DmgDisSt)/(2*DmgDisEn))-(0.5*DmgDelta)))*(1-ShldPen))/(SQRT(FireDlay))
+SFMSR	>	0.01*LOG(AccDisEn)*((0.67*(NearDamg^2-(0.5*DmgDelta))+0.33*(NearDamg^2*((DmgDisEn+DmgDisSt)/(2*DmgDisEn))+FarDamag^2*((DmgDisEn-DmgDisSt)/(2*DmgDisEn))-(0.5*DmgDelta)))*MaxAccry*MAX(3,Multfire)/(ShldPen))/(SQRT(FireDlay))
+APSFMSR	>	0.01*LOG(AccDisEn)*((0.67*(NearDamg^2-(0.5*DmgDelta))+0.33*(NearDamg^2*((DmgDisEn+DmgDisSt)/(2*DmgDisEn))+FarDamag^2*((DmgDisEn-DmgDisSt)/(2*DmgDisEn))-(0.5*DmgDelta)))*MaxAccry*MAX(3,Multfire)/(ShldPen))/(SQRT(FireDlay))*if((ArmrPier<1)*(Multfire>1)*(ShldPen<1),6,1)
+SR	>	((2+min(MaxAccry,1))*(NearDamg-sqrt(DmgDelta/2))*(2-ShldPen)*(2-ArmrPier)*((3+min(Multfire,3))/4)/(FireDlay))*if(((10-10*ArmrPier)*(Multfire-1)*(10-10*ShldPen)),1.1,1)
+ABaseextraPD	>	PntDstWp*10*if(ShpCpcty%4,0,0)*(sqrt(NearDamg-sqrt(min(DmgDelta/2,NearDamg/2)))*min(MaxAccry,1)*(10-ShldPen)*(10-ArmrPier)*sqrt(min(Multfire,3))/(FireDlay*(5+UniSpace)))+(1-ShldPen)+(1-ArmrPier)+min(MaxAccry,1)
+BaseextraPD	>	if(ShpCpcty%4,0,1)*(if(10-ArmrPier*10,100,1))*((MaxAccry*Multfire*(2-ArmrPier^Multfire)*NearDamg)/(FireDlay*UniSpace*ShldPen))
+SpaceextraPD	>	if(ShpCpcty%4,1,0)*(if(10-ArmrPier*10,100,1))*((MaxAccry*Multfire*(2-ArmrPier^Multfire)*NearDamg)/(FireDlay*UniSpace*ShldPen))
+sysextraPD	>	if((ShpCpcty%2+ShpCpcty%4)<2,0,1)*(if(10-ArmrPier*10,100,1))*((MaxAccry*Multfire*(2-ArmrPier^Multfire)*NearDamg)/(FireDlay*UniSpace*ShldPen))
+sysextraMRPD	>	if((ShpCpcty%2+ShpCpcty%4)<2,0,1)*((sqrt(NearDamg-sqrt(DmgDelta/2))*((10+min(MaxAccry,1))/10)*(10-ShldPen)*(10-ArmrPier)*sqrt(min(Multfire,3))*AccDisEn/(FireDlay*(5+UniSpace)))+(1-ShldPen)+(1-ArmrPier)+min(MaxAccry,1))
+AsysextraPD	>	if(ShpCpcty%2*(ShpCpcty%2-ShpCpcty%4),0,1)*(if(10-ArmrPier*10,100,1))*((MaxAccry*Multfire*(2-ArmrPier^Multfire)*NearDamg)/(FireDlay*UniSpace*ShldPen))
+PD	>	10*(sqrt(NearDamg-sqrt(min(DmgDelta/2,NearDamg/2)))*min(MaxAccry,1)*(10-ShldPen)*(10-ArmrPier)*sqrt(min(Multfire,3))/(FireDlay*(5+UniSpace)))+(1-ShldPen)+(1-ArmrPier)+min(MaxAccry,1)
+MRPD	>	10*(sqrt(NearDamg-sqrt(DmgDelta/2))*((10+min(MaxAccry,1))/10)*(10-ShldPen)*(10-ArmrPier)*sqrt(min(Multfire,3))*AccDisEn/(FireDlay*(5+UniSpace)))+(1-ShldPen)+(1-ArmrPier)+min(MaxAccry,1)
+DFSPAMkill	>	(if((AccDisEn>7000),1,0)*MaxAccry*(2-ArmrPier)*if((10-ArmrPier*10),if(max(FarDamag*(1-0.9*ShldPen)-2,0),1,0)*Multfire*(2-ArmrPier^Multfire),((Multfire*FarDamag*(1-0.9*ShldPen))/600))*(1+log(AccDisEn)/10+10^(-((AccDisEn-9000)^2/(2*2000^2)))))/(UniSpace)
+lastditch	>	(if(10-ArmrPier*10,100,1))*((MaxAccry*Multfire*(2-ArmrPier^Multfire)*NearDamg)/(FireDlay*UniSpace*ShldPen))
+MLR	>	(((NearDamg*((AccDisEn+AccDisSt)/(2*AccDisEn))+FarDamag*((AccDisEn-AccDisSt)/(2*AccDisEn))-(0.5*DmgDelta))*0.6*MaxAccry*MIN(3,Multfire)*(AccDisEn-5300))+((NearDamg*((AccDisEn+AccDisSt)/(2*AccDisEn))+FarDamag*((AccDisEn-AccDisSt)/(2*AccDisEn))-(0.5*DmgDelta))*(0.66-0.66*ShldPen)))/(FireDlay*UniSpace)
+EndTable		
+
+Table	Missiles
+Columns	Sign	Formula	Reloads
+Missiles	>	FarDamag*(2-ArmrPier)*(2-ShldPen)*Multfire	3
+APPDMissiles	>	FarDamag*Multfire*(1-ArmrPier)*(2-ShldPen)/FireDlay/UniSpace	5
+APPDbase	>	if(ShpCpcty%4,0,1)*FarDamag*Multfire*(1-ArmrPier)*(2-ShldPen)/FireDlay/UniSpace	5
+PD Missiles	>	FarDamag*Multfire*(2-ArmrPier)*(2-ShldPen)/FireDlay/UniSpace	5
+SPAM	<	SystCost*UniSpace	1
+MSPAMkill	>	if(max(FarDamag*(1-0.9*ShldPen)-2,0),0,1)*(if(10-ArmrPier*10,1,0))*10^(-abs(2-FarDamag*(1-0.9*ShldPen)))/(SystCost*UniSpace)	1
+EndTable		
+
+Table	Fighters		
+Columns	Sign	Formula	
+Bombers	>	NearDamg*Multfire*MaxAccry*(4*(1-ShldPen)+1)*(2-ArmrPier)
+Fighters	>	100*(NearDamg-sqrt(DmgDelta/2))*Multfire*MaxAccry*(4*(1-ShldPen)+1)*(2-ArmrPier)/(FireDlay*UniSpace)
+LightFighters	>	100*(NearDamg-sqrt(DmgDelta/2))*Multfire*MaxAccry*(4*(1-ShldPen)+1)*(2-ArmrPier)/(FireDlay*UniSpace^2)
+FightDron	<	(SystCost*UniSpace)
+IPCF	>	10*Multfire*(IF(ShldPen*10-5+ArmrPier,0,1)+IF(ShldPen*10-1+10*ArmrPier-8,0,1))/UniSpace
+Interceptor	>	(10*(NearDamg-sqrt(DmgDelta/2))*MaxAccry*Multfire^2*(2-ArmrPier)/(UniSpace^2*ShldPen))
+SPInterceptor	>	(10*(NearDamg-sqrt(DmgDelta/2))*MaxAccry*Multfire^2*(2-ArmrPier)/(UniSpace^2*ShldPen^2*FireDlay))
+FighterBomber	>	(IF(ShpCpcty/UniSpace>15,1,0))*(10*(NearDamg-sqrt(DmgDelta/2))*MaxAccry*Multfire*(2-ArmrPier)/(UniSpace*ShldPen))
+Fighter	>	(IF(ShpCpcty/UniSpace>15,1,0))*(10*(NearDamg-sqrt(DmgDelta/2))*MaxAccry*Multfire*(2-ArmrPier)/(UniSpace*ShldPen*FireDlay))
+HeavyBomber	>	(IF(ShpCpcty/UniSpace>10,1,0))*(10*(NearDamg-sqrt(DmgDelta/2))^2*MaxAccry*Multfire*(2-ArmrPier)/(UniSpace*ShldPen^2))
+HeavyFighter	>	(IF(ShpCpcty/UniSpace>10,1,0))*(10*(NearDamg-sqrt(DmgDelta/2))^2*MaxAccry*Multfire*(2-ArmrPier)/(UniSpace*ShldPen^2*FireDlay))
+EndTable			
+
+// Beginning of Ship Design section			
+
+Table	LR		
+Columns	Percentage	Min	Max
+Warp	-	-	-
+Engine	100	-	-
+Armor	-	-	-
+normShields	-	-	-
+MSPAMkill	5	-	-
+BaseextraPD	30	-	-
+lastditch	20	-	-
+DFSPAMkill	5	-	-
+PK	11	-	1
+LR	85	-	-
+Sensor	-	-	1
+ECCM	-	1	1
+ECCM4	-	1	1
+ECCM3	-	1	1
+ECCM2	-	1	1
+ECCM1	-	1	1
+Cloak	-	1	1
+Cloak4	-	-	1
+Cloak3	-	-	1
+Cloak2	-	-	1
+Cloak1	-	-	1
+ECM	-	-	1
+ECM4	-	-	1
+ECM3	-	-	1
+ECM2	-	-	1
+ECM1	-	-	1
+Sensor4	-	-	1
+Sensor3	-	-	1
+Sensor2	-	-	1
+Sensor1	-	-	1
+PD	50	-	-
+SPAM	100	-	-
+EndTable			
+
+Table	SR		
+Columns	Percentage	Min	Max
+Warp	-	-	-
+Engine	100	-	-
+Armor	-	-	-
+largeShields	-	-	-
+MSPAMkill	5	-	5
+BaseextraPD	30	-	-
+sysextraMRPD	10	-	-
+lastditch	10	-	-
+DFSPAMkill	10	-	-
+SFMSR	40	1	-
+APSFMSR	20	-	-
+Sensor	-	-	1
+Cloak	-	1	1
+ECM	-	1	1
+ECCM	-	1	1
+ECCM4	-	-	1
+Cloak4	-	-	1
+ECCM3	-	-	1
+ECM4	-	-	1
+Cloak3	-	-	1
+ECM3	-	-	1
+ECM2	-	-	1
+Cloak2	-	-	1
+ECM1	-	-	1
+ECCM2	-	-	1
+ECCM1	-	-	1
+Cloak1	-	-	1
+Sensor4	-	-	1
+Sensor3	-	-	1
+Sensor2	-	-	1
+Sensor1	-	-	1
+SFMSR	40	-	-
+IPCF	40	-	-
+PD	50	-	-
+SPAM	100	-	-
+EndTable			
+
+Table	PlanetDestroyer		
+Columns	Percentage	Min	Max
+Warp	-	-	-
+Engine	100	-	-
+Armor	-	-	-
+Shields	-	-	-
+ECCM	-	1	1
+ECM	-	1	1
+Cloak	-	1	1
+PK	100	1	10
+IPCF	20	-	-
+LR	90	-	-
+ECCM4	-	-	1
+ECCM3	-	-	1
+ECCM2	-	-	1
+ECCM1	-	-	1
+Sensor	-	-	1
+Cloak4	-	-	1
+Cloak3	-	-	1
+Cloak2	-	-	1
+Cloak1	-	-	1
+ECM4	-	-	1
+ECM3	-	-	1
+ECM2	-	-	1
+ECM1	-	-	1
+Sensor4	-	-	1
+Sensor3	-	-	1
+Sensor2	-	-	1
+Sensor1	-	-	1
+PD	100	-	-
+EndTable			
+
+Table	IF		
+Columns	Percentage	Min	Max
+Warp	-	-	-
+minEngine	100	-	-
+Armor	-	-	-
+smallShields	-	-	-
+MSPAMkill	5	-	-
+BaseextraPD	40	-	-
+sysextraMRPD	5	-	-
+lastditch	20	-	-
+DFSPAMkill	5	-	-
+SPAM	17	-	600
+Missiles	55	2	60
+PD Missiles	55	-	150
+APPDMissiles	40	-	150
+Cloak	-	1	1
+Cloak4	-	-	1
+Cloak3	-	-	1
+Cloak2	-	-	1
+Cloak1	-	-	1
+ECM	-	1	1
+ECM4	-	-	1
+ECM3	-	-	1
+ECM2	-	-	1
+ECM1	-	-	1
+Sensor	-	-	1
+Sensor4	-	-	1
+Sensor3	-	-	1
+Sensor2	-	-	1
+Sensor1	-	-	1
+ECCM	-	-	1
+ECCM4	-	-	1
+ECCM3	-	-	1
+ECCM2	-	-	1
+ECCM1	-	-	1
+PD	50	-	-
+SPAM	100	-	-
+EndTable			
+
+Table	Carrier		
+Columns	Percentage	Min	Max
+Warp	-	-	-
+minEngine	100	-	-
+Armor	-	-	-
+smallShields	-	-	-
+MSPAMkill	5	-	-
+BaseextraPD	40	-	-
+sysextraMRPD	5	-	-
+lastditch	20	-	-
+DFSPAMkill	5	-	-
+IPCF	8	-	-
+Fighter	46	-	-
+HeavyFighter	30	-	-
+FighterBomber	21	-	-
+Interceptor	13	-	-
+Cloak	-	1	1
+HeavyBomber	57	-	-
+Cloak4	-	-	1
+Cloak3	-	-	1
+Cloak2	-	-	1
+Cloak1	-	-	1
+ECM	-	1	1
+ECM4	-	-	1
+ECM3	-	-	1
+ECM2	-	-	1
+ECM1	-	-	1
+Sensor	-	-	1
+Sensor4	-	-	1
+Sensor3	-	-	1
+Sensor2	-	-	1
+Sensor1	-	-	1
+ECCM	-	-	1
+ECCM4	-	-	1
+ECCM3	-	-	1
+ECCM2	-	-	1
+ECCM1	-	-	1
+PD	50	-	-
+SPAM	100	-	-
+EndTable			
+
+Table	PD		
+Columns	Percentage	Min	Max
+Warp	-	-	-
+Engine	100	-	-
+Armor	-	-	-
+Shields	-	-	-
+ScanLR	1	1	1
+MSPAMkill	20	-	-
+lastditch	32	1	-
+DFSPAMkill	19	-	-
+MRPD	20	-	-
+ECCM	-	1	1
+ECM	-	1	1
+Cloak	-	1	1
+ECCM4	-	1	1
+ECM4	-	1	1
+Cloak4	-	1	1
+ECCM3	-	1	1
+ECM3	-	1	1
+Cloak3	-	1	1
+ECCM2	-	1	1
+ECM2	-	1	1
+Cloak2	-	1	1
+ECCM1	-	1	1
+ECM1	-	1	1
+Cloak1	-	1	1
+Sensor	-	-	1
+Sensor4	-	-	1
+Sensor3	-	-	1
+Sensor2	-	-	1
+Sensor1	-	-	1
+SPAM	50	-	-
+PD	100	-	-
+EndTable			
+
+Table	Recon		
+Columns	Percentage	Min	Max
+Warp	-	-	-
+Engine	100	-	-
+Armor	-	-	-
+Shields	-	-	-
+Sensor	-	1	1
+ScanLR	1	1	1
+Sensor4	-	1	1
+Sensor3	-	1	1
+Sensor2	-	1	1
+Sensor1	-	1	1
+MSPAMkill	20	-	-
+lastditch	32	1	-
+DFSPAMkill	19	-	-
+MRPD	20	-	-
+Cloak	-	1	1
+ECM	-	1	1
+ECCM	-	1	1
+Cloak4	-	1	1
+ECM4	-	1	1
+ECCM4	-	1	1
+Cloak3	-	1	1
+ECM3	-	1	1
+ECCM3	-	1	1
+Cloak2	-	1	1
+ECM2	-	1	1
+ECCM2	-	1	1
+Cloak1	-	1	1
+ECM1	-	1	1
+ECCM1	-	1	1
+PD	50	-	-
+SPAM	100	-	-
+EndTable			
+
+Table	Transport		
+Columns	Percentage	Min	Max
+Warp	-	-	-
+minEngine	80	-	-
+Armor	-	-	-
+Shields	-	-	-
+TroopPod	75	1	9
+PK	90	-	1
+SPInterceptor	40	-	-
+Cloak	-	1	1
+Cloak4	-	-	1
+Cloak3	-	-	1
+Cloak2	-	-	1
+Cloak1	-	-	1
+ECM	-	1	1
+ECM4	-	-	1
+ECM3	-	-	1
+ECM2	-	-	1
+ECM1	-	-	1
+Fighter	60	-	-
+PD	70	-	-
+SPAM	100	-	-
+EndTable			
+
+Table	Colony		
+Columns	Percentage	Min	Max
+Warp	-	-	-
+minEngine	80	-	-
+MinimalArmor	-	-	-
+MinimalShields	-	-	-
+ColonyPod	100	1	8
+PD	50	-	-
+SPAM	100	-	-
+EndTable			
+
+Table	Outpost		
+Columns	Percentage	Min	Max
+Warp	-	-	-
+minEngine	5	-	-
+MinimalArmor	-	-	-
+MinimalShields	-	-	-
+OutpostPod	100	1	1
+SPAM	100	-	2
+EndTable			
+
+// Beginning of Ship Name section			
+
+Table	Shipname		
+Columns	String		
+Starship	%m.Gr.%h.%#		
+Systemship	%h:%m.%#		
+Orbital	%h:%t.%m.%#		
+EndTable			
+
+Table	HullType
+Columns	
+O	
+Sys	
+S	
+EndTable	
+
+Table	HullSize
+Columns	
+0	
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+A	
+B	
+C	
+D	
+EndTable	
+
+Table	Mission
+Columns	
+Lang	
+Kurz	
+SternZ	
+Rak	
+FlugTr	
+PktV
+Aufkl
+TrupT
+Kol
+AusP
+EndTable

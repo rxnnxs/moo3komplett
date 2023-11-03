@@ -1,0 +1,75 @@
+Spy Mission Table Format												
+Note that CoverUpRating and ScandalFactor can be blank or 0												
+"DaggerUsage: 0 - Do not use dagger, 1 - Use dagger value, 2 - Use a dX where X is dagger value"												
+Note: This determines if a spie's daggar rating is added to its success score. A DaggerUsage of 2 generates a rondom value based on a spies dagger rating.												
+
+TableStart	SampleSpyMissionTable											
+ColumnHeadingsStart	SpyMissionID	Circle		LotteryBalls	CoverUpRating	ScandalFactor	DaggerUsage	SourceSitRepID1	TargetSitRepID1	EventClassID	NumTurn	Modifiers
+RowHeadingsStart												
+MissionEntryName	SPYMIS01			50	15	12	0	SITREP01	SITREP03	EvEmpMod	1	"HFofGovt *= 0.85, mAddGold *= 1.20"
+SpecialCaseName	SPYMIS02			60	6	4	1	SITREP05	SITREP07	EvEmpMod	1	1
+TableEnd												
+
+TableStart	ActivityOpportunityMods											
+ColumnHeadingsStart	Normal	Restricted	Very Restricted	Nil								
+RowHeadingsStart												
+ModMultiplier	1	0.4	0.7	0								
+TableEnd												
+
+Note: All missions with EvEmpMod tag don't work. ScnadalFactor and CoverupRating are not used.												
+TableStart	BluntInstruments											
+ColumnHeadingsStart	SpyMissionID	Circle	Type	LotteryBalls	CoverUpRating	ScandalFactor	DaggerUsage	SourceSitRepID1	TargetSitRepID1	EventClassID	NumTurn	Modifiers
+RowHeadingsStart												
+TrainingDepots	SPYMIS01	Military	Black	80	15	3	2	TrainingDepotsS	TrainingDepotsT	EvShRDly	1	1
+SupportDisrupted	SPYMIS02	Military	Black	40	6	4	2	SupportDisruptedS	SupportDisruptedT	EvGrRDly	1	3
+RepairFacilities	SPYMIS04	Military	Black	40	12	8	0	RepairFacilitiesS	RepairFacilitiesT	EvEmpMod	3	BoxDelay += (1:2)
+MilBuildDestroyed	SPYMIS06	Economic	Black	40	33	15	0	MilBuildDestroyedS	MilBuildDestroyedT	EvBldDes	1	6
+ProductionSabotage	SPYMIS08	Science	Blue	60	15	19	0	ProductionSabotageS	ProductionSabotageT	EvPltMod	3	ManufEff *= (0.5:0.75)
+MobilizationCenter	SPYMIS09	Military	Blue	40	65	25	2	MobilizationCenterS	MobilizationCenterT	EvShADes	1	1
+GovBuildDestroyed	SPYMIS13	Economic	Blue	40	85	26	0	GovBuildDestroyedS	GovBuildDestroyedT	EvBldDes	1	5
+EconBuildDestroyed	SPYMIS14	Economic	Black	120	22	8	0	EconBuildDestroyedS	EconBuildDestroyedT	EvBldDes	1	3
+CivilTrade	SPYMIS16	Military	Blue	50	35	17	0	CivilTradeS	CivilTradeT	EvEmpMod	1	SPortEff *=(0.75:0.90)
+RecBuildDestroyed	SPYMIS17	Economic	Black	120	42	11	0	RecBuildDestroyedS	RecBuildDestroyedT	EvBldDes	1	7
+CitizenFear	SPYMIS18	Social	Black	40	0	0	0	CitizenFearS	CitizenFearT	EvEmpMod	1	MdUnrest+=5
+ScienceBuildDestroyed	SPYMIS22	Economic	Black	40	17	17	0	ScienceBuildDestroyedS	ScienceBuildDestroyedT	EvBldDes	1	4
+ProjectFacility	SPYMIS23	Science	Black	50	23	20	0	ProjectFacilityS	ProjectFacilityT	EvResSab	1	1
+UniversityProfessor	SPYMIS24	Political	Black	50	13	2	0	UniversityProfessorS	UniversityProfessorT	EvResSab	1	1
+MajorGovResearch	SPYMIS25	Science	Blue	30	87	25	0	MajorGovResearchS	MajorGovResearchT	EvBldDes	1	4
+StealTech	SPYMIS26	Science	Black	80	87	25	0	StealTechS	StealTechT	EvTechXf	1	1
+LeaderKilledP	SPYMIS29	Political	Black	30	6	25	0	LeaderKilledPS	LeaderKilledT	EvLdrMod	1	P;LeadLuck+=-125
+MilLayingLow	SPYMIS30	Military	Blue	75	65	0	1	LayingLowS	LayingLowT	EvBldDes	0	0
+ArmyDesertions	SPYMIS31	Military	Black	20	55	0	2	ArmyDesertS	ArmyDesertT	EvGrADes	1	10
+SciLayingLow	SPYMIS32	Science	Blue	75	65	8	1	LayingLowS	LayingLowT	EvBldDes	0	0
+PolLayingLow	SPYMIS33	Political	Blue	75	65	8	1	LayingLowS	LayingLowT	EvBldDes	0	0
+MineBuildDestroyed	SPYMIS34	Political	Black	20	33	15	1	MineBuildDestroyedS	MineBuildDestroyedT	EvBldDes	1	2
+Rebellion	SPYMIS35	Political	Black	5	0	0	2	RebellionS	RebellionT	EvCollat	1	6001
+FactionWar	SPYMIS36	Political	Black	10	0	0	1	FactionS	FactionT	EvCollat	1	3001
+FarmBuildDestroyed	SPYMIS37	Political	Black	20	33	15	1	FarmBuildDestroyedS	FarmBuildDestroyedT	EvBldDes	1	1
+MineChain	SPYMIS38	Political	Black	20	15	8	2	MineChainS	MineChainT	EvBldDes	3	2
+EconLayingLow	SPYMIS39	Economic	Blue	75	22	8	1	LayingLowS	LayingLowT	EvBldDes	0	0
+SPBuildDestroyed	SPYMIS40	Economic	Black	10	33	15	1	SPBuildDestroyedS	SPBuildDestroyedT	EvBldDes	1	8
+ChainDes	SPYMIS41	Economic	Black	20	15	2	2	ChainDesS	ChainDesT	EvBldDes	3	8
+SocLayingLow	SPYMIS42	Social	Blue	75	33	8	1	LayingLowS	LayingLowT	EvBldDes	0	0
+GovChain	SPYMIS43	Diplomatic	Black	20	15	2	2	GovChainS	GovChainT	EvBldDes	3	5
+Bank	SPYMIS44	Science	Black	30	15	25	0	BankCrashS	BankCrashT	EvPltMod	2	"SPortEff*=(0.75:0.9), MdUnrest+=1"
+Streik	SPYMIS45	Social	Black	50	0	0	0	StreikS	StreikT	EvPltMod	2	"MineEff*=(0.5:0.75), ManufEff*=(0.5:0.75), ReseaEff*=(0.75:0.9)"
+Entertainer	SPYMIS46	Social	Black	30	0	0	0	EntertainerS	EntertainerT	EvPltMod	3	"RecEff*=(0.5:0.75), MdUnrest+=2"
+Aufstand	SPYMIS47	Social	Black	10	0	0	0	AufstandS	AufstandT	EvPltMod	2	MdUnrest+=20
+Chaos	SPYMIS48	Social	Black	20	0	0	0	ChaosS	ChaosT	EvEmpMod	3	HFofGovt*=(1.2:1.3)
+Intrige	SPYMIS49	Diplomatic	Black	30	87	25	0	IntrigeS	IntrigeT	EvEmpMod	5	NegatvDP*=1.25
+Handel	SPYMIS50	Diplomatic	Black	30	87	25	0	HandelS	HandelT	EvEmpMod	5	"CRTreaty*=(0.5:0.75), SPortEff*=(0.8:0.9)"
+Abwehr	SPYMIS51	Diplomatic	Black	20	0	0	0	AbwehrS	AbwehrT	EvEmpMod	8	SpDef+=-5
+Falschgeld	SPYMIS52	Diplomatic	Black	20	87	25	0	FalschgeldS	FalschgeldT	EvEmpMod	2	mTaxColl*=0.9
+Kriegstreiber	SPYMIS53	Diplomatic	Black	10	87	25	0	KriegstreiberS	KriegstreiberT	EvEmpMod	2	MeansWar+=-3
+BeamteKill	SPYMIS54	Ploitical	Black	40	8	20	0	BeamteKillS	BeamteKillT	EvEmpMod	3	GovEff*=(0.8:0.95)
+EntertainerKill	SPYMIS55	Political	Black	50	8	20	0	EntertainerKillS	EntertainerKillT	EvEmpMod	3	RecEff*=(0.8:0.95)
+TycoonKill	SPYMIS56	Political	Black	30	8	20	0	TycoonKillS	TycoonKillT	EvEmpMod	3	ManufEff*=(0.9:0.95)
+TraderKill	SPYMIS57	Political	Black	40	8	10	0	TraderKillS	TraderKillT	EvEmpMod	3	SPortEff*=(0.9:0.95)
+Produktsabo	SPYMIS58	Military	Blue	120	40	10	0	ProduktsaboS	ProduktsaboT	EvPltMod	2	ManufEff*=(0.5:0.75)
+Minesabo	SPYMIS59	Military	Blue	120	40	10	0	MinesaboS	MinesaboT	EvPltMod	2	MineEff*=(0.5:0.75)
+Forschsabo	SPYMIS60	Military	Blue	120	40	10	0	ForschsaboS	ForschsaboT	EvPltMod	2	ReseaEff*=(0.5:0.75)
+Govsabo	SPYMIS61	Military	Blue	80	40	10	0	GovsaboS	GovsaboT	EvPltMod	2	GovEff*=(0.5:0.75)
+Oekoterror	SPYMIS62	Economic	Black	30	15	25	0	OekoterrorS	OekoterrorT	EvPltMod	4	Pollutio*=(1.1:1.25)
+Drogen	SPYMIS63	Economic	Black	30	15	25	0	DrogenS	DrogenT	EvPltMod	5	"TTperPop*=(0.75:0.9), CemprPop*=(0.9:0.95), MinprPop*=(0.9:0.95), BioprPop*=(0.9:0.95)"
+Vergiftung	SPYMIS64	Economic	Black	20	15	25	0	VergiftenS	VergiftenT	EvPltMod	2	mPopGrow*=(0.9:0.95)
+TableEnd												

@@ -1,0 +1,72 @@
+TableStart	TerrainMaps								
+ColumnHeadingsStart	32	55	77	100					
+RowHeadingsStart									
+37	1	2	3	4					
+65	5	6	7	8					
+92	9	10	11	12					
+120	13	14	15	16					
+TableEnd									
+									
+TableStart	PlanetType								
+ColumnHeadingsStart	20	70	100						
+RowHeadingsStart									
+40	0	1	2						
+70	3	4	5						
+120	6	7	8						
+TableEnd									
+
+TableStart	TerrainFiles												gas			
+ColumnHeadingsStart	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16
+RowHeadingsStart																
+1	PISNSSBarr1	PISNSSBarr12	PISNSSYellBarr1	PISNSSRedBarr2	PISNSSIce1	PISNSSWat1	PISNSSYell4	PISNSSRed1	PISNSSIce5	PISNSSTerr1	PISNSSGree2	PISNSSYell1	PISNSSBlue4	PISNSSGas6	PISNSSGas5	PISNSSGas4
+2	PISNSSBarr2	PISNSSBarr14	PISNSSYellBarr2	PISNSSRedBarr6	PISNSSIce2	PISNSSWat2	PISNSSYell5	PISNSSRed2	PISNSSIce9	PISNSSTerr3	PISNSSGree6	PISNSSYell2	PISNSSBlue5	PISNSSGas8	PISNSSGas1	PISNSSGas9
+3	PISNSSBarr5	PISNSSBarr9	PISNSSYellBarr3	PISNSSRedBarr7	PISNSSIce3	PISNSSWat3	PISNSSYell6	PISNSSRedBarr1	PISNSSIce10	PISNSSTerr4	PISNSSGree1	PISNSSYell3	PISNSSGas3	PISNSSBarr13	PISNSSGas7	PISNSSGas2
+4	PISNSSBarr6	PISNSSBarr4	PISNSSYellBarr4	PISNSSRedBarr8	PISNSSIce4	PISNSSWat4	PISNSSTerr7	PISNSSRedBarr3	PISNSSIce11	PISNSSTerr6	PISNSSGree3	PIANSSFire1	PISNSSBlue1	PISNSSGas11	PISNSSGas15	PISNSSGas20
+5	PISNSSBarr7	PISNSSBarr8	PISNSSYellBarr5	PISNSSRedBarr4	PISNSSIce6	PISNSSWat5	PISNSSTerr11	PISNSSRedBarr5	PISNSSIce7	PISNSSTerr8	PISNSSGree5	PIANSSFire2	PISNSSBlue2	PISNSSGas12	PISNSSGas16	PISNSSGas21
+6	PISNSSBarr10	PISNSSBarr16	PISNSSBarr3	PISNSSRedBarr9	PISNSSIce8	PISNSSWat6	PISNSSTerr2	PISNSSRed3	PISNSSIce14	PISNSSTerr9	PISNSSGree7	PISNSSYell8	PISNSSGas10	PISNSSBarr19	PISNSSGas17	PISNSSGas22
+7	PISNSSBarr11	PISNSSBarr17	PISNSSYellBarr7	PISNSSRedBarr10	PISNSSIce12	PISNSSWat7	PISNSSTerr5	PISNSSRed4	PISNSSIce15	PISNSSTerr10	PISNSSGree8	PISNSSYell9	PISNSSBlue3	PISNSSGas13	PISNSSGas18	PISNSSGas23
+8	PISNSSBarr15	PISNSSBarr18	PISNSSYellBarr6	PISNSSRedBarr11	PISNSSIce13	PISNSSWat8	PISNSSYell7	PISNSSRedBarr12	PISNSSIce16	PISNSSGree4	PISNSSGree9	PISNSSYell10	PISNSSBlue6	PISNSSGas14	PISNSSGas19	PISNSSGas24
+TableEnd																
+																
+
+
+TableStart	AtmosphereMaps															
+ColumnHeadingsStart	32	55	77	100												
+RowHeadingsStart																
+37	1	2	3	4												
+65	5	6	7	8												
+92	9	10	11	12												
+120	13	14	15	16												
+TableEnd																
+
+
+
+TableStart	AtmosphereFiles															
+ColumnHeadingsStart	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16
+RowHeadingsStart																
+1	x	x	x	x	PIANSSBlue1	PIANSSTerr1	PIANSSIce6	PIANSSRed1	PIANSSGree5	PIANSSTerr5	PIANSSYellow1	PIANSSRed2	PIANSSGas5	PIANSSIce8	PIANSSMixed4	PIANSSGas1
+2	x	x	x	x	PIANSSBlue3	PIANSSTerr2	PIANSSBarr1	PIANSSBarr3	PIANSSIce4	PIANSSTerr7	PIANSSYellow2	PIANSSRed3	PIANSSGas6	PIANSSIce9	PIANSSYellow5	PIANSSGas2
+3	x	x	x	x	PIANSSBlue6	PIANSSTerr6	PIANSSIce1	PIANSSRed1	PIANSSIce5	PIANSSBlue4	PIANSSYellow4	PIANSSRed4	PIANSSGas7	PIANSSMixed3	PIANSSYellow3	PIANSSGas3
+4	x	x	x	x	PIANSSBlue1	PIANSSWat1	PIANSSIce3	PIANSSBarr3	PIANSSMixed8	PIANSSWat3	PIANSSTerr3	PIANSSRed2	PIANSSMixed5	PIANSSMixed2	PIANSSMixed4	PIANSSGas4
+5	x	x	x	x	x	x	x	x	PIANSSBlue5	PIANSSWat4	PIANSSTerr4	PIANSSRed3	PIANSSMixed1	PIANSSIce7	PIANSSYellow5	PIANSSMixed6
+6	x	x	x	x	x	x	x	x	PIANSSWat2	PIANSSWat5	PIANSSIce2	PIANSSRed4	PIANSSGas5	PIANSSIce8	PIANSSYellow3	PIANSSGas1
+TableEnd																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+										
+										
+										
+										
+										
+										
+										
+										

@@ -1,0 +1,315 @@
+TableStart	Galactic Specials Modifier																					
+ColumnHeadingsStart	MinNumber	MaxNumber																				
+RowHeadingsStart																						
+FewerMod	1.5	1.5																				
+MoreMod	0.75	0.75																				
+TableEnd																						
+
+
+TableStart	Galactic Specials																					
+ColumnHeadingsStart	MinNumber	MaxNumber	D12Mod_1	D12Mod_2	D12Mod_3	D12Mod_4	D12Mod_5	D12Mod_6	D12Mod_7	D12Mod_8	D12Mod_9	D12Mod_10	D12Mod_11	D12Mod_12	%Chance	WidthMin	WidthMax	LengthMin	LengthMax	Guard	Guard_Mod	
+RowHeadingsStart																						
+Wormholes	80	40	-1	-1	-1	-1	0	0	0	0	0	0	0	1	75	N/A	N/A	N/A	N/A	1	2	// 75% chance of being a one-way wormhole
+Nebulae	60	30	-2	-2	-1	-1	0	0	0	0	1	1	2	2	35	1	2	5	16	0	N/A	// max 30% of galaxy stars in nebulas
+BlackHole	80	50	-2	-2	-1	-1	0	0	0	0	1	1	2	2	N/A	N/A	N/A	N/A	N/A	0	N/A	
+NeutronStar	40	20	-2	-2	-1	-1	0	0	0	0	1	1	2	2	N/A	N/A	N/A	N/A	N/A	0	N/A	
+TableEnd																						
+
+
+TableStart	Regional Specials Modifiers		
+ColumnHeadingsStart	MinNumber	MaxNumber	
+RowHeadingsStart			
+FewerMod	0.25	0.25	
+MoreMod	1.5	1.5	
+TableEnd			
+
+TableStart	Region Specials Chance		
+ColumnHeadingsStart	2 Specials	1 Special	No Specials
+RowHeadingsStart			
+Green0	10	20	70
+Green1	5	15	80
+Yellow2	0	15	85
+Yellow3	0	10	90
+Red4	0	5	95									
+Red5	0	3	97									
+Black	0	1	99									
+TableEnd												
+
+
+TableStart	Regional Specials				// Durable = 100 means the special will survive any terraforming.  Durable = 0 means the special will never survive terraforming.  Any number in between is the percentage chance the Special will survive terraforming.							
+ColumnHeadingsStart	Unicode	UnicodeD	ID	SpecChnc	Guard	Durable	JmpTable	JmpTblMods	DiscoverEffect	Effect	Params	Outreach
+RowHeadingsStart												
+Hostile Animal Life	spAniml	spAnimlD	SpTerfrm	6	-1	90				"mPopGrow*=0.75,RecEff+=-2,BioHaEff*=0.60"	"ElimCost=(200:700),TerrCost=1"	Region
+Hostile Flora	spFlora	spFloraD	SpTerfrm	6	-1	80				"mPopGrow*=0.85,BioHaEff*=0.60,Infrastr*=.85, EcoSystm+=-1"	"ElimCost=(200:2800),TerrCost=1"	Region
+Hostile Insect Life	spInsct	spInsctD	SpTerfrm	3	-1	90				"mBuildAU*=1.5,mMaintAU*=1.5,BioHaEff*=0.25,MineEff*=0.25,ManufEff*=0.5"	"ElimCost=(400:1500), TerrCost=1"	Region
+Hostile Microbes	spMicrb	spMicrbD	SpTerfrm	2	-2	95				"mPopGrow*=0.50, ReseaEff*=1.50, CemprPop+=-2, Pollution+=4"	"ElimCost=(900:4000),TerrCost=1"	Region
+Large Hostile Animals	spLAnim	spLAnimD	SpTerfrm	5	-1	75				"mPopGrow*=0.80,BioHaEff*=0.75,RecEff+=2"	"ElimCost=(350:1700),MilCost=1"	Region
+Huge Hostile Animals	spHAnim	spHAnimD	SpTerfrm	3	-1	60				"mPopGrow*=0.65,BioHaEff*=0.70,MilEff*=1.3"	"ElimCost=(600:2200),MilCost=1"	Region
+Menagerie	spRAnim	spRAnimD	SpPrtDep	6	1	60				"RecEff+=2,SPortEff+=2,ReseaEff*=1.25,BioHRare*=1.50"	Deplete=(100:600)	Region
+Natural Fuels	spRFuel	spRFuelD	SpPrtDep	5	1	90				"ManufEff+=3,SPortEff+=2,Pollutio*=0.5,PolprPop*=0.5"	Deplete=(20:125)	Region
+Natural Wells	spWells	spWellsD	SpGenerc	6	1	90				"mPopGrow*=1.25,RecEff+=1,BioHaEff*=1.50,ManufEff+=1"		Region
+Natural Wonders	spWonder	spWondD	SpGenerc	4	1	85				"RecEff+=4,GovEff*=1.50"		Region
+Pharmacopoeia	spPharm	spPharmD	SpGenerc	3	2	50				"mPopGrow*=1.25,ReseaEff+=3,SPortEff+=3,BioHRare*=1.4"		Region
+Radioactive Minerals	spHosMn	spHosMnD	SpTerfrm	3	-1	100				"mPopGrow*=0.80,MineCap+=-1,ManufEff*=0.75,MineRare*=0.50"	"ElimCost=(1200:4700),TerrCost=1"	Region
+Rare Gems	spRGems	spRGemsD	SpPrtDep	3	2	100				"ReseaEff*=1.30,SPortEff+=2,MineRare*=2.0,CraftsMa*=1.5"	Deplete=(10:75)	Region
+Rare Metals	spRMetl	spRMetlD	SpPrtDep	4	1	100				"ManufEff*=1.50,MineEff*=1.25,MineRare*=1.50,CraftsMa*=1.30"	Deplete=(25:150)	Region
+Rare Petrochemicals	spRPtro	spRPtroD	SpPrtDep	4	1	100				"ManufEff*=1.5,ReseaEff*=1.5,SPortEff+=1,Pollutio*=2"	Deplete=(15:100)	Region
+Rare Plants	spRPlnt	spRPlntD	SpPrtDep	8	1	70				"BioHaCap+=1,ReseaEff*=1.25,SPortEff+=4,BioprPop+=1"	Deplete=-1	Region
+Rare Radioactives	spRRdio	spRRdioD	SpPrtDep	4	2	100				"mPopGrow*=0.70,ReseaEff*=1.35,ManufEff*=1.35,SPortEff+=4"	Deplete=(10:150)	Region
+Seismic Instability	spSInst	spSInstD	SpGenerc	5	-1	100				"mBuildAU*=1.5,mMaintAU*=1.5,MineEff*=0.5,SPortEff+=-2,RecEff+=-2"		Region
+Ruins	spRuins	spRuinsD	SpJumpTb	4	2	100	RuinsTable	"NumDice=1,DieSize=6"				Region										
+Terror	spHorr	spHorrD	SpJumpTb	22	-1	100	HorrorTable	"NumDice=1,DieSize=20"				Region										
+Mysteries	spOracl	spOraclD	SpJumpTb	18	1	100	MysteTable	"NumDice=1,DieSize=10"				Region										
+Resources	spRes	spResD	SpJumpTb	22	1	100	ResourceTable	"NumDice=2,DieSize=5"				Region										
+TableEnd												
+
+
+TableStart	ResourceTable																					
+ColumnHeadingsStart	Unicode	UnicodeD	ID	SpecChnc	JmpTable	JmpTblMods	Effect	Params														
+RowHeadingsStart																						
+2	spRes2	spRes2D	SpGenerc	1			"ReseaEff*=3.0, ManufEff*=1.5, BioHaEff*=0.8, SPortEff*=4.0"															
+3	spRes3	spRes3D	SpGenerc	1			"ReseaEff*=1.5, ManufEff*=1.5, MineEff*=1.75, SPortEff*=2.0"															
+4	spRes4	spRes4D	SpGenerc	1			"ReseaEff*=3.0, SPortEff*=4.0"															
+5	spRes5	spRes5D	SpGenerc	1			"ReseaEff*=2.0, BioHaEff*=2.0, SPortEff*=1.5"															
+6	spRes6	spRes6D	SpGenerc	1			"ReseaEff*=1.5, ManufEff*=2.0, SPortEff*=3.0"															
+7	spRes7	spRes7D	SpGenerc	1			"BioHaEff*=4.0, SPortEff*=2.0"															
+8	spRes8	spRes8D	SpGenerc	1			"RecEff*=2.0, ReseaEff*=1.25, SPortEff*=2.0"															
+9	spRes9	spRes9D	SpGenerc	1			"ManufEff*=1.25, SPortEff*=1.5"															
+10	spRes10	spRes10D	SpGenerc	1			"ManufEff*=4.0, SPortEff*=4.0, Pollutio*=1.25"															
+TableEnd																						
+
+
+TableStart	MysteTable																					
+ColumnHeadingsStart	Unicode	UnicodeD	ID	SpecChnc	JmpTable	JmpTblMods	Effect	Params														
+RowHeadingsStart																						
+1	spMyst1	spMyst1D	SpGenerc	1			"MineEff*=1.2, ManufEff*=1.1, MilEff*=1.1"															
+2	spMyst2	spMyst2D	SpGenerc	1			"BioHaEff*=1.5, ReseaEff*=1.1, MilEff*=1.1"															
+3	spMyst3	spMyst3D	SpGenerc	1			"MineEff*=1.2, ReseaEff*=1.2, RecEff*=1.2, MilEff*=1.1"															
+4	spMyst4	spMyst4D	SpGenerc	1			"MineEff*=1.1, ManufEff*=1.2, RecEff*=1.3, BioHaEff*=1.2"															
+5	spMyst5	spMyst5D	SpGenerc	1			"MineEff*=1.5, BioHaEff*=1.2, ReseaEff*=1.5"															
+6	spMyst6	spMyst6D	SpGenerc	1			"mPopGrow*=1.25, RecEff*=2.5, ReseaEff*=1.25"															
+7	spMyst7	spMyst7D	SpGenerc	1			"ManufEff*=1.2, mBuildAU*=0.5"															
+8	spMyst8	spMyst8D	SpGenerc	1			"mPopGrow*=1.2, RecEff*=4.0, SPortEff*=2.0"															
+9	spMyst9	spMyst9D	SpGenerc	1			"RecEff*=1.5, GovEff*=1.2, ReseaEff*=1.5, MilEff*=1.2"															
+10	spMyst10	spMyst11	SpGenerc	1			BioHaEff*=2.0															
+TableEnd
+
+
+TableStart	HorrorTable																					
+ColumnHeadingsStart	Unicode	UnicodeD	ID	SpecChnc	JmpTable	JmpTblMods	Effect	Params														
+RowHeadingsStart																						
+1	spHor01	spHor01D	SpTerfrm	1			"mPopGrow*=0.9, ManufEff*=0.95, MineEff*=0.95, RecEff*=1.1"	"ElimCost=(2000:5000),MilCost=1"														
+2	spHor02	spHor02D	SpTerfrm	1			"mPopGrow*=0.8, MineEff*=0.95, BioHaEff*=0.95, RecEff*=0.9"	"ElimCost=(1500:3500),TerrCost=1"														
+3	spHor03	spHor03D	SpTerfrm	1			"mPopGrow*=0.85, MineEff*=0.95, BioHaEff*=0.95, ReseaEff*=1.05"	"ElimCost=(3000:5000),MilCost=1"														
+4	spHor04	spHor04D	SpTerfrm	1			"mPopGrow*=0.7, BioHaEff*=0.5, MineEff*=0.9, RecEff*=0.5, ReseaEff*=1.05, MilEff*=1.05"	"ElimCost=(2500:5000),TerrCost=1"														
+5	spHor05	spHor05D	SpTerfrm	1			"mPopGrow*=0.95, MineEff*=0.9, BioHaEff*=0.9, RecEff*=1.1"	"ElimCost=(1500:3000),TerrCost=1"														
+6	spHor06	spHor06D	SpTerfrm	1			"mPopGrow*=0.9, MineEff*=0.8, ReseaEff*=0.7, RecEff*=0.9"	"ElimCost=(2000:3500),TerrCost=1"														
+7	spHor07	spHor07D	SpTerfrm	1			"mPopGrow*=0.95, ManufEff*=0.9, MineEff*=0.95, RecEff*=1.1"	"ElimCost=(1500:4000),MilCost=1"														
+8	spHor08	spHor08D	SpTerfrm	1			"mPopGrow*=0.9, MineEff*=0.9, ReseaEff*=0.9, RecEff*=0.8"	"ElimCost=(2000:4000),MilCost=1"														
+9	spHor09	spHor09D	SpTerfrm	1			"BioHaEff*=0.25, ManufEff*=0.9, ReseaEff*=0.9, RecEff*=0.95"	"ElimCost=(2500:5000),TerrCost=1"														
+10	spHor10	spHor10D	SpTerfrm	1			"mPopGrow*=0.75, MineEff*=0.7, ManufEff*=0.7, RecEff*=0.2, ReseaEff*=1.1"	"ElimCost=(5000:10000),TerrCost=1"														
+11	spHor11	spHor11D	SpTerfrm	1			"GovEff*=0.5, ReseaEff*=0.7, RecEff*=0.25, MilEff*=0.8"	"ElimCost=(4000:7500),TerrCost=1"														
+12	spHor12	spHor12D	SpTerfrm	1			"mPopGrow*=0.75, BioHaEff*=0.9, RecEff*=0.5"	"ElimCost=(3000:6000),TerrCost=1"														
+13	spHor13	spHor13D	SpTerfrm	1			"ReseaEff*=0.8, RecEff*=0.5, GovEff*=0.75, MilEff*=0.8"	"ElimCost=(4000:7000),TerrCost=1"														
+14	spHor14	spHor14D	SpGenerc	1			"MineEff*=0.7, ManufEff*=0.9, ReseaEff*=0.9"															
+15	spHor15	spHor15D	SpTerfrm	1			"BioHaEff*=0.7, ManufEff*=0.9, MineEff*=0.9, RecEff*=1.1"	"ElimCost=(1500:3000),TerrCost=1"														
+16	spHor16	spHor16D	SpTerfrm	1			"mPopGrow*=0.95, RecEff*=0.75"	"ElimCost=(1500:3000),TerrCost=1"														
+17	spHor17	spHor17D	SpTerfrm	1			"mPopGrow*=0.9, BioHaEff*=0.75, RecEff*=0.5, ReseaEff*=1.05"	"ElimCost=(2000:3000),TerrCost=1"														
+18	spHor18	spHor18D	SpGenerc	1			"ReseaEff*=0.75, GovEff*=0.75, BioHaEff*=0.95, MineEff*=0.95, ManufEff*=0.95, MilEff*=0.8, RecEff*=1.25, SPortEff*=1.5"															
+19	spHor19	spHor19D	SpGenerc	1			"BioHaEff*=0.5, MineEff*=0.5, ManufEff*=0.5, MilEff*=0.75, GovEff*=0.25, RecEff*=0.25, ReseaEff*=0.25"															
+20	spHor20	spHor20D	SpTerfrm	1			"BioHaEff*=0.25, MineEff*=0.5"	"ElimCost=(4000:7500),TerrCost=1"														
+TableEnd																						
+
+
+TableStart	CacheTable											
+ColumnHeadingsStart	Unicode	UnicodeD	ID	SpecChnc	JmpTable	JmpTblMods	DiscoverEffect	Effect	Params	// Generate 2 1-4 random results and add the two.  This results in a number from 2-8.		
+RowHeadingsStart									
+1	spCach3	spCach3D	SpDeplet	1				mBuildAU*= 0.75	Deplete= (5:25)													
+2	spCach4	spCach4D	SpGenerc	1				mAddGold+= (50:500)														
+3	spCach5	spCach5D	SpDeplet	1				mPopGrow*= 2	Deplete= (3:18)													
+4	spCach6	spCach6D	SpDeplet	1				AddReseP+= 25	Deplete=(8:40)					
+5	spCach2	spCach2D	SpDeplet	1				MdUnrest*=2	Deplete=(40:60)
+TableEnd									
+
+
+
+TableStart	RefugeeTable								
+ColumnHeadingsStart	Unicode	UnicodeD	ID	SpecChnc	JmpTable	JmpTblMods	DiscoverEffect	Effect	Params
+RowHeadingsStart									
+1	spRefu2	spRefu2D	SpSplCol	1				MaxPop=0.5	"Species=1, Race=1, MaxPop=0.5"													
+2	spRefu3	spRefu3D	SpSplCol	1				MaxPop=0.5	"Species=2, Race=0, MaxPop=0.5"													
+3	spRefu4	spRefu4D	SpSplCol	1				MaxPop=0.5	"Species=3, Race=1, MaxPop=0.5"													
+4	spRefu5	spRefu5D	SpSplCol	1				MaxPop=0.5	"Species=3, Race=0, MaxPop=0.5"													
+5	spRefu6	spRefu6D	SpSplCol	1				MaxPop=0.5	"Species=4, Race=0, MaxPop=0.5"													
+6	spRefu7	spRefu7D	SpSplCol	1				MaxPop=0.5	"Species=4, Race=1, MaxPop=0.5"													
+7	spRefu8	spRefu8D	SpSplCol	1				MaxPop=0.5	"Species=6, Race=0, MaxPop=0.5"													
+TableEnd									
+
+
+TableStart	RuinsTable									
+ColumnHeadingsStart	Unicode	UnicodeD	ID	SpecChnc	JmpTable	JmpTblMods	DiscoverEffect	Effect	Params	
+RowHeadingsStart																						
+1	spRuin1	spRuin1D	SpGenerc	1				ManufEff*=1.5		Region												
+2	spRuin2	spRuin2D	SpGenerc	1				"SPortEff*=3.0, MineEff*=1.25,RecEff*=1.25"	Deplete=(50:200)	Region												
+3	spRuin3	spRuin3D	SpGenerc	1				MaxPop=1		Region												
+4	spRuin4	spRuin4D	SpGenerc	1				ReseaEff*=3.0	Deplete=(50:200)	Region												
+5	spRuin5	spRuin5D	SpGenerc	1				RecEff*=4.0		Region												
+6	spRuin6	spRuin6D	SpGenerc	1				"ReseaEff*=1.5, SPortEff*=5.0"	Deplete=(25:150)	Region												
+TableEnd																						
+
+TableStart	SlaveRacesTable									
+ColumnHeadingsStart	Unicode	UnicodeD	ID	SpecChnc	JmpTable	JmpTblMods	Effect	Params		
+RowHeadingsStart										
+HUMAN	spHumn	spHumnD	SpFLUGen	1			SPortEff*=1.1	"Species=0, Race=0, MinValue=1"														
+EVON	spEvon	spEvonD	SpFLUGen	1			MilEff*=1.1	"Species=0, Race=1, MinValue=1"														
+PSILON	spPsi	spPsiD	SpFLUGen	1			ReseaEff*=1.15	"Species=0, Race=2, MinValue=1"														
+MEKLAR	spMek	spMekD	SpFLUGen	1			MilEff*=1.2	"Species=1, Race=0, MinValue=1"														
+CYNOID	spCyn	spCynD	SpFLUGen	1			"ManufEff*=1.2, MineEff*=1.1"	"Species=1, Race=1, MinValue=1"														
+SAKKRA	spSak	spSakD	SpFLUGen	1			MineEff*=1.1	"Species=2, Race=0, MinValue=1"														
+RAAS	spRaas	spRaasD	SpFLUGen	1			ManufEff*=1.1	"Species=2, Race=1, MinValue=1"														
+GRENDARL	spGren	spGrenD	SpFLUGen	1			MilEff*=1.3	"Species=2, Race=2, MinValue=1"														
+TRILARIAN	spTri	spTriD	SpFLUGen	1			ReseaEff*=1.1	"Species=3, Race=0, MinValue=1"														
+NOMMO	spNommo	spNommoD	SpFLUGen	1			BioHaEff*=1.2	"Species=3, Race=1, MinValue=1"														
+IMSAEIS	spIms	spImsD	SpFLUGen	1			BioHaEff*=1.2	"Species=4, Race=0, MinValue=1"														
+EOLADI	spEolad	spEoladD	SpFLUGen	1			SPortEff*=1.1	"Species=4, Race=1, MinValue=1"														
+SILICOID	spSilic	spSilicD	SpFLUGen	1			MineEff*=1.3	"Species=5, Race=0, MinValue=1"														
+KLACKON	spKlack	spKlackD	SpFLUGen	1			"ManufEff*=1.2, MineEff*=1.1"	"Species=6, Race=0, MinValue=1"														
+TACHDI	spTachi	spTachiD	SpFLUGen	1			MilEff*=1.3	"Species=6, Race=1, MinValue=1"														
+ITHKUL	spIthk	spIthkD	SpFLUGen	0				"Species=7, Race=0, MinValue=1"														
+Metashifters	spMeta	spMetaD	SpFLUGen	0				"Species=8, Race=0, MinValue=1"														
+NonCorporeal	spNonCo	spNonCoD	SpFLUGen	0				"Species=9, Race=0, MinValue=1"														
+Protoplasmic	spProto	spProtoD	SpFLUGen	0			MinEff*=1.05	"Species=10, Race=0, MinValue=1"														
+Plant	spPlant	spPlantD	SpFLUGen	2			BioHaEff*=1.2	"Species=11, Race=0, MinValue=1"														
+Fungal	spFungl	spFunglD	SpFLUGen	1			MineEff*=1.15	"Species=12, Race=0, MinValue=1"														
+Avian	spAvian	spAvianD	SpFLUGen	2			MilEff*=1.15	"Species=13, Race=0, MinValue=1"														
+Gargantua	spGarga	spGargaD	SpFLUGen	0				"Species=14, Race=0, MinValue=1"														
+Bulrathi	spBulra	spBulraD	SpFLUGen	2			"MineEff*=1.25, MilEff*=1.15"	"Species=15, Race=0, MinValue=1"														
+Mrrshan	spMrrsh	spMrrshD	SpFLUGen	2			"MilEff*=1.2, GovEff*=1.1"	"Species=16, Race=0, MinValue=1"														
+Elerians	spEler	spElerD	SpFLUGen	2			"RecEff*=1.5, ReseaEff*=1.1"	"Species=17, Race=0, MinValue=1"														
+Gnolam	spGnol	spGnolD	SpFLUGen	1			SPortEff*=1.3	"Species=18, Race=0, MinValue=1"														
+ElderCivs	spElder	spElderD	SpFLUGen	0				"Species=19, Race=0, MinValue=1"														
+ComBot	spComBt	spComBtD	SpFLUGen	1			MilEff*=3.0	"Species=20, Race=0, MinValue=1"	
+TableEnd								
+
+TableStart	SlaveSpaceportEffect							
+ColumnHeadingsStart	EffMult							
+RowHeadingsStart	
+kSlaveryAllRaces	1.7
+kSlaveryOtherRaceUnCond	1.6
+kSlaveryOtherRaceMonitored	1.5
+kSlaveryOtherSpeciesUnCond	1.4
+kSlaveryOtherSpeciesMonitored	1.3
+kSlaveryTolerated	1.2
+kSlaveryNotTolerated	1.1
+kSlaveryFreedom	1
+kSlaveryAbolitionist	1
+TableEnd	
+
+
+
+
+TableStart	Planetary Specials Modifiers
+ColumnHeadingsStart	PlanetMod											
+RowHeadingsStart												
+FewerMod	-1											
+MoreMod	2											
+TableEnd												
+
+
+TableStart	Planetary Specials				// Durable = 100 means the special will survive any terraforming.  Durable = 0 means the special will never survive terraforming.  Any number in between is the percentage chance the Special will survive terraforming.							
+ColumnHeadingsStart	Unicode	UnicodeD	ID	SpecChnc	Guard	Durable	JmpTable	JmpTblMods	DiscoverEffect	Effect	Params	Outreach
+RowHeadingsStart												
+Abandoned Colony	spAbCol	spAbColD	SpAbnCol	6	2	100				mBuildAU *= (0.85:0.95)	"SmChance = 50, MdChance = 35, LgChance = 15, MdMulti = 2.0, LgMulti = 4.0,mAddGold += (100:250)"	Planet
+Active Volcanoes	spVolc	spVolcD	SpGenerc	12	-1	100				"TFormCst *= 1.50, TFormRin *=.25"		Planet
+Ancient Listening Post	spLPst	spLPstD	SpGenerc	2	1	100				"OffSensr+=500,SptRng*=2.0"		Planet
+Antaran X	spAntarX	spAntrXD	SpAntarX	0	2	100						Planet
+Cavernous	spCave	spCaveD	SpGenerc	8	1	100				"MaxPop += 1, Fortify += 2"		Planet
+Corrosive Atmosphere	spRpRot	spRpRotD	SpGenerc	4	0	100				"mMaintAU*=2.5,BioHaEff*=0.25, mPopGrow*=.5, ReseaEff*=1.5, MineRare*=1.5"		Planet
+Data Cache	spCach6	spCach6D	SpGenerc	8	1	100			AddReseE+= (50:200)			Planet
+Derelict Ship	spRnTech	spRnTecD	SpEvent	4	1	100					"duration=1, effIdx=1"	Planet
+Eccentric Orbit	spEcOrb	spEcOrbD	SpGenerc	4	-2	100				"TFormCst *= 1.80,BioHaEff*=0.50"		Planet
+Electrical Activity	spElcAc	spElcAcD	SpGenerc	7	-1	100				"ReseaCap+=-1,ManufEff*=0.80,SPortEff+=-1,MilEff*=0.90,GovEff*=0.90"		Planet
+Entrapping Ecosystem	spEntEc	spEntEcD	SpGenerc	2	2	90				"RecEff+=-3,SPortEff+=-3,MilEff*=0.60,GovEff*=0.75"		Planet
+Erratic Weather	spErWth	spErWthD	SpTerfrm	6	0	85				"BioHaEff*=.5,RecEff+=-1,SPortEff+=-1"	"ElimCost=(350:900),TerrCost=1"	Planet
+FLU Generator	spFLUs	spFLUsD	SpJumpTb	3	1	100	SlaveRacesTable			MdUnrest*=2		Planet
+Fragile Ecosystem	spPoll	spPollD	SpTerfrm	5	-1	100				"Pollutio*=1.50,BioHaEff*=0.75,TFormCst*=1.50"	"ElimCost=(350:3000),TerrCost=1"	Planet
+Friendly Planet	spFPln	spFPlnD	SpGenerc	1	-1	85				"TFormCst *=0.40,TFormPar=1 ,RecEff+=2, BioHaEff*=1.25, mPopGrow*=1.25, ManufEff*=0.50"		Planet
+Global Storms	spHStrm	spHStrmD	SpGenerc	4	0	90				"mMaintAU*=1.9,mBuildAU*=1.8,BioHaEff*=0.60,SPortEff+=-2,MilEff*=0.90"		Planet
+Hostile Planet	spSntPl	spSntPlD	SpSenPla	1	-1	90				"mPopGrow*=0.75,MineEff*=0.5,GovEff*=0.80,BioHaEff=0.5,MdUnrest*=1.25, TFormRin*=.5"		Planet
+Intense Solar Radiation	spSoRa	spSoRaD	SpTerfrm	3	0	85				"BioHaEff*=0.75,ManufEff*=1.25,mPopGrow*=0.80,OffSensr*=0.50,SptRng*=0.50"	"ElimCost=(600:2200),TerrCost=1"	Planet
+Orbital Debris	spOrDe	spOrDeD	SpGenerc	4	-1	100				"Hull_Bld+=-1,SPortEff+=-2,MineEff*=1.35"		Planet
+Pirate Treasure	spCach4	spCach4D	SpGenerc	8	1	100			mAddGold+= (50:500)	"RecEff+=1,SPortEff+=1"		Planet
+Rare Psychotropics	spPsych	spPsychD	SpPrtDep	4	1	75				"MdUnrest*=0.50,CemprPop+=-1,TTPerPop+=-1,SPortEff+=3"	Deplete= (25:125)	Planet
+Rescue Leader	spResLdr	spResLdD	SpEvent	4	1	100					"duration=1, effIdx=0"	Planet
+Anomaly	spAnFund	spAnFunD	SpEvent	3	1	100					"duration=1, effIdx=1"	Planet										
+Smugglers Haven	spContr	spContrD	SpPrtDep	4	2	100				"GovEff*=0.80,MilEff*=0.80,BioHRare*=0.75,MineRare*=0.75,CraftsMa*=0.75"	MilCost=1	Planet
+Splinter Colony	spSplnt	spSplntD	SpSplCol	10	0	100					MaxPop=(1.5:3.0)	Planet
+Rapid Rot	spRpRot	spRpRotD	SpGenerc	4	0	50				"mMaintAU*=(1.20:3.00),mBuildAU*=(1.20:3.00)"		Planet
+Stratosphere Rings	spStRng	spStRngD	SpGenerc	5	3	100				"RecEff+= 1,ReseaEff*=1.2,MilEff*=.5"		Planet
+Strong Geomagnetic Fields	spMgFld	spMgFldD	SpGenerc	6	1	95				"ReseaEff*=0.60,SPortEff+=-3,ManufEff*=0.85,Fortify+=1, GravPen+=1"		Planet
+ThrivingEcosystem	spThriv	spThrivD	SpGenerc	4	1	90				"BioHaEff*=1.5,EcoSystm+=1"		Planet
+Disasters	spKata	spKataD	SpJumpTb	33	-1	100	PanikTable	"NumDice=2, DieSize=6"				Planet										
+Wonders	spWun	spWunD	SpJumpTb	18	1	100	WunderTable	"NumDice=2, DieSize=4"				Planet										
+Mag1	spZiv1	spZiv1D	SpSplCol	1	0	100				"MaxPop=(1.0:3.0), ManufEff*=1.25"		Planet										
+Mag2	spZiv2	spZiv2D	SpSplCol	1	0	100				"MaxPop=(1.0:3.0), MilEff*=1.5"		Planet										
+Mag3	spZiv3	spZiv3D	SpSplCol	1	0	100				"MaxPop=(1.0:3.0), ReseaEff*=1.2"		Planet										
+Mag4	spZiv4	spZiv4D	SpSplCol	1	0	100				"MaxPop=(1.0:3.0), RecEff*=1.5"		Planet										
+Mag5	spZiv5	spZiv5D	SpSplCol	1	0	100				"MaxPop=(1.0:3.0), BioHaEff*=1.3"		Planet										
+Mag6	spZiv6	spZiv6D	SpSplCol	1	0	100				"MaxPop=(1.0:3.0), SPortEff*=1.25"		Planet										
+Mag7	spZiv7	spZiv7D	SpSplCol	1	0	100				"MaxPop=(1.0:3.0), Pollutio*=0.8"		Planet										
+Mag8	spZiv8	spZiv8D	SpSplCol	1	0	100				"MaxPop=(1.0:3.0), MineEff*=1.3"		Planet										
+Mag9	spZiv9	spZiv9D	SpSplCol	1	0	100				"MaxPop=(1.0:3.0), GovEff*=1.1"		Planet										
+MagN	spZivN	spZivND	SpSplCol	2	0	100				"MaxPop=[1.0:3.0), GovEff*=0.9, ManufEff*=0.95, ReseaEff*=0.95, BioHaEff*=0.95, RecEff*=0.9, SPortEff*=0.9, MineEff*=0.95"	"ElimCost=(1500:3000), MilCost=1"	Planet										
+TableEnd												
+
+
+TableStart	PanikTable																					
+ColumnHeadingsStart	Unicode	UnicodeD	ID	SpecChnc	JmpTable	JmpTblMods	Effect	Params														
+RowHeadingsStart																						
+2	spPak2	spPak2D	SpGenerc	1			"SPortEff*=0.2, RecEff*=0.05, ReseaEff*=1.1"															
+3	spPak3	spPak3D	SpGenerc	1			"TFormCst*=3.0, BioHaEff*=0.75, mPopGrow*=0.95"															
+4	spPak4	spPak4D	SpGenerc	1			"ManufEff*=0.75,MilEff*=0.9,ReseaEff*=0.5"															
+5	spPak5	spPak5D	SpGenerc	1			"BioHaEff*=0.75, mPopGrow*=0.8, RecEff*=0.75"															
+6	spPak6	spPak6D	SpGenerc	1			"MaxPop+=-1, TFormCst*=1.5, MineEff*=1.05"															
+7	spPak7	spPak7D	SpGenerc	1			"mPopGrow*=0.8, RecEff*=0.75, MineEff*=1.05"															
+8	spPak8	spPak8D	SpGenerc	1			"ReseaEff*=0.75, BioHaEff*=0.9, RecEff*=1.1"															
+9	spPak9	spPak9D	SpGenerc	1			"mPopGrow*=0.7, RecEff*=0.05, MilEff*=1.05"															
+10	spPak10	spPak10D	SpGenerc	1			"mPopGrow*=0.9, RecEff*=0.75, ReseaEff*=1.05, MineEff*=1.05"															
+11	spPak11	spPak11D	SpGenerc	1			Pollutio*=1.5															
+12	spPak12	spPak12D	SpGenerc	1			"ManufEff*=0.85, MineEff*=0.85, ReseaEff*=1.05"															
+13	spSolWn	spSolWnD	SpGenerc	1			"mBuildAU*= 1.25, mPopGrow*=0.8, Pollutio*=1.5"															
+TableEnd																						
+
+
+TableStart	WunderTable																					
+ColumnHeadingsStart	Unicode	UnicodeD	ID	SpecChnc	JmpTable	JmpTblMods	Effect	Params														
+RowHeadingsStart																						
+2	spWun2	spWun2D	SpGenerc	1			"Pollutio*=0.5, ReseaEff*=1.25"															
+3	spWun3	spWun3D	SpGenerc	1			"MaxPop+=2, Fortify+=2, MineEff*=1.15, MilEff*=1.5"															
+4	spWun4	spWun4D	SpGenerc	1			"ManufEff*=1.5, Pollutio*=0.9"															
+5	spWun5	spWun5D	SpGenerc	1			"RecEff*=2.0, SPortEff*=1.2"															
+6	spWun6	spWun6D	SpGenerc	1			"ReseaEff*=1.5, MineEff*=1.6"															
+7	spWun7	spWun7D	SpGenerc	1			"BioHaEff*=1.5, ReseaEff*=1.2"															
+8	spWun8	spWun8D	SpGenerc	1			"ReseaEff*=2.5, Pollutio*=0.5, BioHaEff*=2.0, MaxPop+=1, ManufEff*=1.2, MilEff*=1.5, RecEff*=2.0, MineEff*=0.5"															
+9	spBtlSt	spBtlStD	SpGenerc	1			"ReseaEff*=1.25, SPortEff*=0.9, MilEff*=1.5, ReseaEff*=1.5"															
+10	spBtlLs	spBtlLsD	SpGenerc	1			"RecEff*=2.0, ReseaEff*=0.9, MilEff*=3.0, GovEff*=1.5"	
+TableEnd
+
+																						
+TableStart	EffectTable											
+ColumnHeadingsStart	Class	Sitrep	Params									
+RowHeadingsStart												
+0	EvLdrEnt	SpecialLeader										
+1	EvResApp	SpecialResearch	1									
+TableEnd					
+
+
+TableStart	GuardianSpecials				
+ColumnHeadingsStart	Unicode	UnicodeD	StarName	Sitrep	Species
+RowHeadingsStart					
+DarlokHomeWorld	spDarHW	spDarHWD	Nazin	DarlokGd	8
+BulrathiHomeWorld	spBulHW	spBulHWD	Ursa	BulratGd	15
+MrrshanHomeWorld	spMrrHW	spMrrHWD	Fieras	MrrshaGd	16
+EleriansHomeWorld	spElrHW	spElrHWD	Draconis	ElereGd	17
+AlkariHomeWorld	spAlkHW	spAlkHWD	Altair	AlkariGd	13
+TableEnd					

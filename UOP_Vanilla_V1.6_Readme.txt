@@ -1,0 +1,179 @@
+MOO3 Unofficial Patch Mod Vanilla version 1.6 21 June 2008
+
+See the v1.5 readme file for information on previous versions.
+See the Vanilla 1.6 Build Log.txt for specific information on the creation of this mod.
+
+
+*** MOO3 Unofficial Patch Mod Vanilla v1.6 ***
+
+PURPOSE:  To learn about modding Moo3 in general and the Vanilla mod in particular.  To create an up to date, organized mod to use as a starting point for my own personal modding.
+
+CONTENTS:
+
+Bhruic Patcher:
+All patches are included in a separate folder and can be patched/unpatched at any time by using Moo3Patcher.exe.  See the Patcher website (http://bhruic.dyndns.org/patcher/index.php) for more information.  Most support files for the patches (if required) are included in the correct filepath but may need to be renamed.  As always, check first.
+The following Patches are already applied:
+	Moo3Patcher.exe v0.52 (Main Patcher executable)
+	Moo3dll.dll v1.65
+	Autobuild (Fixes autobuild ship design for player and AI) Includes Autobuild.txt from Patcher
+	ColonyDisplay (Displays race name on colony ships)
+	DamageDisplay (Shows all damage that occurs during space combat)
+	Diplomacy (Moo3.exe now looks for Diplo.txt vs Statements.txt)
+	EmpireLimit (Increases max. number of starting empires to 30)
+	FighterIntercepter (Fighters target incoming fighters and missiles before attacking enemy TFs unless given orders)
+	FinanceWraparound (Prevents treasury from suddenly going negative)
+	GalaxyConfiguration (Sets number of galaxies in startup screen) Set to 36, includes GalaxyConfigurations.txt and wsStartUpScreens.txt
+	GroundCombat (Enables racial GC picks - accuracy, reflexes, toughness)
+	Orbitals (Increases number of orbitals and puts them around planet) Set at 18
+	QueMultiplier (Increases Econ AI troop builds)
+	RaceSelection (Ensures no duplicate races untill all used at least once) RaceConfig.ini included as a sample but NOT used.
+	SenateVictory (Requires 2/3 of senate vote for win condition)
+	Sitrep (Ground combat links in sitrep now work)
+	SpyMissions (Fixes non-working spy missions)
+	StuckTech (Research moves forward)
+	SystemDefenseTF (Increases number of system defense ships in TF) Set to 32
+	TechTurnsRemaining (Shows correct number of turns)
+	TFDisplay (TFs appear automatically - no need to press 'b')
+	TFsPerCombat (Increases number of TFs in each combat) Set to 16
+	TransportDisband (AI can now invade planets more than 1 turn away)
+	TransportSelection (AI picks newer transports first)
+	Visibility (Enables sensors/ecm/eccm/cloaks) Includes TechTables.txt and Ships folder
+
+Gerra patches:
+All patches are included in a separate folder and can be applied at any time (see Gerra Patch Readme.txt).  The following patches are already applied:
+	Moo3transportdesignunlockerpatch(beta).exe (shows transport graphic in ship design screen)
+	Moo3_Wait_Screen_Remover_Patch.exe (removes wait screen - galaxy can be seen during turn processing)
+	Moo3groundcombattextfixer.exe (Enables all GC voiceovers) Includes RadioShowTags.txt and wsRadioShow.txt
+	Moo3SchedulerZerotime_Patch.exe (Allows option of auto resolving combats)
+	Moo3Shipgraphicsquality_Patch.exe (Hires ship graphics displayed when graphics quality is set to high)
+	Moo3_Combatzoom_Range_Patcherv2.exe (Increases zoom range in combat)
+	Moo3AUdisplaypatch.exe (Changes balance display)
+
+Ostego Diplomatic Mod v2.0:
+	DiploExcuses.txt
+	DiploFormatLists.txt
+	DiploLeadIns.txt
+	DiploOffers.txt
+	DiploPEmphasisLists.txt
+	DiploREmphasisLists.txt
+	DiploTables.txt
+	wsDiploMatic.txt
+
+Other files added for patches:
+	Autobuild.txt (for Patcher Autobuild patch)
+	GalaxyConfigurations.txt (36 galaxies including the 7 originals for Patcher GalaxyConfiguration patch)
+	wsStartUpScreens.txt (Text support for the 36 galaxies for Patcher GalaxyConfiguration patch)
+	RadioShowTags.txt (for Moo3groundcombattextfixer.exe)
+	wsRadioShow.txt (may be for Moo3groundcombattextfixer.exe?)
+	TechTables.txt (for Patcher Visibility patch)
+	Ships Folder (for Patcher Visibility patch)
+
+Other changes/fixes to text files:
+	Antaran.txt (Attrition during inbound phase changed to 0 so techs will not be lost)
+	PlanetLevel.dat (Unrest no longer displays unicode - Ostego)
+	BaseRelations.txt (Typos fixed in despot column of GovBaseRel table)
+	TechTables.txt (removed KEEPTHIS from Enveloping Fighter Fusion Cannon)
+	wsChooseRace.txt (Antaran ref. added)
+	wsPlanetScreen.txt (Antaran ref. added)
+	wsCombatSchedulerScreen.txt (Text corrected or added)
+	wsShipDesignScreen (Text corrected or added)
+	wsevents.txt (Text corrected or added)
+
+Other additions/changes:
+	Added No CD Moo3.exe
+	racemodifiers.txt (Fixed numbers in species column of RacePickPoints table)
+
+INSTALLATION:
+	1) Install Moo3
+	2) Patch to v1.2.5 (Get it at http://www.moo3.at/dl/file.php?id=31)
+	3) Unzip the "UOP_Vanilla_V1.6.zip" file to the same directory that contains the Moo3.exe (be sure to keep all filepaths)
+	4) (optional) To add music: copy the entire Music folder from Moo3 disk 2 to ...\GameDataSets\Classic_01\GameAssets\Common
+
+CREDITS:  All credit goes to the authors of the fixes as shown above and Colt374 (for the original Vanilla). Thanks all!
+
+VERSION HISTORY:
+
+1.6:  Changes from version 1.5
+	Updated Moo3Patcher.exe to v0.52
+	Updated Moo3dll.dll to v1.65
+	Patched Moo3.exe with QueueMultiplier (Was listed in v1.5 Readme but not patched)
+	Put Moo3Patcher.exe and all .patch files in a separate folder named Bhruic Patcher
+	Put all Gerra's patches in a separate folder named Gerra Patches
+	Removed Moo3HistoryScale_patcher.exe from Moo3.exe
+	Removed Moo3Speederpatch.exe from Moo3.exe
+	Removed Moo3_2ndbudgetcappatch.exe from Moo3.exe
+	Removed Moo3_population_score_scaler.exe from Moo3.exe
+	Removed Moo3RotateNewDesign_Patch.exe from Moo3.exe
+	Moved RadioShowTags.txt from wStrings folder to Spreadsheets folder
+	Added wsRadioShow.txt to wStrings folder (Found this in Gerra's Cheese Mod - don't know if it will help or not)
+	Added No CD Moo3.exe
+	Added racemodifiers.txt with correct values for species column of RacePickPoints table
+
+
+NOTES:
+
+I wanted to make this a new, from the ground up build.  I tried to get all files/patches/changes from the original sources. If I couldn't find an original, I used the files from the UOP Vanilla v1.5 unzip.  I also included a bunch of the readme files, etc. from the patches/mods.  See the Vanilla 1.6 Build Log.txt for more info.
+
+Moo3Patcher.exe v0.52 needs MCF71.dll to run.  Most computers should have this; it comes with Internet Explorer 7.  Some people say it's also part of Microsoft's .Net framework - this I don't know.  You can also get it from a download site (just watch out for viruses).
+
+The history and population Y-scalers were removed beause I haven't played enough to see how the graphs react in late game.  Right now I don't feel that I need them.  This may change as I play more...
+
+The speederpatch changes a built in 50ms wait in the Moo3.exe to 1ms.  The 50ms is there so Moo3 doesn't hog the CPU and could adversely effect other programs running in the background.  I left the speederpatch out.
+
+I just plain didn't like the rotate new design patch.
+
+After researching the budget cap patch I decided not to use it.  After all, deficit spending is part of being a government isn't it?
+
+In Vanilla v1.5 RadioShowTags.txt unzipped into the wStrings folder.  In stock Moo3 it unzips from Spreadsheets.mob so I moved it.  I also added the wsRadioShow.txt from Gerra's Cheese Mod to wStrings folder just in case there are changes there also.  I did see one difference between this file and the file taken from wStrings.mob.  I think it was a typo - there may be more, I didn't look too close...
+
+No CD .exe because I'm tired of my CD drive spinning. I also don't use the game music.  If you want to add the music see INSTALLATION: step 4).
+
+I fixed racemodifiers.txt; RacePickPoints table because it was broken.  Now if you want to add race pick points they go to the proper race.
+
+Thanks,
+
+evlavsom
+
+
+DISCLAMER:
+
+This file is for modding/modder use only.
+The Author is not responsible for anything contained in this zip.
+You are not to discuss this file to anyone on the ATARI/Infogrames forums.
+This file is protected by the Freedom of Information Act passed by Bill Clinton in 1998.
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 1.30 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be entertaining,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details..
+
+The content -- voiceovers, dialogue, graphics, and music -- are
+copyright (C) AtarI/Infogrames/Quicksilver.
+All rights reserved.
+
+To protect your rights, we need to make restrictions that forbid
+anyone to deny you these rights or to ask you to surrender the rights.
+These restrictions translate to certain responsibilities for you if you
+distribute copies of the software, or if you modify it.
+
+For example, if you distribute copies of such a program, whether
+gratis or for a fee, you must give the recipients all the rights that
+you have. You must make sure that they, too, receive or can get the
+source code. And you must show them these terms so they know their
+rights.
+
+We protect your rights with two steps: (1) copyright the software, and
+(2) offer you this license which gives you legal permission to copy,
+distribute and/or modify the software.
+
+Also, for each author's protection and ours, we want to make certain
+that everyone understands that there is no warranty for this free
+software. If the software is modified by someone else and passed on, we
+want its recipients to know that what they have is not the original, so
+that any problems introduced by others will not reflect on the original
+authors' reputations.

@@ -1,0 +1,32 @@
+TableStart	AdvanceAfterCombat																			
+ColumnHeadingsStart	-4	-3	-2	-1	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15
+RowHeadingsStart																				
+AttackerGains	2	2	1	1	1	1	1	0	0	0	0	0	-1	-1	-1	-1	-1	-1	-2	-2
+TableEnd																				
+
+TableStart	CasualtyRatio																			
+ColumnHeadingsStart	5	4	3	2	1	0	-1	-2	-3	-4	-5									
+RowHeadingsStart																				
+Ratio	500	300	200	150	125	85	67	60	33	16	0									
+TableEnd																				
+																				
+TableStart	StrengthRatio																			
+ColumnHeadingsStart	-5	-4	-3	-2	-1	0	1	2	3	4	5									
+RowHeadingsStart																				
+Ratio	500	300	200	150	100	67	50	33	20	10	0									
+TableEnd																			
+
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
